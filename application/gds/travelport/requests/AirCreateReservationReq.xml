@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Body>
+<AirCreateReservationReq xmlns="http://www.travelport.com/schema/universal_v36_0" TraceId="a677366a-b068-4145-9871-c91ba58a074e" AuthorizedBy="{AUTHORIZED_BY}" TargetBranch="{TARGET_BRANCH}" ProviderCode="1G" RetainReservation="None">
+  <BillingPointOfSaleInfo xmlns="http://www.travelport.com/schema/common_v36_0" OriginApplication="UAPI" />
+  <BookingTraveler xmlns="http://www.travelport.com/schema/common_v36_0" Key="OG9IN1k5YkVjek9mdmhLeg==" TravelerType="{TRAVELLER_TYPE}" 
+  Age="{TRAVELLER_AGE}" DOB="{TRAVELLER_DOB}" Gender="{TRAVELLER_GENDER}" Nationality="{TRAVELLER_NATIONALITY}">
+  
+    <BookingTravelerName Prefix="{TRAVELLER_PREFIX}" First="{TRAVELLER_FIRSTNAME}" Last="{TRAVELLER_LASTNAME}" />
+    <DeliveryInfo>
+      <ShippingAddress Key="OG9IN1k5YkVjek9mdmhLeg==">
+        <Street>{SHIPPING_STREET}</Street>
+        <City>{SHIPPING_CITY}</City>
+        <State>{SHIPPING_STATE}</State>
+        <PostalCode>{SHIPPING_POSTALCODE}</PostalCode>
+        <Country>{SHIPPING_COUNTRY}</Country>
+      </ShippingAddress>
+    </DeliveryInfo>
+    <PhoneNumber Location="{PHONE_LOCATION}" CountryCode="{PHONE_COUNTRYCODE}" AreaCode="{PHONE_AREACODE}" Number="{PHONE_NUMBER}" />
+    <Email EmailID="{TRAVELLER_EMAIL}" />
+    <SSR Carrier="{CARRIER}" xmlns="http://www.travelport.com/schema/common_v36_0" FreeText="{SECURE_DETAILS}" Status="HK" Type="DOCS" />
+    <Address>
+      <AddressName>{ADDRESS_NAME}</AddressName>
+      <Street>{ADDRESS_STREET}</Street>
+      <City>{ADDRESS_CITY}</City>
+      <State>{SHIPPING_STATE}</State>
+      <PostalCode>{ADDRESS_POSTALCODE}</PostalCode>
+      <Country>{SHIPPING_COUNTRY}</Country>
+    </Address>
+  </BookingTraveler>
+  <FormOfPayment xmlns="http://www.travelport.com/schema/common_v36_0" Type="Credit" Key="1">
+    <CreditCard Type="{CREDITCARD_TYPE}" Number="{CREDITCARD_NUMBER}" ExpDate="{CREDITCARD_EXPDATE}" Name="{CREDITCARD_NAME}" CVV="{CREDITCARD_CVV}" Key="1">
+      <BillingAddress Key="08a6140c-bd64-404e-8cf2-6d06ec327252">
+        <AddressName>{ADDRESS_NAME}</AddressName>
+        <Street>{ADDRESS_STREET}</Street>
+        <City>{ADDRESS_CITY}</City>
+        <State>{SHIPPING_STATE}</State>
+        <PostalCode>{ADDRESS_POSTALCODE}</PostalCode>
+        <Country>{SHIPPING_COUNTRY}</Country>
+      </BillingAddress>
+    </CreditCard>
+  </FormOfPayment>
+  <AirPricingSolution xmlns="http://www.travelport.com/schema/air_v36_0" Key="EMdSgRsvRDiQmFV63J1ZMA==" TotalPrice="{AIR_TOTALPRICE}" BasePrice="{AIR_BASEPRICE}" ApproximateTotalPrice="{AIR_APPRX_TOTALPRICE}" ApproximateBasePrice="{AIR_APPRX_BASEPRICE}"  Taxes="{AIR_TAXES}">
+    {AIRSEGMENT}
+    
+    <AirPricingInfo PricingMethod="Auto" Taxes="{AIR_TAXES}" Key="zD3qPFAhSoi5iKSInH8QdA==" TotalPrice="{AIR_TOTALPRICE}" BasePrice="{AIR_BASEPRICE}" ApproximateTotalPrice="{AIR_APPRX_TOTALPRICE}" ApproximateBasePrice="{AIR_APPRX_BASEPRICE}" ProviderCode="1G">
+      {FAREINFO}
+     
+      <BookingInfo BookingCode="{FROM_BOOKINGCODE}" CabinClass="Economy" FareInfoRef="{TO_FAREKEY}" SegmentRef="6YxTVSb8QVmlI4E8AegWNQ==" />
+       <BookingInfo BookingCode="{TO_BOOKINGCODE}" CabinClass="Economy" FareInfoRef="{FROM_FAREKEY}" SegmentRef="n+XmH2VMSYuwM7Sy4bm3Kg==" />
+      {TAXINFO}
+      <PassengerType Code="ADT" Age="40" BookingTravelerRef="OG9IN1k5YkVjek9mdmhLeg==" />
+    </AirPricingInfo>
+  </AirPricingSolution>
+  <ActionStatus xmlns="http://www.travelport.com/schema/common_v36_0" Type="ACTIVE" TicketDate="T*" ProviderCode="1G" />
+  <Payment xmlns="http://www.travelport.com/schema/common_v36_0" Key="2" Type="Itinerary" FormOfPaymentRef="1" Amount="{AIR_TOTALPRICE}" />
+</AirCreateReservationReq>
+ </soapenv:Body>
+</soapenv:Envelope>

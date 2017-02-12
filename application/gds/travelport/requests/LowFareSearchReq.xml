@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+<soapenv:Body>
+<air:LowFareSearchReq TargetBranch="{TARGET_BRANCH}" AuthorizedBy="{AUTHORIZED_BY}" xmlns:air="http://www.travelport.com/schema/air_v36_0" xmlns:com="http://www.travelport.com/schema/common_v36_0" SolutionResult="true" >
+<com:BillingPointOfSaleInfo OriginApplication="UAPI" />
+<air:SearchAirLeg>
+<air:SearchOrigin>
+<com:CityOrAirport Code="{FROM_PLACE}" />
+</air:SearchOrigin>
+{SEARCH_DESTINATIONS}
+<air:SearchDepTime PreferredTime="{FROM_DATE}" />
+</air:SearchAirLeg>
+{RETURN_SEGMENT}
+<air:AirSearchModifiers PreferNonStop="true">
+<air:PreferredProviders >
+<com:Provider Code="1G" />
+</air:PreferredProviders>
+</air:AirSearchModifiers>
+{PASSENGERS}
+</air:LowFareSearchReq>
+</soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+<soapenv:Body>
+<HotelSearchAvailabilityReq xmlns="http://www.travelport.com/schema/hotel_v31_0" TraceId="30d5a4e9-6317-4049-9253-1a0d3defd13e" AuthorizedBy="{AUTHORIZED_BY}" TargetBranch="{TARGET_BRANCH}">
+  <BillingPointOfSaleInfo xmlns="http://www.travelport.com/schema/common_v31_0" OriginApplication="uAPI" />
+  <HotelSearchLocation>
+    <HotelLocation LocationType="City" Location="{LOCATION}" />
+    <Distance Value="10" xmlns="http://www.travelport.com/schema/common_v31_0" />
+  </HotelSearchLocation>
+  <HotelSearchModifiers NumberOfAdults="{NUM_ADULTS}" NumberOfRooms="{NUM_ROOMS}" AvailableHotelsOnly="true" MaxWait="16000" AggregateResults="true" PreferredCurrency="EUR">
+    <PermittedSuppliers>
+      <Supplier Name="AG" />
+      <Supplier Name="EA" />
+      <Supplier Name="HB" />
+      <Supplier Name="HW" />
+      <Supplier Name="HZ" />
+      <Supplier Name="4U" />
+      <Supplier Name="TO" />
+    </PermittedSuppliers>
+    <HotelRating RatingProvider="AAA" >
+      <RatingRange MinimumRating="1" MaximumRating="5" />
+    </HotelRating>
+  </HotelSearchModifiers>
+  <HotelStay>
+    <CheckinDate>{CHECKIN_DATE}</CheckinDate>
+    <CheckoutDate>{CHECKOUT_DATE}</CheckoutDate>
+  </HotelStay>
+</HotelSearchAvailabilityReq>
+</soapenv:Body>
+</soapenv:Envelope>

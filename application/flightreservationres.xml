@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<faultcode>Server.Business</faultcode>
+	<faultstring>General air service Error.</faultstring>
+	<detail>
+		<AvailabilityErrorInfo>
+			<Code>3000</Code>
+			<Service>AIRSVC</Service>
+			<Type>Business</Type>
+			<Description>General air service Error.</Description>
+			<TransactionId>00BBBFE70A076478188A467C7E75853B</TransactionId>
+			<TraceId>7943e444-0c05-4431-8357-f95c9f1c02b3</TraceId>
+			<AirSegmentError>
+				<AirSegment>
+					<!Key>
+				w2LKQotBRY62nmHXxeWNDQ==</!Key>
+				<!Group>
+			0</!Group>
+			<!Carrier>
+		VY</!Carrier>
+		<!FlightNumber>
+	1983</!FlightNumber>
+	<!Origin>
+ORY</!Origin>
+<!Destination>
+LIS</!Destination>
+<!DepartureTime>
+2016-09-09T06:25:00.000+02:00</!DepartureTime>
+<!ArrivalTime>
+2016-09-09T07:50:00.000+01:00</!ArrivalTime>
+<!ClassOfService>
+P</!ClassOfService>
+<!ChangeOfPlane>
+false</!ChangeOfPlane>
+<!OptionalServicesIndicator>
+false</!OptionalServicesIndicator>
+</AirSegment>
+<ErrorMessage>*0 AVAIL/WL CLOSED*</ErrorMessage>
+</AirSegmentError>
+<AirSegmentError>
+<AirSegment>
+<!Key>
+eGd8La7CQnKrLKsUvY7gWQ==</!Key>
+<!Group>
+1</!Group>
+<!Carrier>
+VY</!Carrier>
+<!FlightNumber>
+1984</!FlightNumber>
+<!Origin>
+LIS</!Origin>
+<!Destination>
+ORY</!Destination>
+<!DepartureTime>
+2016-09-11T08:50:00.000+01:00</!DepartureTime>
+<!ArrivalTime>
+2016-09-11T12:15:00.000+02:00</!ArrivalTime>
+<!ClassOfService>
+P</!ClassOfService>
+<!ChangeOfPlane>
+false</!ChangeOfPlane>
+<!OptionalServicesIndicator>
+false</!OptionalServicesIndicator>
+</AirSegment>
+<ErrorMessage>*0 AVAIL/WL CLOSED*</ErrorMessage>
+</AirSegmentError>
+</AvailabilityErrorInfo>
+</detail>
+
+

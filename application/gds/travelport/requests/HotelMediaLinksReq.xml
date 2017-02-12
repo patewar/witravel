@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+<soapenv:Body>
+<HotelMediaLinksReq xmlns="http://www.travelport.com/schema/hotel_v31_0" TraceId="61d9371e-d50a-4f3b-aee4-3f5c0ac638f3" AuthorizedBy="{AUTHORIZED_BY}" TargetBranch="{TARGET_BRANCH}" SizeCode="E">
+  <BillingPointOfSaleInfo xmlns="http://www.travelport.com/schema/common_v31_0" OriginApplication="uAPI" />
+  <HotelProperty HotelCode="{HOTEL_CODE}" HotelChain="YX" />
+</HotelMediaLinksReq>
+</soapenv:Body>
+</soapenv:Envelope>

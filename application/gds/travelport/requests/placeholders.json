@@ -1,0 +1,9 @@
+{
+  "LowFareSearch": ["TARGET_BRANCH", "AUTHORIZED_BY", "FROM_PLACE", "FROM_DATE", "SEARCH_DESTINATIONS", "RETURN_SEGMENT", "PASSENGERS"],
+  "Hotelsearch": [],
+  "HotelDetails": [],
+  "HotelMedia": [],
+  "AirCreateReservation": [],
+  "HotelCreateReservation": []
+
+}

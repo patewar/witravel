@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Body>
+
+    <AirCreateReservationReq xmlns="http://www.travelport.com/schema/universal_v36_0" TraceId="7943e444-0c05-4431-8357-f95c9f1c02b3" AuthorizedBy="{AUTHORIZED_BY}" TargetBranch="{TARGET_BRANCH}" ProviderCode="1G" RetainReservation="Both">
+
+      <BillingPointOfSaleInfo xmlns="http://www.travelport.com/schema/common_v36_0" OriginApplication="UAPI" />
+      <BookingTraveler xmlns="http://www.travelport.com/schema/common_v36_0" Key="a2RJVEo2aEdzYmxYSDV3dA==" TravelerType="{TRAVELLER_TYPE}" Age="{TRAVELLER_AGE}" DOB="{TRAVELLER_DOB}" Gender="{TRAVELLER_GENDER}" Nationality="{TRAVELLER_NATIONALITY}">
+        <BookingTravelerName Prefix="{TRAVELLER_PREFIX}" First="{TRAVELLER_FIRSTNAME}" Last="{TRAVELLER_LASTNAME}" />
+        <DeliveryInfo>
+          <ShippingAddress Key="a2RJVEo2aEdzYmxYSDV3dA==">
+            <Street>{SHIPPING_STREET}</Street>
+            <City>{SHIPPING_CITY}</City>
+            <State>{SHIPPING_STATE}</State>
+            <PostalCode>{SHIPPING_POSTALCODE}</PostalCode>
+            <Country>{SHIPPING_COUNTRY}</Country>
+          </ShippingAddress>
+        </DeliveryInfo>
+        <PhoneNumber Location="{PHONE_LOCATION}" CountryCode="{PHONE_COUNTRYCODE}" AreaCode="{PHONE_AREACODE}" Number="{PHONE_NUMBER}" />
+        <Email EmailID="{TRAVELLER_EMAIL}" />
+        <Address>
+          <AddressName>{ADDRESS_NAME}</AddressName>
+          <Street>{ADDRESS_STREET}</Street>
+          <City>{ADDRESS_CITY}</City>
+          <State>{SHIPPING_STATE}</State>
+          <PostalCode>{ADDRESS_POSTALCODE}</PostalCode>
+          <Country>{SHIPPING_COUNTRY}</Country>
+        </Address>
+      </BookingTraveler>
+      <ContinuityCheckOverride Key="PDz8y2dj4hGfaM/wYIhwmw==" xmlns="http://www.travelport.com/schema/common_v36_0">YES</ContinuityCheckOverride>
+      <FormOfPayment xmlns="http://www.travelport.com/schema/common_v36_0" Type="Credit" Key="1">
+        <CreditCard Type="{CREDITCARD_TYPE}" Number="{CREDITCARD_NUMBER}" ExpDate="{CREDITCARD_EXPDATE}" Name="{CREDITCARD_NAME}" CVV="{CREDITCARD_CVV}" Key="1">
+          <BillingAddress Key="f383a935-39a6- 4ca3-bd02- 360d64725bf9">
+            <AddressName>{ADDRESS_NAME}</AddressName>
+            <Street>{ADDRESS_STREET}</Street>
+            <City>{ADDRESS_CITY}</City>
+            <State>{SHIPPING_STATE}</State>
+            <PostalCode>{ADDRESS_POSTALCODE}</PostalCode>
+            <Country>{SHIPPING_COUNTRY}</Country>
+          </BillingAddress>
+        </CreditCard>
+      </FormOfPayment>
+      <AirPricingSolution xmlns="http://www.travelport.com/schema/air_v36_0" Key="Nt97fHQBQm6ctX/rlIMwDQ==" TotalPrice="{AIR_TOTALPRICE}" BasePrice="{AIR_BASEPRICE}" ApproximateTotalPrice="{AIR_APPRX_TOTALPRICE}" ApproximateBasePrice="{AIR_APPRX_BASEPRICE}" EquivalentBasePrice="{AIR_EQUIBASEPRICE}" Taxes="{AIR_TAXES}">
+        
+        {AIRSEGMENT}
+        <AirPricingInfo PricingMethod="Auto" Taxes="{AIR_TAXES}" Key="6xB6lmwNSlaugFep9mIUUg==" TotalPrice="{AIR_TOTALPRICE}" BasePrice="{AIR_BASEPRICE}" ApproximateTotalPrice="{AIR_APPRX_TOTALPRICE}" ApproximateBasePrice="{AIR_APPRX_BASEPRICE}" ProviderCode="1G">
+          <FareInfo FareFamily="" PromotionalFare="false" DepartureDate="{TO_DEPARTURE_DATE}" Amount="EUR14.00" EffectiveDate="{TO_EFFECTIVE_DATE}" Destination="{TO_DESTINATION}" Origin="{TO_ORIGIN}" PassengerTypeCode="ADT" FareBasis="PRTVY" Key="eCYKvYcxRXi6iNOsL1YJQQ==">
+            <FareRuleKey FareInfoRef="eCYKvYcxRXi6iNOsL1YJQQ==" ProviderCode="1G">6UUVoSldxwiZGJGBX4hGj8bKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5EuDUtbG+96M3ExqSoG050YrFZ2txsEbzsiW+YSuZ+HVCulqMwbpNasTsU9/OBUcsCon/PhEU0kS3O/yWtve7bq/20RpEmAXlby9IE1rxlSp7GoYpQef1iXtqiwgseZpLV9NojQcBIDONd9Wq4AmrqAdcY0m0a4yk4nKb2G5mOFauQ2ZPkgiQgyJktJrhvONb+F729rtUMfv4Xvb2u1Qx+/he9va7VDH7+F729rtUMfv4Xvb2u1Qx80GqQ2wgDK/01BlpTwyo+r9GjARZYw7j/TROTkGAG0MWAcMEXtM/CEv5Pt19m0fhKc5r/dqbeJQ+VuG0bsK6zw</FareRuleKey>
+          </FareInfo>
+          <FareInfo FareFamily="" PromotionalFare="false" DepartureDate="{RETURN_DEPARTURE_DATE}" Amount="EUR13.00" EffectiveDate="{RETURN_EFFECTIVE_DATE}" Destination="{RETURN_DESTINATION}" Origin="{RETURN_ORIGIN}" PassengerTypeCode="ADT" FareBasis="PRTVY" Key="Nm2qKrnFRDSSXLTusNGerA==">
+            <FareRuleKey FareInfoRef="Nm2qKrnFRDSSXLTusNGerA==" ProviderCode="1G">6UUVoSldxwiZGJGBX4hGj8bKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5EuDUtbG+96M3ExqSoG052l+I8CYW5AiVsbDJGhuEJmffAIozri2ACsTsU9/OBUcsCon/PhEU0kER67am1GRkfq/20RpEmAXlby9IE1rxlSp7GoYpQef1iXtqiwgseZpLV9NojQcBIDONd9Wq4Amro8sv0OdkDoiE4nKb2G5mOFVMh0f28ZtJAyJktJrhvONb+F729rtUMfv4Xvb2u1Qx+/he9va7VDH7+F729rtUMfv4Xvb2u1Qx80GqQ2wgDK/01BlpTwyo+r9GjARZYw7j/TROTkGAG0MWAcMEXtM/CEv5Pt19m0fhKc5r/dqbeJQ+VuG0bsK6zw</FareRuleKey>
+          </FareInfo>
+          <BookingInfo BookingCode="P"  FareInfoRef="eCYKvYcxRXi6iNOsL1YJQQ==" SegmentRef="{TOSEGEMENT_KEY}" />
+          <BookingInfo BookingCode="P"  FareInfoRef="Nm2qKrnFRDSSXLTusNGerA==" SegmentRef="{RETURNSEGEMENT_KEY}" />
+          <TaxInfo Key="0MBrDNMRQveaxZCB5qcUqA==" Category="GB" Amount="EUR33.23" />
+          <TaxInfo Key="oCKMXNWQSXq0NND0fuSfgQ==" Category="UB" Amount="EUR16.26" />
+          <TaxInfo Key="0gPbMrZXRNeYdyAXLhOwig==" Category="FR" Amount="EUR17.19" />
+          <TaxInfo Key="O5cVDmiuRaWbhWTm2GT+xA==" Category="IZ" Amount="EUR1.13" />
+          <TaxInfo Key="N4Ov4wD7T56TI0IoJLPwGg==" Category="QX" Amount="EUR12.68" />
+          <TaxInfo Key="gJ5hzACRSpea6ReqVWYJiA==" Category="YQ" Amount="EUR6.00" />
+          <PassengerType Code="ADT" Age="40" BookingTravelerRef="a2RJVEo2aEdzYmxYSDV3dA==" />
+        </AirPricingInfo>
+      </AirPricingSolution>
+      <ActionStatus xmlns="http://www.travelport.com/schema/common_v36_0" Type="ACTIVE" TicketDate="T*" ProviderCode="1G" />
+      <Payment xmlns="http://www.travelport.com/schema/common_v36_0" Key="2" Type="Itinerary" FormOfPaymentRef="1" Amount="{AIR_TOTALPRICE}" />
+    </AirCreateReservationReq>
+  </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+<soapenv:Header/>
+<soapenv:Body>
+<AirPriceReq xmlns="http://www.travelport.com/schema/air_v36_0" TraceId="63ad216d-145f-49fe-827c-54c8e9451698" AuthorizedBy="{AUTHORIZED_BY}" TargetBranch="{TARGET_BRANCH}" CheckOBFees="true">
+  <BillingPointOfSaleInfo xmlns="http://www.travelport.com/schema/common_v36_0" OriginApplication="uAPI" />
+  <AirItinerary>
+    <AirSegment Key="K8DG2cOSQEy4aT9yPorcUg==" AvailabilitySource="{ToAvailabilitySource}" Equipment="{ToEquipment}" AvailabilityDisplayType="{ToAvailabilityDisplayType}" Group="{ToGroup}" Carrier="{ToCarrier}" FlightNumber="{ToFlightNumber}" Origin="{ToOrigin}" Destination="{ToDes}" DepartureTime="{ToDepartureTime}" ArrivalTime="{ToArrivalTime}" FlightTime="{ToFlightTime}" Distance="{ToDistance}" ProviderCode="1G" >
+      <CodeshareInfo OperatingCarrier="I2" />
+    </AirSegment>
+    <AirSegment Key="tfmG0H4gTO6RxWYLOrDVmA==" AvailabilitySource="{ReturnAvailabilitySource}" Equipment="{ReturnEquipment}" AvailabilityDisplayType="{ReturnAvailabilityDisplayType}" Group="{ReturnGroup}" Carrier="{ReturnCarrier}" FlightNumber="{ReturnFlightNumber}" Origin="{ReturnOrigin}" Destination="{ReturnDes}" DepartureTime="{ReturnDepartureTime}" ArrivalTime="{ReturnArrivalTime}" FlightTime="{ReturnFlightTime}" Distance="{ReturnDistance}" ProviderCode="1G" >
+      <CodeshareInfo OperatingCarrier="I2" />
+    </AirSegment>
+  </AirItinerary>
+  <AirPricingModifiers InventoryRequestType="Basic">
+    <BrandModifiers ModifierType="FareFamilyDisplay" />
+  </AirPricingModifiers>
+  <SearchPassenger xmlns="http://www.travelport.com/schema/common_v36_0" Code="ADT" Age="40" BookingTravelerRef="SzBXZHdFSnBYRHRlREhkRA==" Key="SzBXZHdFSnBYRHRlREhkRA==" />
+  <AirPricingCommand>
+    
+    
+  </AirPricingCommand>
+  <FormOfPayment xmlns="http://www.travelport.com/schema/common_v36_0" Type="Credit" />
+</AirPriceReq>
+</soapenv:Body>
+</soapenv:Envelope>

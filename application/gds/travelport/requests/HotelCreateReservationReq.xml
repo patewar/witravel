@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+<soapenv:Body>
+<HotelCreateReservationReq xmlns="http://www.travelport.com/schema/universal_v33_0" TraceId="6e997564-6337-4a6b-9890-68eba168fd6a" AuthorizedBy="{AUTHORIZED_BY}" TargetBranch="{TARGET_BRANCH}" ProviderCode="1G" UserAcceptance="true">
+  <BillingPointOfSaleInfo xmlns="http://www.travelport.com/schema/common_v33_0" OriginApplication="uAPI" />
+  <BookingTraveler xmlns="http://www.travelport.com/schema/common_v33_0" Key="MVhQY2tyamxnaEEwVzJhYg==" TravelerType="{TRAVELLER_TYPE}" Age="{TRAVELLER_AGE}" DOB="{TRAVELLER_DOB}" Gender="{TRAVELLER_GENDER}" Nationality="{TRAVELLER_NATIONALITY}">
+    <BookingTravelerName Prefix="{TRAVELLER_PREFIX}" First="{TRAVELLER_FIRSTNAME}" Last="{TRAVELLER_LASTNAME}" />
+    <DeliveryInfo>
+      <ShippingAddress Key="1">
+        <Street>{SHIPPING_STREET}</Street>
+        <City>{SHIPPING_CITY}</City>
+        <PostalCode>{SHIPPING_POSTALCODE}</PostalCode>
+      </ShippingAddress>
+    </DeliveryInfo>
+    <PhoneNumber Location="{PHONE_LOCATION}" CountryCode="{PHONE_COUNTRYCODE}" AreaCode="{PHONE_AREACODE}" Number="{PHONE_NUMBER}" />
+    <Email EmailID="{TRAVELLER_EMAIL}" />
+    <Address>
+      <AddressName>{ADDRESS_NAME}</AddressName>
+      <Street>{ADDRESS_STREET}</Street>
+      <City>{ADDRESS_CITY}</City>
+      <State>{ADDRESS_STATE}</State>
+      <PostalCode>{ADDRESS_POSTALCODE}</PostalCode>
+      <Country>{ADDRESS_COUNTRY}</Country>
+    </Address>
+  </BookingTraveler>
+  <HotelRateDetail xmlns="http://www.travelport.com/schema/hotel_v33_0" RatePlanType="L04DZZZ" />
+  <HotelProperty xmlns="http://www.travelport.com/schema/hotel_v33_0" HotelCode="{HOTEL_CODE}" HotelChain="{HOTEL_CHAIN}" />
+  <HotelStay xmlns="http://www.travelport.com/schema/hotel_v33_0">
+    <CheckinDate>{CHECKIN_DATE}</CheckinDate>
+    <CheckoutDate>{CHECKOUT_DATE}</CheckoutDate>
+  </HotelStay>
+  <Guarantee xmlns="http://www.travelport.com/schema/common_v33_0" Type="Guarantee">
+    <CreditCard Type="{CREDITCARD_TYPE}" Number="{CREDITCARD_NUMBER}" ExpDate="{CREDITCARD_EXPDATE}" CVV="{CREDITCARD_CVV}" />
+  </Guarantee>
+  <GuestInformation xmlns="http://www.travelport.com/schema/hotel_v33_0" NumberOfRooms="{NUM_ROOMS}">
+    <NumberOfAdults>{NUM_ADULTS}</NumberOfAdults>
+  </GuestInformation>
+</HotelCreateReservationReq>
+</soapenv:Body>
+</soapenv:Envelope>

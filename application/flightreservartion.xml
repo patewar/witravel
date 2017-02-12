@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Body>
+
+    <AirCreateReservationReq xmlns="http://www.travelport.com/schema/universal_v36_0" TraceId="7943e444-0c05-4431-8357-f95c9f1c02b3" AuthorizedBy="Chetan" TargetBranch="P7030029" ProviderCode="1G" RetainReservation="Both">
+
+      <BillingPointOfSaleInfo xmlns="http://www.travelport.com/schema/common_v36_0" OriginApplication="UAPI" />
+      <BookingTraveler xmlns="http://www.travelport.com/schema/common_v36_0" Key="a2RJVEo2aEdzYmxYSDV3dA==" TravelerType="ADT" Age="40" DOB="1976-01-21" Gender="M" Nationality="US">
+        <BookingTravelerName Prefix="Mr" First="Chetan" Last="Kumar" />
+        <DeliveryInfo>
+          <ShippingAddress Key="a2RJVEo2aEdzYmxYSDV3dA==">
+            <Street>Via Augusta 59 5</Street>
+            <City>Madrid</City>
+            <State>IA</State>
+            <PostalCode>50156</PostalCode>
+            <Country>US</Country>
+          </ShippingAddress>
+        </DeliveryInfo>
+        <PhoneNumber Location="DEN" CountryCode="1" AreaCode="303" Number="000012345" />
+        <Email EmailID="johnsmith@travelportuniversalapidemo.com" />
+        <Address>
+          <AddressName>DemoSiteAddress</AddressName>
+          <Street>Via Augusta 59 5</Street>
+          <City>Madrid</City>
+          <State>IA</State>
+          <PostalCode>50156</PostalCode>
+          <Country>US</Country>
+        </Address>
+      </BookingTraveler>
+      <ContinuityCheckOverride Key="PDz8y2dj4hGfaM/wYIhwmw==" xmlns="http://www.travelport.com/schema/common_v36_0">YES</ContinuityCheckOverride>
+      <FormOfPayment xmlns="http://www.travelport.com/schema/common_v36_0" Type="Credit" Key="1">
+        <CreditCard Type="VI" Number="4111111111111111" ExpDate="2017-07" Name="Chetan" CVV="123" Key="1">
+          <BillingAddress Key="f383a935-39a6- 4ca3-bd02- 360d64725bf9">
+            <AddressName>DemoSiteAddress</AddressName>
+            <Street>Via Augusta 59 5</Street>
+            <City>Madrid</City>
+            <State>IA</State>
+            <PostalCode>50156</PostalCode>
+            <Country>US</Country>
+          </BillingAddress>
+        </CreditCard>
+      </FormOfPayment>
+      <AirPricingSolution xmlns="http://www.travelport.com/schema/air_v36_0" Key="Nt97fHQBQm6ctX/rlIMwDQ==" TotalPrice="EUR180.00" BasePrice="GBP21.00" ApproximateTotalPrice="EUR180.00" ApproximateBasePrice="EUR27.00" EquivalentBasePrice="EUR27.00" Taxes="EUR86.49">
+        
+        <AirSegment Key="+TSzyNfhS8meg11uqDmMFw==" OptionalServicesIndicator="false" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked" Group="0" Carrier="VY" FlightNumber="8634" Origin="CDG" Destination="CPH" DepartureTime="2016-09-09T18:00:00.000+02:00" ArrivalTime="2016-09-09T19:55:00.000+02:00" FlightTime="115" TravelTime="115" Distance="214" ProviderCode="1G"  /><AirSegment Key="KR+BuvYcSBKmdwylx3nEXg==" OptionalServicesIndicator="false" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked" Group="1" Carrier="VY" FlightNumber="8635" Origin="CPH" Destination="CDG" DepartureTime="2016-09-11T20:35:00.000+02:00" ArrivalTime="2016-09-11T22:30:00.000+02:00" FlightTime="115" TravelTime="115" Distance="214" ProviderCode="1G"  />
+        <AirPricingInfo PricingMethod="Auto" Taxes="EUR86.49" Key="6xB6lmwNSlaugFep9mIUUg==" TotalPrice="EUR180.00" BasePrice="GBP21.00" ApproximateTotalPrice="EUR180.00" ApproximateBasePrice="EUR27.00" ProviderCode="1G">
+          <FareInfo FareFamily="" PromotionalFare="false" DepartureDate="2016-09-09" Amount="EUR14.00" EffectiveDate="2016-09-06T01:00:01.000+02:00" Destination="CPH" Origin="CDG" PassengerTypeCode="ADT" FareBasis="PRTVY" Key="eCYKvYcxRXi6iNOsL1YJQQ==">
+            <FareRuleKey FareInfoRef="eCYKvYcxRXi6iNOsL1YJQQ==" ProviderCode="1G">6UUVoSldxwiZGJGBX4hGj8bKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5EuDUtbG+96M3ExqSoG050YrFZ2txsEbzsiW+YSuZ+HVCulqMwbpNasTsU9/OBUcsCon/PhEU0kS3O/yWtve7bq/20RpEmAXlby9IE1rxlSp7GoYpQef1iXtqiwgseZpLV9NojQcBIDONd9Wq4AmrqAdcY0m0a4yk4nKb2G5mOFauQ2ZPkgiQgyJktJrhvONb+F729rtUMfv4Xvb2u1Qx+/he9va7VDH7+F729rtUMfv4Xvb2u1Qx80GqQ2wgDK/01BlpTwyo+r9GjARZYw7j/TROTkGAG0MWAcMEXtM/CEv5Pt19m0fhKc5r/dqbeJQ+VuG0bsK6zw</FareRuleKey>
+          </FareInfo>
+          <FareInfo FareFamily="" PromotionalFare="false" DepartureDate="2016-09-11" Amount="EUR13.00" EffectiveDate="2016-09-06T01:00:01.000+02:00" Destination="CDG" Origin="CPH" PassengerTypeCode="ADT" FareBasis="PRTVY" Key="Nm2qKrnFRDSSXLTusNGerA==">
+            <FareRuleKey FareInfoRef="Nm2qKrnFRDSSXLTusNGerA==" ProviderCode="1G">6UUVoSldxwiZGJGBX4hGj8bKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5EuDUtbG+96M3ExqSoG052l+I8CYW5AiVsbDJGhuEJmffAIozri2ACsTsU9/OBUcsCon/PhEU0kER67am1GRkfq/20RpEmAXlby9IE1rxlSp7GoYpQef1iXtqiwgseZpLV9NojQcBIDONd9Wq4Amro8sv0OdkDoiE4nKb2G5mOFVMh0f28ZtJAyJktJrhvONb+F729rtUMfv4Xvb2u1Qx+/he9va7VDH7+F729rtUMfv4Xvb2u1Qx80GqQ2wgDK/01BlpTwyo+r9GjARZYw7j/TROTkGAG0MWAcMEXtM/CEv5Pt19m0fhKc5r/dqbeJQ+VuG0bsK6zw</FareRuleKey>
+          </FareInfo>
+          <BookingInfo BookingCode="P"  FareInfoRef="eCYKvYcxRXi6iNOsL1YJQQ==" SegmentRef="+TSzyNfhS8meg11uqDmMFw==" />
+          <BookingInfo BookingCode="P"  FareInfoRef="Nm2qKrnFRDSSXLTusNGerA==" SegmentRef="KR+BuvYcSBKmdwylx3nEXg==" />
+          <TaxInfo Key="0MBrDNMRQveaxZCB5qcUqA==" Category="GB" Amount="EUR33.23" />
+          <TaxInfo Key="oCKMXNWQSXq0NND0fuSfgQ==" Category="UB" Amount="EUR16.26" />
+          <TaxInfo Key="0gPbMrZXRNeYdyAXLhOwig==" Category="FR" Amount="EUR17.19" />
+          <TaxInfo Key="O5cVDmiuRaWbhWTm2GT+xA==" Category="IZ" Amount="EUR1.13" />
+          <TaxInfo Key="N4Ov4wD7T56TI0IoJLPwGg==" Category="QX" Amount="EUR12.68" />
+          <TaxInfo Key="gJ5hzACRSpea6ReqVWYJiA==" Category="YQ" Amount="EUR6.00" />
+          <PassengerType Code="ADT" Age="40" BookingTravelerRef="a2RJVEo2aEdzYmxYSDV3dA==" />
+        </AirPricingInfo>
+      </AirPricingSolution>
+      <ActionStatus xmlns="http://www.travelport.com/schema/common_v36_0" Type="ACTIVE" TicketDate="T*" ProviderCode="1G" />
+      <Payment xmlns="http://www.travelport.com/schema/common_v36_0" Key="2" Type="Itinerary" FormOfPaymentRef="1" Amount="EUR180.00" />
+    </AirCreateReservationReq>
+  </soapenv:Body>
+</soapenv:Envelope>

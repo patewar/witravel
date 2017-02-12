@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<faultcode>Server.InvalidRequestException</faultcode>
+	<faultstring>[Error] :5:106: cvc-complex-type.2.4.a: Invalid content was found starting with element 'SSR'. One of '{"http://www.travelport.com/schema/common_v36_0":BookingTravelerName}' is expected.</faultstring>
+	<detail>
+		<ErrorInfo>
+			<Code>1000</Code>
+			<Service>WEBSVC</Service>
+			<Type>Data</Type>
+			<Description>Validation failed on request message.</Description>
+			<TransactionId>E3A5EB6B0A07643B84070A14B89A0AF0</TransactionId>
+			<Auxdata>
+				<Entry>
+					<Reason>
+LastElement</Reason>
+					<Description>BookingTraveler Carrier=AF FreeText=P/IN/P12345673/IN/09JAN16/M/23DEC18/Kumar/Chetan Status=HK Type=DOCS</Description>
+				</Entry>
+			</Auxdata>
+		</ErrorInfo>
+	</detail>
+</root>

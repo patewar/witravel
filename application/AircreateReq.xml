@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Body>
+<AirCreateReservationReq xmlns="http://www.travelport.com/schema/universal_v36_0" TraceId="a677366a-b068-4145-9871-c91ba58a074e" AuthorizedBy="Travelport" TargetBranch="P7030029" ProviderCode="1G" RetainReservation="Both">
+  <BillingPointOfSaleInfo xmlns="http://www.travelport.com/schema/common_v36_0" OriginApplication="UAPI" />
+  <BookingTraveler xmlns="http://www.travelport.com/schema/common_v36_0" Key="OG9IN1k5YkVjek9mdmhLeg==" TravelerType="ADT" Age="40" DOB="1976-09-07" Gender="M" Nationality="US">
+    <BookingTravelerName Prefix="Mr" First="John" Last="Smith" />
+    <DeliveryInfo>
+      <ShippingAddress Key="OG9IN1k5YkVjek9mdmhLeg==">
+        <Street>Via Augusta 59 5</Street>
+        <City>Madrid</City>
+        <State>IA</State>
+        <PostalCode>50156</PostalCode>
+        <Country>US</Country>
+      </ShippingAddress>
+    </DeliveryInfo>
+    <PhoneNumber Location="DEN" CountryCode="1" AreaCode="303" Number="123456789" />
+    <Email EmailID="johnsmith@travelportuniversalapidemo.com" />
+    <Address>
+      <AddressName>DemoSiteAddress</AddressName>
+      <Street>Via Augusta 59 5</Street>
+      <City>Madrid</City>
+      <State>IA</State>
+      <PostalCode>50156</PostalCode>
+      <Country>US</Country>
+    </Address>
+  </BookingTraveler>
+  <FormOfPayment xmlns="http://www.travelport.com/schema/common_v36_0" Type="Credit" Key="1">
+    <CreditCard Type="VI" Number="4895390000000013" ExpDate="2018-01" Name="John Smith" CVV="595" Key="1">
+      <BillingAddress Key="08a6140c-bd64-404e-8cf2-6d06ec327252">
+        <AddressName>DemoSiteAddress</AddressName>
+        <Street>Via Augusta 59 5</Street>
+        <City>Madrid</City>
+        <State>IA</State>
+        <PostalCode>50156</PostalCode>
+        <Country>US</Country>
+      </BillingAddress>
+    </CreditCard>
+  </FormOfPayment>
+  <AirPricingSolution xmlns="http://www.travelport.com/schema/air_v36_0" Key="EMdSgRsvRDiQmFV63J1ZMA==" TotalPrice="EUR197.96" BasePrice="EUR90.00" ApproximateTotalPrice="EUR197.96" ApproximateBasePrice="EUR90.00" Taxes="EUR107.96">
+    <AirSegment Key="6k60n5UTQ/uNr17TY5vFKA==" OptionalServicesIndicator="true" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked" Group="0" Carrier="LX" FlightNumber="963" Origin="TXL" Destination="ZRH" DepartureTime="2016-09-16T06:50:00.000+02:00" ArrivalTime="2016-09-16T08:20:00.000+02:00" FlightTime="90" TravelTime="90" Distance="405" ProviderCode="1G" ClassOfService="K">
+      <CodeshareInfo OperatingCarrier="LX" />
+    </AirSegment>
+    <AirSegment Key="n+XmH2VMSYuwM7Sy4bm3Kg==" OptionalServicesIndicator="true" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked" Group="0" Carrier="LX" FlightNumber="2084" Origin="ZRH" Destination="LIS" DepartureTime="2016-09-16T12:00:00.000+02:00" ArrivalTime="2016-09-16T13:50:00.000+01:00" FlightTime="170" TravelTime="170" Distance="1072" ProviderCode="1G" ClassOfService="K">
+      <CodeshareInfo OperatingCarrier="LX" />
+    </AirSegment>
+    <AirSegment Key="6YxTVSb8QVmlI4E8AegWNQ==" OptionalServicesIndicator="true" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked" Group="1" Carrier="LX" FlightNumber="2085" Origin="LIS" Destination="ZRH" DepartureTime="2016-09-18T14:30:00.000+01:00" ArrivalTime="2016-09-18T18:15:00.000+02:00" FlightTime="165" TravelTime="165" Distance="1072" ProviderCode="1G" ClassOfService="K">
+      <CodeshareInfo OperatingCarrier="LX" />
+    </AirSegment>
+    <AirSegment Key="2kqY+ydET92GzcELt/mV9A==" OptionalServicesIndicator="true" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked" Group="1" Carrier="LX" FlightNumber="962" Origin="ZRH" Destination="TXL" DepartureTime="2016-09-18T20:50:00.000+02:00" ArrivalTime="2016-09-18T22:15:00.000+02:00" FlightTime="85" TravelTime="85" Distance="405" ProviderCode="1G" ClassOfService="K">
+      <CodeshareInfo OperatingCarrier="LX" />
+    </AirSegment>
+    <AirPricingInfo PricingMethod="Auto" Taxes="EUR107.96" Key="zD3qPFAhSoi5iKSInH8QdA==" TotalPrice="EUR197.96" BasePrice="EUR90.00" ApproximateTotalPrice="EUR197.96" ApproximateBasePrice="EUR90.00" ProviderCode="1G">
+      <FareInfo FareFamily="Economy Light" PromotionalFare="false" DepartureDate="2016-09-16" Amount="" EffectiveDate="2016-09-07T20:53:00.000+02:00" Destination="LIS" Origin="TXL" PassengerTypeCode="ADT" FareBasis="K25LGT4" Key="REgC6gIoRMyUNCUaG1pJew==">
+        <FareRuleKey FareInfoRef="REgC6gIoRMyUNCUaG1pJew==" ProviderCode="1G">6UUVoSldxwi5jaiD5Te3lsbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAyVlafI46WYPM3ExqSoG050OBzCme1vR3ZhJcjY/eERLVCulqMwbpNasTsU9/OBUcpP3vhsDFu0XbD2mIKCdpLK+c4NL8FZWf8siOHFaFMf8hf6E18cRejGVqfCTByZWB87h4wpuYhqXjyanCyGRxDLqNbjwzJx7oo0sKBvhNXxaOtQTd3Lo7sYawZ/ohFqk6/wBShF29N4Sv4Xvb2u1Qx+/he9va7VDH7+F729rtUMfv4Xvb2u1Qx8Qxibp/OJehpo2LrM59tO1jp8ZENljzx72lVAJ3nO/Pw0ClOCI+tT81IKv8rdRZDY8AdvxvULW9H1ZAoR40Ssx</FareRuleKey>
+        <Brand Key="REgC6gIoRMyUNCUaG1pJew==" BrandID="7740" Name="LIGHT" Carrier="LX">
+          <Title Type="External">Economy Light</Title>
+          <Title Type="Short">Eco Light</Title>
+          <Text Type="ATPCO">ECONOMY RESTRICTED NO BAG</Text>
+          <Text Type="MarketingConsumer">From an aperitif to a snack to a hot meal. The culinary offer in Economy Class Europe is determined by the length of the flight. All drinks are free of charge. Modern and comfortable seats offer a maximum of relaxation.
+
+Economy Light:
+
+▪ 1 piece of hand baggage up to 8 kg 
+▪ Food and beverages 
+▪ Miles
+
+BRANDED FARES</Text>
+          <Text Type="MarketingAgent">From an aperitif to a snack to a hot meal. The culinary offer in Economy Class Europe is determined by the length of the flight. All drinks are free of charge. Modern and comfortable seats offer a maximum of relaxation.
+
+Economy Light:
+
+▪ 1 piece of hand baggage up to 8 kg 
+▪ Food and beverages 
+▪ Miles
+
+BRANDED FARES</Text>
+          <Text Type="Strapline">Economy Light</Text>
+          <ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://merchandisingmanagement.pp.travelport.com/documents/10431/69822/LX%20-%20short%20haul%20-%20Eco%20Light.png</ImageLocation>
+          <ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="150">https://merchandisingmanagement.pp.travelport.com/documents/10431/69822/LX%20-%20short%20haul%20-%20Eco%20Light.png</ImageLocation>
+          <OptionalServices>
+            <OptionalService Key="X2dcpGTdRiqxbx1PSrigRA==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="Baggage" ServiceSubCode="CBC">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="n+XmH2VMSYuwM7Sy4bm3Kg==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6k60n5UTQ/uNr17TY5vFKA==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>2 Cabin bags</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="Q2cwXN+SQ7i63bGmWChrHw==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="Baggage" ServiceSubCode="FBY">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="n+XmH2VMSYuwM7Sy4bm3Kg==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6k60n5UTQ/uNr17TY5vFKA==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>1 Checked bag</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="Jw16iymMTjaMX+v2iKupcQ==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="Baggage" ServiceSubCode="FBC">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="n+XmH2VMSYuwM7Sy4bm3Kg==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6k60n5UTQ/uNr17TY5vFKA==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>2 Checked bags</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="oY95R2QcS8alKafv0nvhPw==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="FrequentFlyer" ServiceSubCode="P50">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="n+XmH2VMSYuwM7Sy4bm3Kg==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6k60n5UTQ/uNr17TY5vFKA==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>150% Miles and More miles</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="RfEkACAmQhCemM0KZV9cUw==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="InFlightEntertainment" ServiceSubCode="0PN">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="n+XmH2VMSYuwM7Sy4bm3Kg==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6k60n5UTQ/uNr17TY5vFKA==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Magazines and newspapers</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="sdaEiUyxTku3LgFvhaI2pw==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="Lounge" ServiceSubCode="0BX">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="n+XmH2VMSYuwM7Sy4bm3Kg==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6k60n5UTQ/uNr17TY5vFKA==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Lounge access</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="C/PrumaDT6e2x2diQt/vwQ==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="MealOrBeverage" ServiceSubCode="0LO">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="n+XmH2VMSYuwM7Sy4bm3Kg==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6k60n5UTQ/uNr17TY5vFKA==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Business Class food and beverage</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="GlO4fXC0RICxaUc7G6hTYw==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="PreReservedSeatAssignment" ServiceSubCode="SEA">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="n+XmH2VMSYuwM7Sy4bm3Kg==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6k60n5UTQ/uNr17TY5vFKA==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Neighbour seat free</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="5/4LKUg5R8WkvOCzYvnhvw==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="TravelServices" ServiceSubCode="RFB">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="n+XmH2VMSYuwM7Sy4bm3Kg==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6k60n5UTQ/uNr17TY5vFKA==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Refund before departure</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="DBeJyxSfT6KoKmx0Dxk6Wg==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="TravelServices" ServiceSubCode="RFA">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="n+XmH2VMSYuwM7Sy4bm3Kg==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6k60n5UTQ/uNr17TY5vFKA==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Refund after departure</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="zO+2vvroQUy3urSfvq/iEA==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="TravelServices" ServiceSubCode="CHA">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="n+XmH2VMSYuwM7Sy4bm3Kg==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6k60n5UTQ/uNr17TY5vFKA==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Change after departure</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="FEE9e8U2T/SD2g0kVQnUWw==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="TravelServices" ServiceSubCode="CHB">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="n+XmH2VMSYuwM7Sy4bm3Kg==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6k60n5UTQ/uNr17TY5vFKA==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Change before departure</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="Vf6i0j4IRZu4PLlWq4cgVA==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="TravelServices" ServiceSubCode="03P">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="n+XmH2VMSYuwM7Sy4bm3Kg==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6k60n5UTQ/uNr17TY5vFKA==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Priority check in</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="meDJ79h9TmG8vRcYuJ20YQ==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="TravelServices" ServiceSubCode="0G6">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="n+XmH2VMSYuwM7Sy4bm3Kg==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6k60n5UTQ/uNr17TY5vFKA==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Priority boarding</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="BXujKqjQSxW1r7vCt78G0A==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="TravelServices" ServiceSubCode="0LF">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="n+XmH2VMSYuwM7Sy4bm3Kg==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6k60n5UTQ/uNr17TY5vFKA==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Priority baggage</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="Vc38Nv7hTLyT7Gd1VJh6XA==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="TravelServices" ServiceSubCode="0LW">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="n+XmH2VMSYuwM7Sy4bm3Kg==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6k60n5UTQ/uNr17TY5vFKA==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Fast track</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="L91WaBnXSpK4L6n30yaF6w==" AssessIndicator="MileageAndCurrency" Chargeable="Available for a charge" Type="Baggage" ServiceSubCode="0CC">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="n+XmH2VMSYuwM7Sy4bm3Kg==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6k60n5UTQ/uNr17TY5vFKA==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>1st bag up to 50lb 23KG 62li 158cm</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="kSv5C7YeQqKA7Bae0FJe0g==" AssessIndicator="MileageAndCurrency" Chargeable="Available for a charge" Type="PreReservedSeatAssignment" ServiceSubCode="PRS">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="n+XmH2VMSYuwM7Sy4bm3Kg==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6k60n5UTQ/uNr17TY5vFKA==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Preferred zone</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="Umnj7zH9TgOpf6MrOPP12g==" AssessIndicator="MileageAndCurrency" Chargeable="Available for a charge" Type="PreReservedSeatAssignment" ServiceSubCode="PSA">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="n+XmH2VMSYuwM7Sy4bm3Kg==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6k60n5UTQ/uNr17TY5vFKA==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Standard seat reservation</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="pdtjcv4aQICNwAKZdfdaYQ==" AssessIndicator="MileageAndCurrency" Chargeable="Available for a charge" Type="Upgrades" ServiceSubCode="0BJ">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="n+XmH2VMSYuwM7Sy4bm3Kg==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6k60n5UTQ/uNr17TY5vFKA==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Upgrade</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="pL8IaGmbTrqCaJX5oZwRyw==" AssessIndicator="MileageAndCurrency" Chargeable="Included in the brand" Type="Baggage" ServiceSubCode="CBY">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="n+XmH2VMSYuwM7Sy4bm3Kg==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6k60n5UTQ/uNr17TY5vFKA==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>1 Cabin bag</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="YJQUDGW1RFeEia8rhhDLfA==" AssessIndicator="MileageAndCurrency" Chargeable="Included in the brand" Type="FrequentFlyer" ServiceSubCode="P10">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="n+XmH2VMSYuwM7Sy4bm3Kg==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6k60n5UTQ/uNr17TY5vFKA==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>100% Miles and More miles</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="HCrdR9x6TxKCGv1GHTHAUA==" AssessIndicator="MileageAndCurrency" Chargeable="Included in the brand" Type="MealOrBeverage" ServiceSubCode="0B3">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="n+XmH2VMSYuwM7Sy4bm3Kg==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6k60n5UTQ/uNr17TY5vFKA==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Food and beverages</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+          </OptionalServices>
+        </Brand>
+      </FareInfo>
+      <FareInfo FareFamily="Economy Light" PromotionalFare="false" DepartureDate="2016-09-18" Amount="EUR45.00" EffectiveDate="2016-09-07T20:53:00.000+02:00" Destination="TXL" Origin="LIS" PassengerTypeCode="ADT" FareBasis="K25LGT4" Key="7gnDCvK8QoqsjSWBxKOISA==">
+        <FareRuleKey FareInfoRef="7gnDCvK8QoqsjSWBxKOISA==" ProviderCode="1G">6UUVoSldxwi5jaiD5Te3lsbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAyVlafI46WYPM3ExqSoG050bbrAkmrRuHUhM29KcJDDbffAIozri2ACsTsU9/OBUcpP3vhsDFu0XbD2mIKCdpLLCHLo1pwCld8siOHFaFMf8hf6E18cRejGVqfCTByZWB87h4wpuYhqXjyanCyGRxDKzwqagSNw6Eo0sKBvhNXxacH/Cl81Z+vQawZ/ohFqk6/wBShF29N4Sv4Xvb2u1Qx+/he9va7VDH7+F729rtUMfv4Xvb2u1Qx8Qxibp/OJehpo2LrM59tO1jp8ZENljzx72lVAJ3nO/Pw0ClOCI+tT81IKv8rdRZDY8AdvxvULW9H1ZAoR40Ssx</FareRuleKey>
+        <Brand Key="7gnDCvK8QoqsjSWBxKOISA==" BrandID="7740" Name="LIGHT" Carrier="LX">
+          <Title Type="External">Economy Light</Title>
+          <Title Type="Short">Eco Light</Title>
+          <Text Type="ATPCO">ECONOMY RESTRICTED NO BAG</Text>
+          <Text Type="MarketingConsumer">From an aperitif to a snack to a hot meal. The culinary offer in Economy Class Europe is determined by the length of the flight. All drinks are free of charge. Modern and comfortable seats offer a maximum of relaxation.
+
+Economy Light:
+
+▪ 1 piece of hand baggage up to 8 kg 
+▪ Food and beverages 
+▪ Miles
+
+BRANDED FARES</Text>
+          <Text Type="MarketingAgent">From an aperitif to a snack to a hot meal. The culinary offer in Economy Class Europe is determined by the length of the flight. All drinks are free of charge. Modern and comfortable seats offer a maximum of relaxation.
+
+Economy Light:
+
+▪ 1 piece of hand baggage up to 8 kg 
+▪ Food and beverages 
+▪ Miles
+
+BRANDED FARES</Text>
+          <Text Type="Strapline">Economy Light</Text>
+          <ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://merchandisingmanagement.pp.travelport.com/documents/10431/69822/LX%20-%20short%20haul%20-%20Eco%20Light.png</ImageLocation>
+          <ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="150">https://merchandisingmanagement.pp.travelport.com/documents/10431/69822/LX%20-%20short%20haul%20-%20Eco%20Light.png</ImageLocation>
+          <OptionalServices>
+            <OptionalService Key="bmR5JAtvSB+IXza/TsFUNg==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="Baggage" ServiceSubCode="CBC">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6YxTVSb8QVmlI4E8AegWNQ==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="2kqY+ydET92GzcELt/mV9A==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>2 Cabin bags</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="bph4IiCwRIOfqcKrHE6Ndg==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="Baggage" ServiceSubCode="FBY">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6YxTVSb8QVmlI4E8AegWNQ==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="2kqY+ydET92GzcELt/mV9A==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>1 Checked bag</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="8QFmPEm1QziD5NJbTj3YaA==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="Baggage" ServiceSubCode="FBC">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6YxTVSb8QVmlI4E8AegWNQ==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="2kqY+ydET92GzcELt/mV9A==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>2 Checked bags</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="YIrHmEk/RkutvOqPAJeviA==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="FrequentFlyer" ServiceSubCode="P50">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6YxTVSb8QVmlI4E8AegWNQ==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="2kqY+ydET92GzcELt/mV9A==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>150% Miles and More miles</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="EP+Uvum0RcmJQuwg2lHr2Q==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="InFlightEntertainment" ServiceSubCode="0PN">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6YxTVSb8QVmlI4E8AegWNQ==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="2kqY+ydET92GzcELt/mV9A==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Magazines and newspapers</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="czZphmDNRKyDKYX4nIEVFw==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="Lounge" ServiceSubCode="0BX">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6YxTVSb8QVmlI4E8AegWNQ==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="2kqY+ydET92GzcELt/mV9A==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Lounge access</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="8WF27rh1QRG23zjH5y3WIw==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="MealOrBeverage" ServiceSubCode="0LO">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6YxTVSb8QVmlI4E8AegWNQ==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="2kqY+ydET92GzcELt/mV9A==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Business Class food and beverage</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="H7mxC8yiSqCoIzTyda5AAw==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="PreReservedSeatAssignment" ServiceSubCode="SEA">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6YxTVSb8QVmlI4E8AegWNQ==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="2kqY+ydET92GzcELt/mV9A==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Neighbour seat free</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="ot5Fki6bSa+ZzpskXdr/0A==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="TravelServices" ServiceSubCode="RFB">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6YxTVSb8QVmlI4E8AegWNQ==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="2kqY+ydET92GzcELt/mV9A==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Refund before departure</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="rfVZB5YKRpmQ9iLTbTzHyg==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="TravelServices" ServiceSubCode="RFA">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6YxTVSb8QVmlI4E8AegWNQ==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="2kqY+ydET92GzcELt/mV9A==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Refund after departure</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="U8DSiv3kQHSoZ2JhvJ3dpA==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="TravelServices" ServiceSubCode="CHA">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6YxTVSb8QVmlI4E8AegWNQ==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="2kqY+ydET92GzcELt/mV9A==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Change after departure</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="EBK7i9fSQHCUXfvhP0JTMg==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="TravelServices" ServiceSubCode="CHB">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6YxTVSb8QVmlI4E8AegWNQ==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="2kqY+ydET92GzcELt/mV9A==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Change before departure</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="lMG9Lv5FRTKphEJxYAaiGA==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="TravelServices" ServiceSubCode="03P">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6YxTVSb8QVmlI4E8AegWNQ==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="2kqY+ydET92GzcELt/mV9A==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Priority check in</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="OAQPKo5sQg2BJFAFgsgClA==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="TravelServices" ServiceSubCode="0G6">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6YxTVSb8QVmlI4E8AegWNQ==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="2kqY+ydET92GzcELt/mV9A==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Priority boarding</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="opuv9OISRKW5vLyVZqAGyw==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="TravelServices" ServiceSubCode="0LF">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6YxTVSb8QVmlI4E8AegWNQ==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="2kqY+ydET92GzcELt/mV9A==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Priority baggage</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="OaUazDJlRGGFpXiHwXEA+A==" AssessIndicator="MileageAndCurrency" Chargeable="Not offered" Type="TravelServices" ServiceSubCode="0LW">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6YxTVSb8QVmlI4E8AegWNQ==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="2kqY+ydET92GzcELt/mV9A==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Fast track</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="bGYHJi8TRsOQTUpDHAowcg==" AssessIndicator="MileageAndCurrency" Chargeable="Available for a charge" Type="Baggage" ServiceSubCode="0CC">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6YxTVSb8QVmlI4E8AegWNQ==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="2kqY+ydET92GzcELt/mV9A==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>1st bag up to 50lb 23KG 62li 158cm</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="TM3ge9XcQfufZlAioNInGA==" AssessIndicator="MileageAndCurrency" Chargeable="Available for a charge" Type="PreReservedSeatAssignment" ServiceSubCode="PRS">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6YxTVSb8QVmlI4E8AegWNQ==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="2kqY+ydET92GzcELt/mV9A==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Preferred zone</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="Tk4KT/kETTSJp2kPZm9RLg==" AssessIndicator="MileageAndCurrency" Chargeable="Available for a charge" Type="PreReservedSeatAssignment" ServiceSubCode="PSA">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6YxTVSb8QVmlI4E8AegWNQ==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="2kqY+ydET92GzcELt/mV9A==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Standard seat reservation</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="lMYGsRPvR5aon1LU7lFZ/Q==" AssessIndicator="MileageAndCurrency" Chargeable="Available for a charge" Type="Upgrades" ServiceSubCode="0BJ">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6YxTVSb8QVmlI4E8AegWNQ==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="2kqY+ydET92GzcELt/mV9A==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Upgrade</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="ixB9Yls+TeuI1/Ng/Vj0Dg==" AssessIndicator="MileageAndCurrency" Chargeable="Included in the brand" Type="Baggage" ServiceSubCode="CBY">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6YxTVSb8QVmlI4E8AegWNQ==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="2kqY+ydET92GzcELt/mV9A==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>1 Cabin bag</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="c5ftThYMSiWY83BDzh+sKA==" AssessIndicator="MileageAndCurrency" Chargeable="Included in the brand" Type="FrequentFlyer" ServiceSubCode="P10">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6YxTVSb8QVmlI4E8AegWNQ==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="2kqY+ydET92GzcELt/mV9A==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>100% Miles and More miles</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+            <OptionalService Key="qbgeGuaQShaPxrr5zAJhbA==" AssessIndicator="MileageAndCurrency" Chargeable="Included in the brand" Type="MealOrBeverage" ServiceSubCode="0B3">
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="6YxTVSb8QVmlI4E8AegWNQ==" />
+              <ServiceData xmlns="http://www.travelport.com/schema/common_v36_0" AirSegmentRef="2kqY+ydET92GzcELt/mV9A==" />
+              <ServiceInfo xmlns="http://www.travelport.com/schema/common_v36_0">
+                <Description>Food and beverages</Description>
+              </ServiceInfo>
+              <EMD AssociatedItem="Flight" />
+            </OptionalService>
+          </OptionalServices>
+        </Brand>
+      </FareInfo>
+      <BookingInfo BookingCode="K" CabinClass="Economy" FareInfoRef="REgC6gIoRMyUNCUaG1pJew==" SegmentRef="6k60n5UTQ/uNr17TY5vFKA==" />
+      <BookingInfo BookingCode="K" CabinClass="Economy" FareInfoRef="REgC6gIoRMyUNCUaG1pJew==" SegmentRef="n+XmH2VMSYuwM7Sy4bm3Kg==" />
+      <BookingInfo BookingCode="K" CabinClass="Economy" FareInfoRef="7gnDCvK8QoqsjSWBxKOISA==" SegmentRef="6YxTVSb8QVmlI4E8AegWNQ==" />
+      <BookingInfo BookingCode="K" CabinClass="Economy" FareInfoRef="7gnDCvK8QoqsjSWBxKOISA==" SegmentRef="2kqY+ydET92GzcELt/mV9A==" />
+      <TaxInfo Key="Ddzv4T+OQw+5j3A7Tv/u7Q==" Category="DE" Amount="EUR6.87" />
+      <TaxInfo Key="cYReWAaST0+prw6S68avRQ==" Category="OY" Amount="EUR7.38" />
+      <TaxInfo Key="mirWKYAAR9WAFYIhUQBGRw==" Category="RA" Amount="EUR13.71" />
+      <TaxInfo Key="Jn0Eba+rRni/0fqqfrjXqg==" Category="CH" Amount="EUR29.58" />
+      <TaxInfo Key="tma9UMzKRtOwR9HizPoo1Q==" Category="PT" Amount="EUR4.03" />
+      <TaxInfo Key="MWUBAlgZSpiB3/BWndrF2Q==" Category="YP" Amount="EUR10.39" />
+      <TaxInfo Key="K89a08PZR/qOYeKeigXNfA==" Category="YQ" Amount="EUR20.00" />
+      <TaxInfo Key="Ffpsl+O+S4u5vlz+mesrtw==" Category="YR" Amount="EUR16.00" />
+      <PassengerType Code="ADT" Age="40" BookingTravelerRef="OG9IN1k5YkVjek9mdmhLeg==" />
+    </AirPricingInfo>
+  </AirPricingSolution>
+  <ActionStatus xmlns="http://www.travelport.com/schema/common_v36_0" Type="ACTIVE" TicketDate="T*" ProviderCode="1G" />
+  <Payment xmlns="http://www.travelport.com/schema/common_v36_0" Key="2" Type="Itinerary" FormOfPaymentRef="1" Amount="EUR197.96" />
+</AirCreateReservationReq>
+ </soapenv:Body>
+</soapenv:Envelope>

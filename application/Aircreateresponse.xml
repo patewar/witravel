@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <ResponseMessage>
+    <!Code>3370</!Code>
+    <!Type>Warning</!Type>
+    <!ProviderCode>1G</!ProviderCode>
+    <!>The Credit Card Holder Name is only saved locally for the requested provider.</!></ResponseMessage><ResponseMessage>
+    <!Code>3068</!Code>
+    <!Type>Warning</!Type>
+    <!ProviderCode>1G</!ProviderCode>
+    <!>Additional details like Billing Address, Phone Number is saved locally for the requested provider.</!></ResponseMessage><ResponseMessage>
+    <!Code>13566</!Code>
+    <!Type>Warning</!Type>
+    <!ProviderCode>1G</!ProviderCode>
+    <!>Brand optional services were filtered out as they are not offered in the brand or are only available at a charge.</!></ResponseMessage><UniversalRecord><BookingTraveler><BookingTravelerName>
+    <!Prefix>Mr</!Prefix>
+    <!First>John</!First>
+    <!Last>Smith</!Last></BookingTravelerName><DeliveryInfo><ShippingAddress><AddressName>JOHNMR SMITH</AddressName><Street>Via Augusta 59 5</Street><City>Madrid</City><State>IA</State><PostalCode>50156</PostalCode><Country>US</Country><ProviderReservationInfoRef>
+    <!Key>myzkGmpaSyyby+J221UC+w==</!Key></ProviderReservationInfoRef>
+    <!Key>OG9IN1k5YkVjek9mdmhLeg==</!Key>
+    <!ElStat>A</!ElStat></ShippingAddress><ProviderReservationInfoRef>
+    <!Key>myzkGmpaSyyby+J221UC+w==</!Key></ProviderReservationInfoRef></DeliveryInfo><PhoneNumber><ProviderReservationInfoRef>
+    <!Key>myzkGmpaSyyby+J221UC+w==</!Key></ProviderReservationInfoRef>
+    <!Key>AnpCV/q4R3GLcs+O2Ua4nQ==</!Key>
+    <!Type>None</!Type>
+    <!Location>DEN</!Location>
+    <!CountryCode>1</!CountryCode>
+    <!Number>123456789</!Number>
+    <!AreaCode>303</!AreaCode>
+    <!ElStat>A</!ElStat></PhoneNumber><Email><ProviderReservationInfoRef>
+    <!Key>myzkGmpaSyyby+J221UC+w==</!Key></ProviderReservationInfoRef>
+    <!Key>b+F69dibQUu4ClXuC8+RVw==</!Key>
+    <!EmailID>johnsmith@travelportuniversalapidemo.com</!EmailID>
+    <!ElStat>A</!ElStat></Email><Address><AddressName>DemoSiteAddress</AddressName><Street>Via Augusta 59 5</Street><City>Madrid</City><State>IA</State><PostalCode>50156</PostalCode><Country>US</Country><ProviderReservationInfoRef>
+    <!Key>myzkGmpaSyyby+J221UC+w==</!Key></ProviderReservationInfoRef>
+    <!Key>pnvIskIOQGyz0mLqVzOyXA==</!Key>
+    <!ElStat>A</!ElStat></Address>
+    <!Key>OG9IN1k5YkVjek9mdmhLeg==</!Key>
+    <!TravelerType>ADT</!TravelerType>
+    <!Age>40</!Age>
+    <!DOB>1976-09-07</!DOB>
+    <!Gender>M</!Gender>
+    <!ElStat>A</!ElStat></BookingTraveler><ActionStatus>
+    <!Key>daWxD6jNQjaEK5rRI9C6lg==</!Key>
+    <!Type>ACTIVE</!Type>
+    <!ProviderReservationInfoRef>myzkGmpaSyyby+J221UC+w==</!ProviderReservationInfoRef>
+    <!ProviderCode>1G</!ProviderCode>
+    <!ElStat>A</!ElStat></ActionStatus><ProviderReservationInfo>
+    <!Key>myzkGmpaSyyby+J221UC+w==</!Key>
+    <!ProviderCode>1G</!ProviderCode>
+    <!LocatorCode>9RD250</!LocatorCode>
+    <!CreateDate>2016-09-08T14:40:28.991+00:00</!CreateDate>
+    <!ModifiedDate>2016-09-08T14:40:28.991+00:00</!ModifiedDate>
+    <!HostCreateDate>2016-09-08</!HostCreateDate>
+    <!OwningPCC>5S7T</!OwningPCC></ProviderReservationInfo><AirReservation><BookingTravelerRef>
+    <!Key>OG9IN1k5YkVjek9mdmhLeg==</!Key></BookingTravelerRef><ProviderReservationInfoRef>
+    <!Key>myzkGmpaSyyby+J221UC+w==</!Key></ProviderReservationInfoRef><AirSegment><FlightDetails>
+    <!Key>8vwsbwMIS82grJyYuja4bw==</!Key>
+    <!Origin>TXL</!Origin>
+    <!Destination>ZRH</!Destination>
+    <!DepartureTime>2016-09-16T06:50:00.000+02:00</!DepartureTime>
+    <!ArrivalTime>2016-09-16T08:20:00.000+02:00</!ArrivalTime>
+    <!FlightTime>90</!FlightTime>
+    <!TravelTime>90</!TravelTime>
+    <!Equipment>321</!Equipment>
+    <!ElStat>A</!ElStat></FlightDetails><Connection>
+    <!Duration>220</!Duration></Connection><SellMessage>ADD ADVANCE PASSENGER INFORMATION SSRS DOCA/DOCO/DOCS</SellMessage><SellMessage>PERSONAL DATA WHICH IS PROVIDED TO US IN CONNECTION</SellMessage><SellMessage>WITH YOUR TRAVEL MAY BE PASSED TO GOVERNMENT AUTHORITIES</SellMessage><SellMessage>FOR BORDER CONTROL AND AVIATION SECURITY PURPOSES</SellMessage>
+    <!Key>6k60n5UTQ/uNr17TY5vFKA==</!Key>
+    <!Group>0</!Group>
+    <!Carrier>LX</!Carrier>
+    <!CabinClass>Economy</!CabinClass>
+    <!FlightNumber>963</!FlightNumber>
+    <!ProviderCode>1G</!ProviderCode>
+    <!Origin>TXL</!Origin>
+    <!Destination>ZRH</!Destination>
+    <!DepartureTime>2016-09-16T06:50:00.000+02:00</!DepartureTime>
+    <!ArrivalTime>2016-09-16T08:20:00.000+02:00</!ArrivalTime>
+    <!TravelTime>90</!TravelTime>
+    <!Distance>405</!Distance>
+    <!ClassOfService>K</!ClassOfService>
+    <!ETicketability>Yes</!ETicketability>
+    <!MarriageGroup>1</!MarriageGroup>
+    <!Status>HK</!Status>
+    <!ChangeOfPlane>false</!ChangeOfPlane>
+    <!GuaranteedPaymentCarrier>No</!GuaranteedPaymentCarrier>
+    <!ProviderReservationInfoRef>myzkGmpaSyyby+J221UC+w==</!ProviderReservationInfoRef>
+    <!TravelOrder>1</!TravelOrder>
+    <!OptionalServicesIndicator>false</!OptionalServicesIndicator>
+    <!ElStat>A</!ElStat></AirSegment><AirSegment><FlightDetails>
+    <!Key>PiLT4nbMRC2lklQPUqgsYQ==</!Key>
+    <!Origin>ZRH</!Origin>
+    <!Destination>LIS</!Destination>
+    <!DepartureTime>2016-09-16T12:00:00.000+02:00</!DepartureTime>
+    <!ArrivalTime>2016-09-16T13:50:00.000+01:00</!ArrivalTime>
+    <!FlightTime>170</!FlightTime>
+    <!TravelTime>170</!TravelTime>
+    <!Equipment>321</!Equipment>
+    <!DestinationTerminal>1</!DestinationTerminal>
+    <!ElStat>A</!ElStat></FlightDetails><SellMessage>ARRIVES LIS TERMINAL 1</SellMessage><SellMessage>ADD ADVANCE PASSENGER INFORMATION SSRS DOCA/DOCO/DOCS</SellMessage><SellMessage>PERSONAL DATA WHICH IS PROVIDED TO US IN CONNECTION</SellMessage><SellMessage>WITH YOUR TRAVEL MAY BE PASSED TO GOVERNMENT AUTHORITIES</SellMessage><SellMessage>FOR BORDER CONTROL AND AVIATION SECURITY PURPOSES</SellMessage>
+    <!Key>n+XmH2VMSYuwM7Sy4bm3Kg==</!Key>
+    <!Group>0</!Group>
+    <!Carrier>LX</!Carrier>
+    <!CabinClass>Economy</!CabinClass>
+    <!FlightNumber>2084</!FlightNumber>
+    <!ProviderCode>1G</!ProviderCode>
+    <!Origin>ZRH</!Origin>
+    <!Destination>LIS</!Destination>
+    <!DepartureTime>2016-09-16T12:00:00.000+02:00</!DepartureTime>
+    <!ArrivalTime>2016-09-16T13:50:00.000+01:00</!ArrivalTime>
+    <!TravelTime>170</!TravelTime>
+    <!Distance>1072</!Distance>
+    <!ClassOfService>K</!ClassOfService>
+    <!ETicketability>Yes</!ETicketability>
+    <!MarriageGroup>1</!MarriageGroup>
+    <!Status>HK</!Status>
+    <!ChangeOfPlane>false</!ChangeOfPlane>
+    <!GuaranteedPaymentCarrier>No</!GuaranteedPaymentCarrier>
+    <!ProviderReservationInfoRef>myzkGmpaSyyby+J221UC+w==</!ProviderReservationInfoRef>
+    <!TravelOrder>2</!TravelOrder>
+    <!OptionalServicesIndicator>false</!OptionalServicesIndicator>
+    <!ElStat>A</!ElStat></AirSegment><AirSegment><FlightDetails>
+    <!Key>VrscqIMvTBOadv3KHH2gaw==</!Key>
+    <!Origin>LIS</!Origin>
+    <!Destination>ZRH</!Destination>
+    <!DepartureTime>2016-09-18T14:30:00.000+01:00</!DepartureTime>
+    <!ArrivalTime>2016-09-18T18:15:00.000+02:00</!ArrivalTime>
+    <!FlightTime>165</!FlightTime>
+    <!TravelTime>165</!TravelTime>
+    <!Equipment>321</!Equipment>
+    <!OriginTerminal>1</!OriginTerminal>
+    <!ElStat>A</!ElStat></FlightDetails><Connection>
+    <!Duration>155</!Duration></Connection><SellMessage>DEPARTS LIS TERMINAL 1</SellMessage><SellMessage>ADD ADVANCE PASSENGER INFORMATION SSRS DOCA/DOCO/DOCS</SellMessage><SellMessage>PERSONAL DATA WHICH IS PROVIDED TO US IN CONNECTION</SellMessage><SellMessage>WITH YOUR TRAVEL MAY BE PASSED TO GOVERNMENT AUTHORITIES</SellMessage><SellMessage>FOR BORDER CONTROL AND AVIATION SECURITY PURPOSES</SellMessage>
+    <!Key>6YxTVSb8QVmlI4E8AegWNQ==</!Key>
+    <!Group>1</!Group>
+    <!Carrier>LX</!Carrier>
+    <!CabinClass>Economy</!CabinClass>
+    <!FlightNumber>2085</!FlightNumber>
+    <!ProviderCode>1G</!ProviderCode>
+    <!Origin>LIS</!Origin>
+    <!Destination>ZRH</!Destination>
+    <!DepartureTime>2016-09-18T14:30:00.000+01:00</!DepartureTime>
+    <!ArrivalTime>2016-09-18T18:15:00.000+02:00</!ArrivalTime>
+    <!TravelTime>165</!TravelTime>
+    <!Distance>1072</!Distance>
+    <!ClassOfService>K</!ClassOfService>
+    <!ETicketability>Yes</!ETicketability>
+    <!MarriageGroup>2</!MarriageGroup>
+    <!Status>HK</!Status>
+    <!ChangeOfPlane>false</!ChangeOfPlane>
+    <!GuaranteedPaymentCarrier>No</!GuaranteedPaymentCarrier>
+    <!ProviderReservationInfoRef>myzkGmpaSyyby+J221UC+w==</!ProviderReservationInfoRef>
+    <!TravelOrder>3</!TravelOrder>
+    <!OptionalServicesIndicator>false</!OptionalServicesIndicator>
+    <!ElStat>A</!ElStat></AirSegment><AirSegment><FlightDetails>
+    <!Key>1hVk04dsReWlWVI/CipJ0Q==</!Key>
+    <!Origin>ZRH</!Origin>
+    <!Destination>TXL</!Destination>
+    <!DepartureTime>2016-09-18T20:50:00.000+02:00</!DepartureTime>
+    <!ArrivalTime>2016-09-18T22:15:00.000+02:00</!ArrivalTime>
+    <!FlightTime>85</!FlightTime>
+    <!TravelTime>85</!TravelTime>
+    <!Equipment>320</!Equipment>
+    <!ElStat>A</!ElStat></FlightDetails><SellMessage>ADD ADVANCE PASSENGER INFORMATION SSRS DOCA/DOCO/DOCS</SellMessage><SellMessage>PERSONAL DATA WHICH IS PROVIDED TO US IN CONNECTION</SellMessage><SellMessage>WITH YOUR TRAVEL MAY BE PASSED TO GOVERNMENT AUTHORITIES</SellMessage><SellMessage>FOR BORDER CONTROL AND AVIATION SECURITY PURPOSES</SellMessage>
+    <!Key>2kqY+ydET92GzcELt/mV9A==</!Key>
+    <!Group>1</!Group>
+    <!Carrier>LX</!Carrier>
+    <!CabinClass>Economy</!CabinClass>
+    <!FlightNumber>962</!FlightNumber>
+    <!ProviderCode>1G</!ProviderCode>
+    <!Origin>ZRH</!Origin>
+    <!Destination>TXL</!Destination>
+    <!DepartureTime>2016-09-18T20:50:00.000+02:00</!DepartureTime>
+    <!ArrivalTime>2016-09-18T22:15:00.000+02:00</!ArrivalTime>
+    <!TravelTime>85</!TravelTime>
+    <!Distance>405</!Distance>
+    <!ClassOfService>K</!ClassOfService>
+    <!ETicketability>Yes</!ETicketability>
+    <!MarriageGroup>2</!MarriageGroup>
+    <!Status>HK</!Status>
+    <!ChangeOfPlane>false</!ChangeOfPlane>
+    <!GuaranteedPaymentCarrier>No</!GuaranteedPaymentCarrier>
+    <!ProviderReservationInfoRef>myzkGmpaSyyby+J221UC+w==</!ProviderReservationInfoRef>
+    <!TravelOrder>4</!TravelOrder>
+    <!OptionalServicesIndicator>false</!OptionalServicesIndicator>
+    <!ElStat>A</!ElStat></AirSegment><AirPricingInfo><FareInfo><Endorsement>
+    <!Value>FARE RESTRICTIONS APPLY</!Value></Endorsement><BaggageAllowance><NumberOfPieces>0</NumberOfPieces></BaggageAllowance><Brand><Title>
+    <!Type>External</!Type>
+    <!>Economy Light</!></Title><Title>
+    <!Type>Short</!Type>
+    <!>Eco Light</!></Title><Text>
+    <!Type>ATPCO</!Type>
+    <!>ECONOMY RESTRICTED NO BAG</!></Text><Text>
+    <!Type>MarketingConsumer</!Type>
+    <!>From an aperitif to a snack to a hot meal. The culinary offer in Economy Class Europe is determined by the length of the flight. All drinks are free of charge. Modern and comfortable seats offer a maximum of relaxation.
+
+Economy Light:
+
+âª 1 piece of hand baggage up to 8 kg 
+âª Food and beverages 
+âª Miles
+
+BRANDED FARES</!></Text><Text>
+    <!Type>MarketingAgent</!Type>
+    <!>From an aperitif to a snack to a hot meal. The culinary offer in Economy Class Europe is determined by the length of the flight. All drinks are free of charge. Modern and comfortable seats offer a maximum of relaxation.
+
+Economy Light:
+
+âª 1 piece of hand baggage up to 8 kg 
+âª Food and beverages 
+âª Miles
+
+BRANDED FARES</!></Text><Text>
+    <!Type>Strapline</!Type>
+    <!>Economy Light</!></Text><ImageLocation>
+    <!Type>Agent</!Type>
+    <!ImageWidth>150</!ImageWidth>
+    <!ImageHeight>150</!ImageHeight>
+    <!>https://merchandisingmanagement.pp.travelport.com/documents/10431/69822/LX%20-%20short%20haul%20-%20Eco%20Light.png</!></ImageLocation><ImageLocation>
+    <!Type>Consumer</!Type>
+    <!ImageWidth>150</!ImageWidth>
+    <!ImageHeight>150</!ImageHeight>
+    <!>https://merchandisingmanagement.pp.travelport.com/documents/10431/69822/LX%20-%20short%20haul%20-%20Eco%20Light.png</!></ImageLocation><OptionalServices><OptionalService><ServiceInfo><Description>1 Cabin bag</Description></ServiceInfo><EMD>
+    <!AssociatedItem>Flight</!AssociatedItem></EMD>
+    <!Type>Baggage</!Type>
+    <!CreateDate>2016-09-08T14:40:28.293+00:00</!CreateDate>
+    <!ElStat>A</!ElStat>
+    <!ServiceSubCode>CBY</!ServiceSubCode>
+    <!Key>pL8IaGmbTrqCaJX5oZwRyw==</!Key>
+    <!AssessIndicator>MileageAndCurrency</!AssessIndicator>
+    <!Chargeable>Included in the brand</!Chargeable></OptionalService><OptionalService><ServiceInfo><Description>100% Miles and More miles</Description></ServiceInfo><EMD>
+    <!AssociatedItem>Flight</!AssociatedItem></EMD>
+    <!Type>FrequentFlyer</!Type>
+    <!CreateDate>2016-09-08T14:40:28.294+00:00</!CreateDate>
+    <!ElStat>A</!ElStat>
+    <!ServiceSubCode>P10</!ServiceSubCode>
+    <!Key>YJQUDGW1RFeEia8rhhDLfA==</!Key>
+    <!AssessIndicator>MileageAndCurrency</!AssessIndicator>
+    <!Chargeable>Included in the brand</!Chargeable></OptionalService><OptionalService><ServiceInfo><Description>Food and beverages</Description></ServiceInfo><EMD>
+    <!AssociatedItem>Flight</!AssociatedItem></EMD>
+    <!Type>MealOrBeverage</!Type>
+    <!CreateDate>2016-09-08T14:40:28.294+00:00</!CreateDate>
+    <!ElStat>A</!ElStat>
+    <!ServiceSubCode>0B3</!ServiceSubCode>
+    <!Key>HCrdR9x6TxKCGv1GHTHAUA==</!Key>
+    <!AssessIndicator>MileageAndCurrency</!AssessIndicator>
+    <!Chargeable>Included in the brand</!Chargeable></OptionalService></OptionalServices>
+    <!Key>0mx3gnlZTzCZoI9t+sdLqg==</!Key>
+    <!BrandID>7740</!BrandID>
+    <!Name>LIGHT</!Name>
+    <!Carrier>LX</!Carrier></Brand>
+    <!Key>0mx3gnlZTzCZoI9t+sdLqg==</!Key>
+    <!FareBasis>K25LGT4</!FareBasis>
+    <!PassengerTypeCode>ADT</!PassengerTypeCode>
+    <!Origin>TXL</!Origin>
+    <!Destination>ZRH</!Destination>
+    <!EffectiveDate>2016-09-08T00:00:00.000+02:00</!EffectiveDate>
+    <!NotValidBefore>2016-09-16</!NotValidBefore>
+    <!NotValidAfter>2016-09-16</!NotValidAfter>
+    <!PseudoCityCode>5S7T</!PseudoCityCode>
+    <!ElStat>C</!ElStat></FareInfo><FareInfo><Endorsement>
+    <!Value>FARE RESTRICTIONS APPLY</!Value></Endorsement><BaggageAllowance><NumberOfPieces>0</NumberOfPieces></BaggageAllowance><Brand><Title>
+    <!Type>External</!Type>
+    <!>Economy Light</!></Title><Title>
+    <!Type>Short</!Type>
+    <!>Eco Light</!></Title><Text>
+    <!Type>ATPCO</!Type>
+    <!>ECONOMY RESTRICTED NO BAG</!></Text><Text>
+    <!Type>MarketingConsumer</!Type>
+    <!>From an aperitif to a snack to a hot meal. The culinary offer in Economy Class Europe is determined by the length of the flight. All drinks are free of charge. Modern and comfortable seats offer a maximum of relaxation.
+
+Economy Light:
+
+âª 1 piece of hand baggage up to 8 kg 
+âª Food and beverages 
+âª Miles
+
+BRANDED FARES</!></Text><Text>
+    <!Type>MarketingAgent</!Type>
+    <!>From an aperitif to a snack to a hot meal. The culinary offer in Economy Class Europe is determined by the length of the flight. All drinks are free of charge. Modern and comfortable seats offer a maximum of relaxation.
+
+Economy Light:
+
+âª 1 piece of hand baggage up to 8 kg 
+âª Food and beverages 
+âª Miles
+
+BRANDED FARES</!></Text><Text>
+    <!Type>Strapline</!Type>
+    <!>Economy Light</!></Text><ImageLocation>
+    <!Type>Agent</!Type>
+    <!ImageWidth>150</!ImageWidth>
+    <!ImageHeight>150</!ImageHeight>
+    <!>https://merchandisingmanagement.pp.travelport.com/documents/10431/69822/LX%20-%20short%20haul%20-%20Eco%20Light.png</!></ImageLocation><ImageLocation>
+    <!Type>Consumer</!Type>
+    <!ImageWidth>150</!ImageWidth>
+    <!ImageHeight>150</!ImageHeight>
+    <!>https://merchandisingmanagement.pp.travelport.com/documents/10431/69822/LX%20-%20short%20haul%20-%20Eco%20Light.png</!></ImageLocation><OptionalServices><OptionalService><ServiceInfo><Description>1 Cabin bag</Description></ServiceInfo><EMD>
+    <!AssociatedItem>Flight</!AssociatedItem></EMD>
+    <!Type>Baggage</!Type>
+    <!CreateDate>2016-09-08T14:40:28.294+00:00</!CreateDate>
+    <!ElStat>A</!ElStat>
+    <!ServiceSubCode>CBY</!ServiceSubCode>
+    <!Key>ixB9Yls+TeuI1/Ng/Vj0Dg==</!Key>
+    <!AssessIndicator>MileageAndCurrency</!AssessIndicator>
+    <!Chargeable>Included in the brand</!Chargeable></OptionalService><OptionalService><ServiceInfo><Description>100% Miles and More miles</Description></ServiceInfo><EMD>
+    <!AssociatedItem>Flight</!AssociatedItem></EMD>
+    <!Type>FrequentFlyer</!Type>
+    <!CreateDate>2016-09-08T14:40:28.294+00:00</!CreateDate>
+    <!ElStat>A</!ElStat>
+    <!ServiceSubCode>P10</!ServiceSubCode>
+    <!Key>c5ftThYMSiWY83BDzh+sKA==</!Key>
+    <!AssessIndicator>MileageAndCurrency</!AssessIndicator>
+    <!Chargeable>Included in the brand</!Chargeable></OptionalService><OptionalService><ServiceInfo><Description>Food and beverages</Description></ServiceInfo><EMD>
+    <!AssociatedItem>Flight</!AssociatedItem></EMD>
+    <!Type>MealOrBeverage</!Type>
+    <!CreateDate>2016-09-08T14:40:28.294+00:00</!CreateDate>
+    <!ElStat>A</!ElStat>
+    <!ServiceSubCode>0B3</!ServiceSubCode>
+    <!Key>qbgeGuaQShaPxrr5zAJhbA==</!Key>
+    <!AssessIndicator>MileageAndCurrency</!AssessIndicator>
+    <!Chargeable>Included in the brand</!Chargeable></OptionalService></OptionalServices>
+    <!Key>9eRMKHpsSDmFuAlx521Vsg==</!Key>
+    <!BrandID>7740</!BrandID>
+    <!Name>LIGHT</!Name>
+    <!Carrier>LX</!Carrier></Brand>
+    <!Key>9eRMKHpsSDmFuAlx521Vsg==</!Key>
+    <!FareBasis>K25LGT4</!FareBasis>
+    <!PassengerTypeCode>ADT</!PassengerTypeCode>
+    <!Origin>ZRH</!Origin>
+    <!Destination>LIS</!Destination>
+    <!EffectiveDate>2016-09-08T00:00:00.000+02:00</!EffectiveDate>
+    <!Amount>NUC51.04</!Amount>
+    <!NotValidBefore>2016-09-16</!NotValidBefore>
+    <!NotValidAfter>2016-09-16</!NotValidAfter>
+    <!PseudoCityCode>5S7T</!PseudoCityCode>
+    <!ElStat>C</!ElStat></FareInfo><FareInfo><Endorsement>
+    <!Value>FARE RESTRICTIONS APPLY</!Value></Endorsement><BaggageAllowance><NumberOfPieces>0</NumberOfPieces></BaggageAllowance>
+    <!Key>8oe55FagTyOP0Cg6NgUoAA==</!Key>
+    <!FareBasis>K25LGT4</!FareBasis>
+    <!PassengerTypeCode>ADT</!PassengerTypeCode>
+    <!Origin>LIS</!Origin>
+    <!Destination>ZRH</!Destination>
+    <!EffectiveDate>2016-09-08T00:00:00.000+02:00</!EffectiveDate>
+    <!NotValidBefore>2016-09-18</!NotValidBefore>
+    <!NotValidAfter>2016-09-18</!NotValidAfter>
+    <!PseudoCityCode>5S7T</!PseudoCityCode>
+    <!ElStat>C</!ElStat></FareInfo><FareInfo><Endorsement>
+    <!Value>FARE RESTRICTIONS APPLY</!Value></Endorsement><BaggageAllowance><NumberOfPieces>0</NumberOfPieces></BaggageAllowance>
+    <!Key>Kv0alvEQS0mT0BcQXKdafA==</!Key>
+    <!FareBasis>K25LGT4</!FareBasis>
+    <!PassengerTypeCode>ADT</!PassengerTypeCode>
+    <!Origin>ZRH</!Origin>
+    <!Destination>TXL</!Destination>
+    <!EffectiveDate>2016-09-08T00:00:00.000+02:00</!EffectiveDate>
+    <!Amount>NUC51.04</!Amount>
+    <!NotValidBefore>2016-09-18</!NotValidBefore>
+    <!NotValidAfter>2016-09-18</!NotValidAfter>
+    <!PseudoCityCode>5S7T</!PseudoCityCode>
+    <!ElStat>C</!ElStat></FareInfo><BookingInfo>
+    <!BookingCode>K</!BookingCode>
+    <!CabinClass>Economy</!CabinClass>
+    <!FareInfoRef>0mx3gnlZTzCZoI9t+sdLqg==</!FareInfoRef>
+    <!SegmentRef>6k60n5UTQ/uNr17TY5vFKA==</!SegmentRef></BookingInfo><BookingInfo>
+    <!BookingCode>K</!BookingCode>
+    <!CabinClass>Economy</!CabinClass>
+    <!FareInfoRef>9eRMKHpsSDmFuAlx521Vsg==</!FareInfoRef>
+    <!SegmentRef>n+XmH2VMSYuwM7Sy4bm3Kg==</!SegmentRef></BookingInfo><BookingInfo>
+    <!BookingCode>K</!BookingCode>
+    <!CabinClass>Economy</!CabinClass>
+    <!FareInfoRef>8oe55FagTyOP0Cg6NgUoAA==</!FareInfoRef>
+    <!SegmentRef>6YxTVSb8QVmlI4E8AegWNQ==</!SegmentRef></BookingInfo><BookingInfo>
+    <!BookingCode>K</!BookingCode>
+    <!CabinClass>Economy</!CabinClass>
+    <!FareInfoRef>Kv0alvEQS0mT0BcQXKdafA==</!FareInfoRef>
+    <!SegmentRef>2kqY+ydET92GzcELt/mV9A==</!SegmentRef></BookingInfo><TaxInfo>
+    <!Category>DE</!Category>
+    <!Amount>EUR6.87</!Amount>
+    <!Key>Ddzv4T+OQw+5j3A7Tv/u7Q==</!Key></TaxInfo><TaxInfo>
+    <!Category>OY</!Category>
+    <!Amount>EUR7.38</!Amount>
+    <!Key>cYReWAaST0+prw6S68avRQ==</!Key></TaxInfo><TaxInfo>
+    <!Category>RA</!Category>
+    <!Amount>EUR13.71</!Amount>
+    <!Key>mirWKYAAR9WAFYIhUQBGRw==</!Key></TaxInfo><TaxInfo>
+    <!Category>CH</!Category>
+    <!Amount>EUR29.58</!Amount>
+    <!Key>Jn0Eba+rRni/0fqqfrjXqg==</!Key></TaxInfo><TaxInfo>
+    <!Category>PT</!Category>
+    <!Amount>EUR4.03</!Amount>
+    <!Key>tma9UMzKRtOwR9HizPoo1Q==</!Key></TaxInfo><TaxInfo>
+    <!Category>YP</!Category>
+    <!Amount>EUR10.39</!Amount>
+    <!Key>MWUBAlgZSpiB3/BWndrF2Q==</!Key></TaxInfo><TaxInfo>
+    <!Category>YQ</!Category>
+    <!Amount>EUR20.00</!Amount>
+    <!Key>K89a08PZR/qOYeKeigXNfA==</!Key></TaxInfo><TaxInfo>
+    <!Category>YR</!Category>
+    <!Amount>EUR16.00</!Amount>
+    <!Key>Ffpsl+O+S4u5vlz+mesrtw==</!Key></TaxInfo><FareCalc>BER LX X/ZRH LX LIS 51.04K25LGT4 LX X/ZRH LX BER 51.04K25LGT4 NUC102.08END ROE0.881606</FareCalc><PassengerType><FareGuaranteeInfo>
+    <!GuaranteeDate>2016-09-08</!GuaranteeDate>
+    <!GuaranteeType>Guaranteed</!GuaranteeType></FareGuaranteeInfo>
+    <!Code>ADT</!Code>
+    <!Age>40</!Age>
+    <!BookingTravelerRef>OG9IN1k5YkVjek9mdmhLeg==</!BookingTravelerRef></PassengerType><BookingTravelerRef>
+    <!Key>OG9IN1k5YkVjek9mdmhLeg==</!Key></BookingTravelerRef><TicketingModifiersRef>
+    <!Key>mh//SO0IQvyq6nnSDFmGVg==</!Key></TicketingModifiersRef>
+    <!Key>zD3qPFAhSoi5iKSInH8QdA==</!Key>
+    <!TotalPrice>EUR197.96</!TotalPrice>
+    <!BasePrice>EUR90.00</!BasePrice>
+    <!ApproximateTotalPrice>EUR197.96</!ApproximateTotalPrice>
+    <!ApproximateBasePrice>EUR90.00</!ApproximateBasePrice>
+    <!Taxes>EUR107.96</!Taxes>
+    <!LatestTicketingTime>2016-09-16T23:59:00.000+02:00</!LatestTicketingTime>
+    <!TrueLastDateToTicket>2016-09-16T23:59:00.000+02:00</!TrueLastDateToTicket>
+    <!PricingMethod>Guaranteed</!PricingMethod>
+    <!IncludesVAT>false</!IncludesVAT>
+    <!ETicketability>Yes</!ETicketability>
+    <!ProviderCode>1G</!ProviderCode>
+    <!ProviderReservationInfoRef>myzkGmpaSyyby+J221UC+w==</!ProviderReservationInfoRef>
+    <!AirPricingInfoGroup>1</!AirPricingInfoGroup>
+    <!PricingType>StoredFare</!PricingType>
+    <!ElStat>A</!ElStat></AirPricingInfo><TicketingModifiers><DocumentSelect>
+    <!IssueElectronicTicket>true</!IssueElectronicTicket></DocumentSelect>
+    <!PlatingCarrier>LX</!PlatingCarrier>
+    <!Key>mh//SO0IQvyq6nnSDFmGVg==</!Key>
+    <!ElStat>A</!ElStat></TicketingModifiers>
+    <!LocatorCode>ZMY2RH</!LocatorCode>
+    <!CreateDate>2016-09-08T14:40:28.283+00:00</!CreateDate>
+    <!ModifiedDate>2016-09-08T14:40:28.991+00:00</!ModifiedDate></AirReservation><AgencyInfo><AgentAction>
+    <!ActionType>Created</!ActionType>
+    <!AgentCode>UAPI2309471039-E76846FC</!AgentCode>
+    <!BranchCode>P7030029</!BranchCode>
+    <!AgencyCode>S7030022</!AgencyCode>
+    <!EventTime>2016-09-08T14:40:13.117+00:00</!EventTime></AgentAction></AgencyInfo><FormOfPayment><CreditCard><BillingAddress><AddressName>DemoSiteAddress</AddressName><Street>Via Augusta 59 5</Street><City>Madrid</City><State>IA</State><PostalCode>50156</PostalCode><Country>US</Country>
+    <!Key>CKYUDL1kQE6M8m0G7DJyUg==</!Key>
+    <!ElStat>A</!ElStat></BillingAddress>
+    <!Type>VI</!Type>
+    <!Number>************0013</!Number>
+    <!ExpDate>2018-01</!ExpDate>
+    <!Name>John Smith</!Name></CreditCard><ProviderReservationInfoRef>
+    <!Key>myzkGmpaSyyby+J221UC+w==</!Key></ProviderReservationInfoRef>
+    <!Key>4NETlaDKRLGvPotoGDTF8w==</!Key>
+    <!Type>Credit</!Type>
+    <!Reusable>true</!Reusable>
+    <!ProfileKey>0NkxbbYyRjmjs8zbg1ykPQ==</!ProfileKey>
+    <!ElStat>A</!ElStat></FormOfPayment>
+    <!LocatorCode>07JVV6</!LocatorCode>
+    <!Version>0</!Version>
+    <!Status>Active</!Status></UniversalRecord>
+    <!TraceId>a677366a-b068-4145-9871-c91ba58a074e</!TraceId>
+    <!TransactionId>0A3DEB540A07647824D5760EEA6C3DF6</!TransactionId>
+    <!ResponseTime>16378</!ResponseTime></root>

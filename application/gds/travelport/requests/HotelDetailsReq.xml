@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+<soapenv:Body>
+ <HotelDetailsReq xmlns="http://www.travelport.com/schema/hotel_v31_0" TraceId="81602a02-3dcf-425a-9fd3-23f569982a61" AuthorizedBy="{AUTHORIZED_BY}" TargetBranch="{TARGET_BRANCH}" ReturnMediaLinks="true">
+  <BillingPointOfSaleInfo xmlns="http://www.travelport.com/schema/common_v31_0" OriginApplication="uAPI" />
+  <HotelProperty HotelCode="{HOTEL_CODE}" HotelChain="{HOTEL_CHAIN}" />
+  <HotelDetailsModifiers NumberOfAdults="{NUM_ADULTS}" RateRuleDetail="Complete">
+    <PermittedProviders xmlns="http://www.travelport.com/schema/common_v31_0">
+      <Provider Code="1G" />
+    </PermittedProviders>
+    <HotelStay>
+      <CheckinDate>{CHECKIN_DATE}</CheckinDate>
+      <CheckoutDate>{CHECKOUT_DATE}</CheckoutDate>
+    </HotelStay>
+    <NumberOfChildren Count="{NUM_CHILDREN}" />
+  </HotelDetailsModifiers>
+</HotelDetailsReq>
+</soapenv:Body>
+</soapenv:Envelope>
