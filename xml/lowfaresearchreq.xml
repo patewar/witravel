@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+<soapenv:Body>
+<air:LowFareSearchReq TargetBranch="P7030029" AuthorizedBy="Chetan" xmlns:air="http://www.travelport
+.com/schema/air_v29_0" xmlns:com="http://www.travelport.com/schema/common_v29_0">
+<com:BillingPointOfSaleInfo OriginApplication="UAPI" />
+<air:SearchAirLeg>
+<air:SearchOrigin>
+<com:CityOrAirport Code="PAR" />
+</air:SearchOrigin>
+<air:SearchDestination><com:CityOrAirport Code="AMS" /></air:SearchDestination><air:SearchDestination
+><com:CityOrAirport Code="BER" /></air:SearchDestination><air:SearchDestination><com:CityOrAirport Code
+="BCN" /></air:SearchDestination><air:SearchDestination><com:CityOrAirport Code="IST" /></air:SearchDestination
+><air:SearchDestination><com:CityOrAirport Code="LIS" /></air:SearchDestination><air:SearchDestination
+><com:CityOrAirport Code="LON" /></air:SearchDestination>
+<air:SearchDepTime PreferredTime="2016-10-21" />
+</air:SearchAirLeg>
+<air:SearchAirLeg><air:SearchOrigin><com:CityOrAirport Code="AMS" /></air:SearchOrigin><air:SearchOrigin
+><com:CityOrAirport Code="BER" /></air:SearchOrigin><air:SearchOrigin><com:CityOrAirport Code="BCN" 
+/></air:SearchOrigin><air:SearchOrigin><com:CityOrAirport Code="IST" /></air:SearchOrigin><air:SearchOrigin
+><com:CityOrAirport Code="LIS" /></air:SearchOrigin><air:SearchOrigin><com:CityOrAirport Code="LON" 
+/></air:SearchOrigin><air:SearchDestination><com:CityOrAirport Code="PAR" /></air:SearchDestination>
+<air:SearchDepTime PreferredTime="2016-10-23" /></air:SearchAirLeg>
+<air:AirSearchModifiers>
+<air:PreferredProviders>
+<com:Provider Code="1G" />
+</air:PreferredProviders>
+</air:AirSearchModifiers>
+<com:SearchPassenger Code="ADT" />
+</air:LowFareSearchReq>
+</soapenv:Body>
+</soapenv:Envelope>

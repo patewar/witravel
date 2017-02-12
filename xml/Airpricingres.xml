@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<ResponseMessage>
+		<!Code>710401</!Code>
+		<!Type>Warning</!Type>
+		<!ProviderCode>1G</!ProviderCode>
+		<!>Taxes returned at the FareInfo level are for informational purposes only, and may differ from those returned at the Itinerary/Passenger Type levels.</!></ResponseMessage><ResponseMessage>
+		<!Code>710414</!Code>
+		<!Type>Warning</!Type>
+		<!ProviderCode>1G</!ProviderCode>
+		<!>The FormOfPayment element was ignored for fee validation. Use CheckOBFees="All" or "FOPOnly" when including a FormOfPayment.</!></ResponseMessage><ResponseMessage>
+		<!Code>701848</!Code>
+		<!Type>Warning</!Type>
+		<!ProviderCode>1G</!ProviderCode>
+		<!>Validate Inventory is not supported without a booking code or for more than 8 segments.</!></ResponseMessage><ResponseMessage>
+		<!Code>4400</!Code>
+		<!Type>Warning</!Type>
+		<!>No Merchandising optional services returned for Flight(s) [AF][5064]</!></ResponseMessage><AirItinerary><AirSegment><CodeshareInfo>
+		<!OperatingCarrier>UX</!OperatingCarrier>
+		<!>AIR EUROPA LINEAS AEREAS S.A</!></CodeshareInfo><FlightDetails>
+		<!Key>pXRgd5vPQjSqjHW5NNhtYA==</!Key>
+		<!Origin>CDG</!Origin>
+		<!Destination>VLC</!Destination>
+		<!DepartureTime>2016-10-21T16:15:00.000+02:00</!DepartureTime>
+		<!ArrivalTime>2016-10-21T18:10:00.000+02:00</!ArrivalTime>
+		<!FlightTime>115</!FlightTime>
+		<!TravelTime>115</!TravelTime>
+		<!Distance>675</!Distance></FlightDetails>
+		<!Key>Jdqy1FfmRma6iAfH43NfDQ==</!Key>
+		<!Group>0</!Group>
+		<!Carrier>AF</!Carrier>
+		<!FlightNumber>5064</!FlightNumber>
+		<!ProviderCode>1G</!ProviderCode>
+		<!Origin>CDG</!Origin>
+		<!Destination>VLC</!Destination>
+		<!DepartureTime>2016-10-21T16:15:00.000+02:00</!DepartureTime>
+		<!ArrivalTime>2016-10-21T18:10:00.000+02:00</!ArrivalTime>
+		<!FlightTime>115</!FlightTime>
+		<!TravelTime>115</!TravelTime>
+		<!Distance>675</!Distance>
+		<!ClassOfService>R</!ClassOfService>
+		<!Equipment>738</!Equipment>
+		<!ChangeOfPlane>false</!ChangeOfPlane>
+		<!OptionalServicesIndicator>false</!OptionalServicesIndicator>
+		<!AvailabilitySource>S</!AvailabilitySource>
+		<!PolledAvailabilityOption>O and D cache or polled status used with different local status</!PolledAvailabilityOption>
+		<!AvailabilityDisplayType>Fare Specific Fare Quote Unbooked</!AvailabilityDisplayType></AirSegment><AirSegment><CodeshareInfo>
+		<!OperatingCarrier>UX</!OperatingCarrier>
+		<!>AIR EUROPA LINEAS AEREAS S.A</!></CodeshareInfo><FlightDetails>
+		<!Key>gBcCkwzqQ86jTGKlTy1uow==</!Key>
+		<!Origin>VLC</!Origin>
+		<!Destination>CDG</!Destination>
+		<!DepartureTime>2016-10-23T07:05:00.000+02:00</!DepartureTime>
+		<!ArrivalTime>2016-10-23T09:15:00.000+02:00</!ArrivalTime>
+		<!FlightTime>130</!FlightTime>
+		<!TravelTime>130</!TravelTime>
+		<!Distance>675</!Distance></FlightDetails>
+		<!Key>KZ7a7kUHQYiqtEvA2OVAzQ==</!Key>
+		<!Group>1</!Group>
+		<!Carrier>AF</!Carrier>
+		<!FlightNumber>5059</!FlightNumber>
+		<!ProviderCode>1G</!ProviderCode>
+		<!Origin>VLC</!Origin>
+		<!Destination>CDG</!Destination>
+		<!DepartureTime>2016-10-23T07:05:00.000+02:00</!DepartureTime>
+		<!ArrivalTime>2016-10-23T09:15:00.000+02:00</!ArrivalTime>
+		<!FlightTime>130</!FlightTime>
+		<!TravelTime>130</!TravelTime>
+		<!Distance>675</!Distance>
+		<!ClassOfService>N</!ClassOfService>
+		<!Equipment>738</!Equipment>
+		<!ChangeOfPlane>false</!ChangeOfPlane>
+		<!OptionalServicesIndicator>true</!OptionalServicesIndicator>
+		<!AvailabilitySource>S</!AvailabilitySource>
+		<!PolledAvailabilityOption>O and D cache or polled status used with different local status</!PolledAvailabilityOption>
+		<!AvailabilityDisplayType>Fare Specific Fare Quote Unbooked</!AvailabilityDisplayType></AirSegment></AirItinerary><AirPriceResult><AirPricingSolution><AirSegmentRef>
+		<!Key>Jdqy1FfmRma6iAfH43NfDQ==</!Key></AirSegmentRef><AirSegmentRef>
+		<!Key>KZ7a7kUHQYiqtEvA2OVAzQ==</!Key></AirSegmentRef><AirPricingInfo><FareInfo><FareRuleKey>
+		<!FareInfoRef>3BjF48yaTISTSo77vodSOw==</!FareInfoRef>
+		<!ProviderCode>1G</!ProviderCode>
+		<!>6UUVoSldxwicgjT0WblRBMbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzaS4FZstd3pM3ExqSoG051F7qepcYPERzjPQIh+c5zeVCulqMwbpNasTsU9/OBUchXfm4p2/4LCmPicG2Q2UbiF/oTXxxF6MeJYtF79PC3YfoLT9JoAKrMtD5ICYoj/MOIFS+hZZnv+RY2ZpkymLRrg2BMJ0qOmdTyy/Q52QOiIYMe3V2iVudrV99+AekodgsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwM8w+FnY2pdnx52tR+ULC3RmjYuszn207WO+9JiRxifDNcng2neL0Goc0XNaIafMEceFhMVW99ep9JFF9kThcqg</!></FareRuleKey><Brand>
+		<!Key>3BjF48yaTISTSo77vodSOw==</!Key>
+		<!BrandFound>false</!BrandFound></Brand>
+		<!Key>3BjF48yaTISTSo77vodSOw==</!Key>
+		<!FareBasis>RLSRFR</!FareBasis>
+		<!PassengerTypeCode>ADT</!PassengerTypeCode>
+		<!Origin>CDG</!Origin>
+		<!Destination>VLC</!Destination>
+		<!EffectiveDate>2016-10-16T23:59:00.000+02:00</!EffectiveDate>
+		<!DepartureDate>2016-10-21</!DepartureDate>
+		<!Amount>EUR50.00</!Amount>
+		<!NotValidBefore>2016-10-21</!NotValidBefore>
+		<!NotValidAfter>2016-10-21</!NotValidAfter>
+		<!TaxAmount>EUR30.10</!TaxAmount></FareInfo><FareInfo><FareRuleKey>
+		<!FareInfoRef>CzIAFtyGTX6yPtWcy1ICTQ==</!FareInfoRef>
+		<!ProviderCode>1G</!ProviderCode>
+		<!>6UUVoSldxwicgjT0WblRBMbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzaS4FZstd3pM3ExqSoG050YrFZ2txsEb5iyEOyDSIwZffAIozri2ACsTsU9/OBUcpMnAy5SLp3vF1DkKxChbwCF/oTXxxF6MeJYtF79PC3YfoLT9JoAKrMtD5ICYoj/MOIFS+hZZnv+RY2ZpkymLRpJ6dYYb68oBzyy/Q52QOiIFPgyJZj81fOPyeifjiE6ocuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwM8w+FnY2pdnx52tR+ULC3RmjYuszn207WO+9JiRxifDNcng2neL0Goc0XNaIafMEceFhMVW99ep9JFF9kThcqg</!></FareRuleKey><Brand>
+		<!Key>CzIAFtyGTX6yPtWcy1ICTQ==</!Key>
+		<!BrandFound>false</!BrandFound></Brand>
+		<!Key>CzIAFtyGTX6yPtWcy1ICTQ==</!Key>
+		<!FareBasis>NLSRFR</!FareBasis>
+		<!PassengerTypeCode>ADT</!PassengerTypeCode>
+		<!Origin>VLC</!Origin>
+		<!Destination>CDG</!Destination>
+		<!EffectiveDate>2016-10-16T23:59:00.000+02:00</!EffectiveDate>
+		<!DepartureDate>2016-10-23</!DepartureDate>
+		<!Amount>EUR64.00</!Amount>
+		<!NotValidBefore>2016-10-23</!NotValidBefore>
+		<!NotValidAfter>2016-10-23</!NotValidAfter>
+		<!TaxAmount>EUR10.38</!TaxAmount></FareInfo><BookingInfo>
+		<!BookingCode>R</!BookingCode>
+		<!CabinClass>Economy</!CabinClass>
+		<!FareInfoRef>3BjF48yaTISTSo77vodSOw==</!FareInfoRef>
+		<!SegmentRef>Jdqy1FfmRma6iAfH43NfDQ==</!SegmentRef></BookingInfo><BookingInfo>
+		<!BookingCode>N</!BookingCode>
+		<!CabinClass>Economy</!CabinClass>
+		<!FareInfoRef>CzIAFtyGTX6yPtWcy1ICTQ==</!FareInfoRef>
+		<!SegmentRef>KZ7a7kUHQYiqtEvA2OVAzQ==</!SegmentRef></BookingInfo><TaxInfo>
+		<!Category>FR</!Category>
+		<!Amount>EUR17.19</!Amount>
+		<!Key>80wcMiGtSsWXEGIlpDC9IA==</!Key></TaxInfo><TaxInfo>
+		<!Category>IZ</!Category>
+		<!Amount>EUR1.13</!Amount>
+		<!Key>kTdW4loXQd++Hmvidob5bQ==</!Key></TaxInfo><TaxInfo>
+		<!Category>QX</!Category>
+		<!Amount>EUR11.78</!Amount>
+		<!Key>IEmBhYAaT7yHTgWfOeZszg==</!Key></TaxInfo><TaxInfo>
+		<!Category>JD</!Category>
+		<!Amount>EUR6.08</!Amount>
+		<!Key>ZOqmvtwMQ4qA1lyVMKocDA==</!Key></TaxInfo><TaxInfo>
+		<!Category>OG</!Category>
+		<!Amount>EUR0.59</!Amount>
+		<!Key>mbo0Zr0gTaKEFSHg7qM6nA==</!Key></TaxInfo><TaxInfo>
+		<!Category>QV</!Category>
+		<!Amount>EUR3.71</!Amount>
+		<!Key>5cBbREUJRauKp/nB3ljVhQ==</!Key></TaxInfo><PassengerType>
+		<!Code>ADT</!Code>
+		<!Age>40</!Age></PassengerType><BaggageAllowances><BaggageAllowanceInfo><TextInfo><Text>1PC</Text><Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</Text></TextInfo>
+		<!Origin>CDG</!Origin>
+		<!Destination>VLC</!Destination>
+		<!Carrier>AF</!Carrier></BaggageAllowanceInfo><BaggageAllowanceInfo><TextInfo><Text>1PC</Text><Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</Text></TextInfo>
+		<!Origin>VLC</!Origin>
+		<!Destination>CDG</!Destination>
+		<!Carrier>AF</!Carrier></BaggageAllowanceInfo></BaggageAllowances>
+		<!Key>OaocWDvoSRWxEjVMAmNp9w==</!Key>
+		<!TotalPrice>EUR154.48</!TotalPrice>
+		<!BasePrice>EUR114.00</!BasePrice>
+		<!ApproximateTotalPrice>EUR154.48</!ApproximateTotalPrice>
+		<!ApproximateBasePrice>EUR114.00</!ApproximateBasePrice>
+		<!ApproximateTaxes>EUR40.48</!ApproximateTaxes>
+		<!Taxes>EUR40.48</!Taxes>
+		<!LatestTicketingTime>2016-10-19T23:59:00.000+02:00</!LatestTicketingTime>
+		<!PricingMethod>Guaranteed</!PricingMethod>
+		<!IncludesVAT>false</!IncludesVAT>
+		<!ProviderCode>1G</!ProviderCode></AirPricingInfo><OptionalServices><OptionalServicesTotal></OptionalServicesTotal><OptionalService><ServiceData>
+		<!BookingTravelerRef>SzBXZHdFSnBYRHRlREhkRA==</!BookingTravelerRef>
+		<!AirSegmentRef>KZ7a7kUHQYiqtEvA2OVAzQ==</!AirSegmentRef>
+		<!TravelerType>ADT</!TravelerType></ServiceData><ServiceInfo><Description>WEIGHT SYSTEM CHARGE</Description></ServiceInfo><EMD>
+		<!FulfillmentType>4</!FulfillmentType>
+		<!AssociatedItem>Chargeable Baggage</!AssociatedItem>
+		<!RefundReissueIndicator>NonRefundable</!RefundReissueIndicator>
+		<!Commissionable>false</!Commissionable>
+		<!FulfillmentTypeDescription>Other than EMD</!FulfillmentTypeDescription></EMD><FeeApplication>
+		<!Code>K</!Code>
+		<!>Per 1 Kilo</!></FeeApplication><BrandingInfo><Title>
+		<!Type>External</!Type>
+		<!LanguageCode>EN</!LanguageCode>
+		<!>WEIGHT SYSTEM CHARGE</!></Title><AirSegmentRef>
+		<!Key>KZ7a7kUHQYiqtEvA2OVAzQ==</!Key></AirSegmentRef>
+		<!Key>BI11</!Key>
+		<!CommercialName>WEIGHT SYSTEM CHARGE</!CommercialName></BrandingInfo>
+		<!Type>Baggage</!Type>
+		<!TotalPrice>EUR30.00</!TotalPrice>
+		<!SupplierCode>AF</!SupplierCode>
+		<!PerTraveler>false</!PerTraveler>
+		<!CreateDate>2016-10-16T21:59:04.079+00:00</!CreateDate>
+		<!ServiceStatus>Offered</!ServiceStatus>
+		<!SequenceNumber>115000</!SequenceNumber>
+		<!ServiceSubCode>0DG</!ServiceSubCode>
+		<!Key>gc3Y+2XZTImyhGnLJ/MYkQ==</!Key>
+		<!AssessIndicator>MileageOrCurrency</!AssessIndicator>
+		<!InclusiveOfTax>true</!InclusiveOfTax>
+		<!InterlineSettlementAllowed>true</!InterlineSettlementAllowed>
+		<!Source>MCE</!Source>
+		<!ViewableOnly>true</!ViewableOnly>
+		<!ProviderCode>1G</!ProviderCode>
+		<!SecondaryType>Baggageexcess</!SecondaryType>
+		<!Quantity>1</!Quantity>
+		<!BasePrice>EUR30.00</!BasePrice>
+		<!ApproximateTotalPrice>EUR30.00</!ApproximateTotalPrice>
+		<!ApproximateBasePrice>EUR30.00</!ApproximateBasePrice>
+		<!Taxes>EUR0.00</!Taxes>
+		<!OptionalServicesRuleRef>nIcpTTfHShylGGb6QZXP7g==</!OptionalServicesRuleRef></OptionalService><OptionalService><ServiceData>
+		<!BookingTravelerRef>SzBXZHdFSnBYRHRlREhkRA==</!BookingTravelerRef>
+		<!AirSegmentRef>KZ7a7kUHQYiqtEvA2OVAzQ==</!AirSegmentRef>
+		<!TravelerType>ADT</!TravelerType></ServiceData><ServiceInfo><Description>UPTO50LB 23KG AND115LI 292LCM</Description></ServiceInfo><EMD>
+		<!FulfillmentType>4</!FulfillmentType>
+		<!AssociatedItem>Chargeable Baggage</!AssociatedItem>
+		<!RefundReissueIndicator>NonRefundable</!RefundReissueIndicator>
+		<!Commissionable>false</!Commissionable>
+		<!FulfillmentTypeDescription>Other than EMD</!FulfillmentTypeDescription></EMD><FeeApplication>
+		<!Code>4</!Code>
+		<!>Per Travel</!></FeeApplication><BrandingInfo><Title>
+		<!Type>External</!Type>
+		<!LanguageCode>EN</!LanguageCode>
+		<!>UPTO50LB 23KG AND115LI 292LCM</!></Title><AirSegmentRef>
+		<!Key>KZ7a7kUHQYiqtEvA2OVAzQ==</!Key></AirSegmentRef>
+		<!Key>BI17</!Key>
+		<!CommercialName>UPTO50LB 23KG AND115LI 292LCM</!CommercialName></BrandingInfo>
+		<!Type>Baggage</!Type>
+		<!TotalPrice>EUR145.00</!TotalPrice>
+		<!SupplierCode>AF</!SupplierCode>
+		<!PerTraveler>false</!PerTraveler>
+		<!CreateDate>2016-10-16T21:59:04.079+00:00</!CreateDate>
+		<!ServiceStatus>Offered</!ServiceStatus>
+		<!SequenceNumber>103000</!SequenceNumber>
+		<!ServiceSubCode>0E7</!ServiceSubCode>
+		<!Key>YCVnlEg2TXOnXKQpbwrWKw==</!Key>
+		<!AssessIndicator>MileageOrCurrency</!AssessIndicator>
+		<!InclusiveOfTax>true</!InclusiveOfTax>
+		<!InterlineSettlementAllowed>true</!InterlineSettlementAllowed>
+		<!GeographySpecification>Journey</!GeographySpecification>
+		<!Source>MCE</!Source>
+		<!ViewableOnly>true</!ViewableOnly>
+		<!ProviderCode>1G</!ProviderCode>
+		<!Quantity>1</!Quantity>
+		<!BasePrice>EUR145.00</!BasePrice>
+		<!ApproximateTotalPrice>EUR145.00</!ApproximateTotalPrice>
+		<!ApproximateBasePrice>EUR145.00</!ApproximateBasePrice>
+		<!Taxes>EUR0.00</!Taxes>
+		<!OptionalServicesRuleRef>BCwW0/EpS1KuEedfDHH3Dw==</!OptionalServicesRuleRef></OptionalService><OptionalService><ServiceData>
+		<!BookingTravelerRef>SzBXZHdFSnBYRHRlREhkRA==</!BookingTravelerRef>
+		<!AirSegmentRef>KZ7a7kUHQYiqtEvA2OVAzQ==</!AirSegmentRef>
+		<!TravelerType>ADT</!TravelerType></ServiceData><ServiceInfo><Description>UPTO50LB 23KG AND115LI 292LCM</Description></ServiceInfo><EMD>
+		<!FulfillmentType>4</!FulfillmentType>
+		<!AssociatedItem>Chargeable Baggage</!AssociatedItem>
+		<!RefundReissueIndicator>NonRefundable</!RefundReissueIndicator>
+		<!Commissionable>false</!Commissionable>
+		<!FulfillmentTypeDescription>Other than EMD</!FulfillmentTypeDescription></EMD><FeeApplication>
+		<!Code>4</!Code>
+		<!>Per Travel</!></FeeApplication><BrandingInfo><Title>
+		<!Type>External</!Type>
+		<!LanguageCode>EN</!LanguageCode>
+		<!>UPTO50LB 23KG AND115LI 292LCM</!></Title><AirSegmentRef>
+		<!Key>KZ7a7kUHQYiqtEvA2OVAzQ==</!Key></AirSegmentRef>
+		<!Key>BI18</!Key>
+		<!CommercialName>UPTO50LB 23KG AND115LI 292LCM</!CommercialName></BrandingInfo>
+		<!Type>Baggage</!Type>
+		<!TotalPrice>EUR75.00</!TotalPrice>
+		<!SupplierCode>AF</!SupplierCode>
+		<!PerTraveler>false</!PerTraveler>
+		<!CreateDate>2016-10-16T21:59:04.079+00:00</!CreateDate>
+		<!ServiceStatus>Offered</!ServiceStatus>
+		<!SequenceNumber>103250</!SequenceNumber>
+		<!ServiceSubCode>0E7</!ServiceSubCode>
+		<!Key>/ob538PIR3yI8x4mQpAFOg==</!Key>
+		<!AssessIndicator>MileageOrCurrency</!AssessIndicator>
+		<!InclusiveOfTax>true</!InclusiveOfTax>
+		<!InterlineSettlementAllowed>true</!InterlineSettlementAllowed>
+		<!GeographySpecification>Journey</!GeographySpecification>
+		<!Source>MCE</!Source>
+		<!ViewableOnly>true</!ViewableOnly>
+		<!ProviderCode>1G</!ProviderCode>
+		<!Quantity>1</!Quantity>
+		<!BasePrice>EUR75.00</!BasePrice>
+		<!ApproximateTotalPrice>EUR75.00</!ApproximateTotalPrice>
+		<!ApproximateBasePrice>EUR75.00</!ApproximateBasePrice>
+		<!Taxes>EUR0.00</!Taxes>
+		<!OptionalServicesRuleRef>mX4BP0UWR92fA7ePfu/tVg==</!OptionalServicesRuleRef></OptionalService><OptionalService><ServiceData>
+		<!BookingTravelerRef>SzBXZHdFSnBYRHRlREhkRA==</!BookingTravelerRef>
+		<!AirSegmentRef>KZ7a7kUHQYiqtEvA2OVAzQ==</!AirSegmentRef>
+		<!TravelerType>ADT</!TravelerType></ServiceData><ServiceInfo><Description>BICYCLE</Description></ServiceInfo><EMD>
+		<!FulfillmentType>2</!FulfillmentType>
+		<!AssociatedItem>Chargeable Baggage</!AssociatedItem>
+		<!RefundReissueIndicator>Reuse</!RefundReissueIndicator>
+		<!Commissionable>false</!Commissionable>
+		<!FulfillmentTypeDescription>Associated to a flight coupon of a ticket</!FulfillmentTypeDescription></EMD><FeeApplication>
+		<!Code>4</!Code>
+		<!>Per Travel</!></FeeApplication><BrandingInfo><Title>
+		<!Type>External</!Type>
+		<!LanguageCode>EN</!LanguageCode>
+		<!>BICYCLE</!></Title><AirSegmentRef>
+		<!Key>KZ7a7kUHQYiqtEvA2OVAzQ==</!Key></AirSegmentRef>
+		<!Key>BI6</!Key>
+		<!CommercialName>BICYCLE</!CommercialName></BrandingInfo>
+		<!Type>Baggage</!Type>
+		<!TotalPrice>EUR55.00</!TotalPrice>
+		<!SupplierCode>AF</!SupplierCode>
+		<!PerTraveler>false</!PerTraveler>
+		<!CreateDate>2016-10-16T21:59:04.079+00:00</!CreateDate>
+		<!ServiceStatus>Offered</!ServiceStatus>
+		<!SequenceNumber>101500</!SequenceNumber>
+		<!ServiceSubCode>0EC</!ServiceSubCode>
+		<!IssuanceReason>C</!IssuanceReason>
+		<!Key>RR9jGSnxSr6WbMPDA4bXYg==</!Key>
+		<!AssessIndicator>MileageOrCurrency</!AssessIndicator>
+		<!InclusiveOfTax>true</!InclusiveOfTax>
+		<!InterlineSettlementAllowed>true</!InterlineSettlementAllowed>
+		<!GeographySpecification>Journey</!GeographySpecification>
+		<!Source>MCE</!Source>
+		<!ViewableOnly>true</!ViewableOnly>
+		<!ProviderCode>1G</!ProviderCode>
+		<!SecondaryType>SportingEquipment</!SecondaryType>
+		<!Quantity>1</!Quantity>
+		<!BasePrice>EUR55.00</!BasePrice>
+		<!ApproximateTotalPrice>EUR55.00</!ApproximateTotalPrice>
+		<!ApproximateBasePrice>EUR55.00</!ApproximateBasePrice>
+		<!Taxes>EUR0.00</!Taxes>
+		<!OptionalServicesRuleRef>xwQWQOdNRFWIA28NIBBt3g==</!OptionalServicesRuleRef></OptionalService><OptionalService><ServiceData>
+		<!BookingTravelerRef>SzBXZHdFSnBYRHRlREhkRA==</!BookingTravelerRef>
+		<!AirSegmentRef>KZ7a7kUHQYiqtEvA2OVAzQ==</!AirSegmentRef>
+		<!TravelerType>ADT</!TravelerType></ServiceData><ServiceInfo><Description>SCUBA EQUIPMENT</Description></ServiceInfo><EMD>
+		<!FulfillmentType>4</!FulfillmentType>
+		<!AssociatedItem>Chargeable Baggage</!AssociatedItem>
+		<!RefundReissueIndicator>NonRefundable</!RefundReissueIndicator>
+		<!Commissionable>false</!Commissionable>
+		<!FulfillmentTypeDescription>Other than EMD</!FulfillmentTypeDescription></EMD><FeeApplication>
+		<!Code>4</!Code>
+		<!>Per Travel</!></FeeApplication><BrandingInfo><Title>
+		<!Type>External</!Type>
+		<!LanguageCode>EN</!LanguageCode>
+		<!>SCUBA EQUIPMENT</!></Title><AirSegmentRef>
+		<!Key>KZ7a7kUHQYiqtEvA2OVAzQ==</!Key></AirSegmentRef>
+		<!Key>BI12</!Key>
+		<!CommercialName>SCUBA EQUIPMENT</!CommercialName></BrandingInfo>
+		<!Type>Baggage</!Type>
+		<!TotalPrice>EUR55.00</!TotalPrice>
+		<!SupplierCode>AF</!SupplierCode>
+		<!PerTraveler>false</!PerTraveler>
+		<!CreateDate>2016-10-16T21:59:04.079+00:00</!CreateDate>
+		<!ServiceStatus>Offered</!ServiceStatus>
+		<!SequenceNumber>101500</!SequenceNumber>
+		<!ServiceSubCode>0EE</!ServiceSubCode>
+		<!Key>/IIdA0OvSqiRV2gKrhaRtg==</!Key>
+		<!AssessIndicator>MileageOrCurrency</!AssessIndicator>
+		<!InclusiveOfTax>true</!InclusiveOfTax>
+		<!InterlineSettlementAllowed>true</!InterlineSettlementAllowed>
+		<!GeographySpecification>Journey</!GeographySpecification>
+		<!Source>MCE</!Source>
+		<!ViewableOnly>true</!ViewableOnly>
+		<!ProviderCode>1G</!ProviderCode>
+		<!SecondaryType>SportingEquipment</!SecondaryType>
+		<!Quantity>1</!Quantity>
+		<!BasePrice>EUR55.00</!BasePrice>
+		<!ApproximateTotalPrice>EUR55.00</!ApproximateTotalPrice>
+		<!ApproximateBasePrice>EUR55.00</!ApproximateBasePrice>
+		<!Taxes>EUR0.00</!Taxes>
+		<!OptionalServicesRuleRef>Q8JM7LmeTtSEFUD93otymw==</!OptionalServicesRuleRef></OptionalService><OptionalService><ServiceData>
+		<!BookingTravelerRef>SzBXZHdFSnBYRHRlREhkRA==</!BookingTravelerRef>
+		<!AirSegmentRef>KZ7a7kUHQYiqtEvA2OVAzQ==</!AirSegmentRef>
+		<!TravelerType>ADT</!TravelerType></ServiceData><ServiceInfo><Description>UPTO100LB 45KG AND 62LI 158LCM</Description></ServiceInfo><EMD>
+		<!FulfillmentType>4</!FulfillmentType>
+		<!AssociatedItem>Chargeable Baggage</!AssociatedItem>
+		<!RefundReissueIndicator>NonRefundable</!RefundReissueIndicator>
+		<!Commissionable>false</!Commissionable>
+		<!FulfillmentTypeDescription>Other than EMD</!FulfillmentTypeDescription></EMD><FeeApplication>
+		<!Code>4</!Code>
+		<!>Per Travel</!></FeeApplication><BrandingInfo><Title>
+		<!Type>External</!Type>
+		<!LanguageCode>EN</!LanguageCode>
+		<!>UPTO100LB 45KG AND 62LI 158LCM</!></Title><AirSegmentRef>
+		<!Key>KZ7a7kUHQYiqtEvA2OVAzQ==</!Key></AirSegmentRef>
+		<!Key>BI13</!Key>
+		<!CommercialName>UPTO100LB 45KG AND 62LI 158LCM</!CommercialName></BrandingInfo>
+		<!Type>Baggage</!Type>
+		<!TotalPrice>EUR75.00</!TotalPrice>
+		<!SupplierCode>AF</!SupplierCode>
+		<!PerTraveler>false</!PerTraveler>
+		<!CreateDate>2016-10-16T21:59:04.079+00:00</!CreateDate>
+		<!ServiceStatus>Offered</!ServiceStatus>
+		<!SequenceNumber>1731750</!SequenceNumber>
+		<!ServiceSubCode>0EW</!ServiceSubCode>
+		<!Key>qb62uAjkSZiceotpP+vGNA==</!Key>
+		<!AssessIndicator>MileageOrCurrency</!AssessIndicator>
+		<!InclusiveOfTax>true</!InclusiveOfTax>
+		<!InterlineSettlementAllowed>true</!InterlineSettlementAllowed>
+		<!GeographySpecification>Journey</!GeographySpecification>
+		<!Source>MCE</!Source>
+		<!ViewableOnly>true</!ViewableOnly>
+		<!ProviderCode>1G</!ProviderCode>
+		<!Quantity>1</!Quantity>
+		<!BasePrice>EUR75.00</!BasePrice>
+		<!ApproximateTotalPrice>EUR75.00</!ApproximateTotalPrice>
+		<!ApproximateBasePrice>EUR75.00</!ApproximateBasePrice>
+		<!Taxes>EUR0.00</!Taxes>
+		<!OptionalServicesRuleRef>CraTUB9aSIyfrrPS+Q2R4w==</!OptionalServicesRuleRef></OptionalService><OptionalService><ServiceData>
+		<!BookingTravelerRef>SzBXZHdFSnBYRHRlREhkRA==</!BookingTravelerRef>
+		<!AirSegmentRef>KZ7a7kUHQYiqtEvA2OVAzQ==</!AirSegmentRef>
+		<!TravelerType>ADT</!TravelerType></ServiceData><ServiceInfo><Description>UPTO70LB 32KG AND115LI 292LCM</Description></ServiceInfo><EMD>
+		<!FulfillmentType>4</!FulfillmentType>
+		<!AssociatedItem>Chargeable Baggage</!AssociatedItem>
+		<!RefundReissueIndicator>NonRefundable</!RefundReissueIndicator>
+		<!Commissionable>false</!Commissionable>
+		<!FulfillmentTypeDescription>Other than EMD</!FulfillmentTypeDescription></EMD><FeeApplication>
+		<!Code>4</!Code>
+		<!>Per Travel</!></FeeApplication><BrandingInfo><Title>
+		<!Type>External</!Type>
+		<!LanguageCode>EN</!LanguageCode>
+		<!>UPTO70LB 32KG AND115LI 292LCM</!></Title><AirSegmentRef>
+		<!Key>KZ7a7kUHQYiqtEvA2OVAzQ==</!Key></AirSegmentRef>
+		<!Key>BI3</!Key>
+		<!CommercialName>UPTO70LB 32KG AND115LI 292LCM</!CommercialName></BrandingInfo>
+		<!Type>Baggage</!Type>
+		<!TotalPrice>EUR500.00</!TotalPrice>
+		<!SupplierCode>AF</!SupplierCode>
+		<!PerTraveler>false</!PerTraveler>
+		<!CreateDate>2016-10-16T21:59:04.079+00:00</!CreateDate>
+		<!ServiceStatus>Offered</!ServiceStatus>
+		<!SequenceNumber>103000</!SequenceNumber>
+		<!ServiceSubCode>0FF</!ServiceSubCode>
+		<!Key>qh+7wRZ3RumIn9vvZdgT+Q==</!Key>
+		<!AssessIndicator>MileageOrCurrency</!AssessIndicator>
+		<!InclusiveOfTax>true</!InclusiveOfTax>
+		<!InterlineSettlementAllowed>true</!InterlineSettlementAllowed>
+		<!GeographySpecification>Journey</!GeographySpecification>
+		<!Source>MCE</!Source>
+		<!ViewableOnly>true</!ViewableOnly>
+		<!ProviderCode>1G</!ProviderCode>
+		<!Quantity>1</!Quantity>
+		<!BasePrice>EUR500.00</!BasePrice>
+		<!ApproximateTotalPrice>EUR500.00</!ApproximateTotalPrice>
+		<!ApproximateBasePrice>EUR500.00</!ApproximateBasePrice>
+		<!Taxes>EUR0.00</!Taxes>
+		<!OptionalServicesRuleRef>y1PmoWAPSsaaqtxDewRrIg==</!OptionalServicesRuleRef></OptionalService><OptionalService><ServiceData>
+		<!BookingTravelerRef>SzBXZHdFSnBYRHRlREhkRA==</!BookingTravelerRef>
+		<!AirSegmentRef>KZ7a7kUHQYiqtEvA2OVAzQ==</!AirSegmentRef>
+		<!TravelerType>ADT</!TravelerType></ServiceData><ServiceInfo><Description>UPTO70LB 32KG AND115LI 292LCM</Description></ServiceInfo><EMD>
+		<!FulfillmentType>4</!FulfillmentType>
+		<!AssociatedItem>Chargeable Baggage</!AssociatedItem>
+		<!RefundReissueIndicator>NonRefundable</!RefundReissueIndicator>
+		<!Commissionable>false</!Commissionable>
+		<!FulfillmentTypeDescription>Other than EMD</!FulfillmentTypeDescription></EMD><FeeApplication>
+		<!Code>4</!Code>
+		<!>Per Travel</!></FeeApplication><BrandingInfo><Title>
+		<!Type>External</!Type>
+		<!LanguageCode>EN</!LanguageCode>
+		<!>UPTO70LB 32KG AND115LI 292LCM</!></Title><AirSegmentRef>
+		<!Key>KZ7a7kUHQYiqtEvA2OVAzQ==</!Key></AirSegmentRef>
+		<!Key>BI4</!Key>
+		<!CommercialName>UPTO70LB 32KG AND115LI 292LCM</!CommercialName></BrandingInfo>
+		<!Type>Baggage</!Type>
+		<!TotalPrice>EUR400.00</!TotalPrice>
+		<!SupplierCode>AF</!SupplierCode>
+		<!PerTraveler>false</!PerTraveler>
+		<!CreateDate>2016-10-16T21:59:04.079+00:00</!CreateDate>
+		<!ServiceStatus>Offered</!ServiceStatus>
+		<!SequenceNumber>103250</!SequenceNumber>
+		<!ServiceSubCode>0FF</!ServiceSubCode>
+		<!Key>iBKVQYyYR9+VR54NBrj4bA==</!Key>
+		<!AssessIndicator>MileageOrCurrency</!AssessIndicator>
+		<!InclusiveOfTax>true</!InclusiveOfTax>
+		<!InterlineSettlementAllowed>true</!InterlineSettlementAllowed>
+		<!GeographySpecification>Journey</!GeographySpecification>
+		<!Source>MCE</!Source>
+		<!ViewableOnly>true</!ViewableOnly>
+		<!ProviderCode>1G</!ProviderCode>
+		<!Quantity>1</!Quantity>
+		<!BasePrice>EUR400.00</!BasePrice>
+		<!ApproximateTotalPrice>EUR400.00</!ApproximateTotalPrice>
+		<!ApproximateBasePrice>EUR400.00</!ApproximateBasePrice>
+		<!Taxes>EUR0.00</!Taxes>
+		<!OptionalServicesRuleRef>YgeqzaQYSqmEB/6bE6eZTg==</!OptionalServicesRuleRef></OptionalService><OptionalService><ServiceData>
+		<!BookingTravelerRef>SzBXZHdFSnBYRHRlREhkRA==</!BookingTravelerRef>
+		<!AirSegmentRef>KZ7a7kUHQYiqtEvA2OVAzQ==</!AirSegmentRef>
+		<!TravelerType>ADT</!TravelerType></ServiceData><ServiceInfo><Description>UPTO70LB 32KG AND115LI 292LCM</Description></ServiceInfo><EMD>
+		<!FulfillmentType>4</!FulfillmentType>
+		<!AssociatedItem>Chargeable Baggage</!AssociatedItem>
+		<!RefundReissueIndicator>NonRefundable</!RefundReissueIndicator>
+		<!Commissionable>false</!Commissionable>
+		<!FulfillmentTypeDescription>Other than EMD</!FulfillmentTypeDescription></EMD><FeeApplication>
+		<!Code>4</!Code>
+		<!>Per Travel</!></FeeApplication><BrandingInfo><Title>
+		<!Type>External</!Type>
+		<!LanguageCode>EN</!LanguageCode>
+		<!>UPTO70LB 32KG AND115LI 292LCM</!></Title><AirSegmentRef>
+		<!Key>KZ7a7kUHQYiqtEvA2OVAzQ==</!Key></AirSegmentRef>
+		<!Key>BI5</!Key>
+		<!CommercialName>UPTO70LB 32KG AND115LI 292LCM</!CommercialName></BrandingInfo>
+		<!Type>Baggage</!Type>
+		<!TotalPrice>EUR300.00</!TotalPrice>
+		<!SupplierCode>AF</!SupplierCode>
+		<!PerTraveler>false</!PerTraveler>
+		<!CreateDate>2016-10-16T21:59:04.079+00:00</!CreateDate>
+		<!ServiceStatus>Offered</!ServiceStatus>
+		<!SequenceNumber>103500</!SequenceNumber>
+		<!ServiceSubCode>0FF</!ServiceSubCode>
+		<!Key>2hi3XYVpTMWxF6Jy+60gww==</!Key>
+		<!AssessIndicator>MileageOrCurrency</!AssessIndicator>
+		<!InclusiveOfTax>true</!InclusiveOfTax>
+		<!InterlineSettlementAllowed>true</!InterlineSettlementAllowed>
+		<!GeographySpecification>Journey</!GeographySpecification>
+		<!Source>MCE</!Source>
+		<!ViewableOnly>true</!ViewableOnly>
+		<!ProviderCode>1G</!ProviderCode>
+		<!Quantity>1</!Quantity>
+		<!BasePrice>EUR300.00</!BasePrice>
+		<!ApproximateTotalPrice>EUR300.00</!ApproximateTotalPrice>
+		<!ApproximateBasePrice>EUR300.00</!ApproximateBasePrice>
+		<!Taxes>EUR0.00</!Taxes>
+		<!OptionalServicesRuleRef>iiK9KXYBQjmb77n/sHEZXg==</!OptionalServicesRuleRef></OptionalService><OptionalService><ServiceData>
+		<!BookingTravelerRef>SzBXZHdFSnBYRHRlREhkRA==</!BookingTravelerRef>
+		<!AirSegmentRef>KZ7a7kUHQYiqtEvA2OVAzQ==</!AirSegmentRef>
+		<!TravelerType>ADT</!TravelerType></ServiceData><ServiceInfo><Description>UPTO70LB 32KG AND62LI 158LCM</Description></ServiceInfo><EMD>
+		<!FulfillmentType>4</!FulfillmentType>
+		<!AssociatedItem>Chargeable Baggage</!AssociatedItem>
+		<!RefundReissueIndicator>NonRefundable</!RefundReissueIndicator>
+		<!Commissionable>false</!Commissionable>
+		<!FulfillmentTypeDescription>Other than EMD</!FulfillmentTypeDescription></EMD><FeeApplication>
+		<!Code>4</!Code>
+		<!>Per Travel</!></FeeApplication><BrandingInfo><Title>
+		<!Type>External</!Type>
+		<!LanguageCode>EN</!LanguageCode>
+		<!>UPTO70LB 32KG AND62LI 158LCM</!></Title><AirSegmentRef>
+		<!Key>KZ7a7kUHQYiqtEvA2OVAzQ==</!Key></AirSegmentRef>
+		<!Key>BI7</!Key>
+		<!CommercialName>UPTO70LB 32KG AND62LI 158LCM</!CommercialName></BrandingInfo>
+		<!Type>Baggage</!Type>
+		<!TotalPrice>EUR140.00</!TotalPrice>
+		<!SupplierCode>AF</!SupplierCode>
+		<!PerTraveler>false</!PerTraveler>
+		<!CreateDate>2016-10-16T21:59:04.079+00:00</!CreateDate>
+		<!ServiceStatus>Offered</!ServiceStatus>
+		<!SequenceNumber>1667999</!SequenceNumber>
+		<!ServiceSubCode>0FM</!ServiceSubCode>
+		<!Key>Uz1jepGRRy6t7IMjqIpM/Q==</!Key>
+		<!AssessIndicator>MileageOrCurrency</!AssessIndicator>
+		<!InclusiveOfTax>true</!InclusiveOfTax>
+		<!InterlineSettlementAllowed>true</!InterlineSettlementAllowed>
+		<!GeographySpecification>Journey</!GeographySpecification>
+		<!Source>MCE</!Source>
+		<!ViewableOnly>true</!ViewableOnly>
+		<!ProviderCode>1G</!ProviderCode>
+		<!Quantity>1</!Quantity>
+		<!BasePrice>EUR140.00</!BasePrice>
+		<!ApproximateTotalPrice>EUR140.00</!ApproximateTotalPrice>
+		<!ApproximateBasePrice>EUR140.00</!ApproximateBasePrice>
+		<!Taxes>EUR0.00</!Taxes>
+		<!OptionalServicesRuleRef>dgzEtHU1Squx7GMwYcsPLQ==</!OptionalServicesRuleRef></OptionalService><OptionalService><ServiceData>
+		<!BookingTravelerRef>SzBXZHdFSnBYRHRlREhkRA==</!BookingTravelerRef>
+		<!AirSegmentRef>KZ7a7kUHQYiqtEvA2OVAzQ==</!AirSegmentRef>
+		<!TravelerType>ADT</!TravelerType></ServiceData><ServiceInfo><Description>UPTO70LB 32KG AND62LI 158LCM</Description></ServiceInfo><EMD>
+		<!FulfillmentType>4</!FulfillmentType>
+		<!AssociatedItem>Chargeable Baggage</!AssociatedItem>
+		<!RefundReissueIndicator>NonRefundable</!RefundReissueIndicator>
+		<!Commissionable>false</!Commissionable>
+		<!FulfillmentTypeDescription>Other than EMD</!FulfillmentTypeDescription></EMD><FeeApplication>
+		<!Code>4</!Code>
+		<!>Per Travel</!></FeeApplication><BrandingInfo><Title>
+		<!Type>External</!Type>
+		<!LanguageCode>EN</!LanguageCode>
+		<!>UPTO70LB 32KG AND62LI 158LCM</!></Title><AirSegmentRef>
+		<!Key>KZ7a7kUHQYiqtEvA2OVAzQ==</!Key></AirSegmentRef>
+		<!Key>BI8</!Key>
+		<!CommercialName>UPTO70LB 32KG AND62LI 158LCM</!CommercialName></BrandingInfo>
+		<!Type>Baggage</!Type>
+		<!TotalPrice>EUR70.00</!TotalPrice>
+		<!SupplierCode>AF</!SupplierCode>
+		<!PerTraveler>false</!PerTraveler>
+		<!CreateDate>2016-10-16T21:59:04.079+00:00</!CreateDate>
+		<!ServiceStatus>Offered</!ServiceStatus>
+		<!SequenceNumber>1668249</!SequenceNumber>
+		<!ServiceSubCode>0FM</!ServiceSubCode>
+		<!Key>cMzSE4xARoSpf54LXmFXXA==</!Key>
+		<!AssessIndicator>MileageOrCurrency</!AssessIndicator>
+		<!InclusiveOfTax>true</!InclusiveOfTax>
+		<!InterlineSettlementAllowed>true</!InterlineSettlementAllowed>
+		<!GeographySpecification>Journey</!GeographySpecification>
+		<!Source>MCE</!Source>
+		<!ViewableOnly>true</!ViewableOnly>
+		<!ProviderCode>1G</!ProviderCode>
+		<!Quantity>1</!Quantity>
+		<!BasePrice>EUR70.00</!BasePrice>
+		<!ApproximateTotalPrice>EUR70.00</!ApproximateTotalPrice>
+		<!ApproximateBasePrice>EUR70.00</!ApproximateBasePrice>
+		<!Taxes>EUR0.00</!Taxes>
+		<!OptionalServicesRuleRef>EtFrh67NRU+RMtwHOyLDcQ==</!OptionalServicesRuleRef></OptionalService><OptionalService><ServiceData>
+		<!BookingTravelerRef>SzBXZHdFSnBYRHRlREhkRA==</!BookingTravelerRef>
+		<!AirSegmentRef>KZ7a7kUHQYiqtEvA2OVAzQ==</!AirSegmentRef>
+		<!TravelerType>ADT</!TravelerType></ServiceData><ServiceInfo><Description>UPTO70LB 32KG AND62LI 158LCM</Description></ServiceInfo><EMD>
+		<!FulfillmentType>4</!FulfillmentType>
+		<!AssociatedItem>Chargeable Baggage</!AssociatedItem>
+		<!RefundReissueIndicator>NonRefundable</!RefundReissueIndicator>
+		<!Commissionable>false</!Commissionable>
+		<!FulfillmentTypeDescription>Other than EMD</!FulfillmentTypeDescription></EMD><FeeApplication>
+		<!Code>4</!Code>
+		<!>Per Travel</!></FeeApplication><BrandingInfo><Title>
+		<!Type>External</!Type>
+		<!LanguageCode>EN</!LanguageCode>
+		<!>UPTO70LB 32KG AND62LI 158LCM</!></Title><AirSegmentRef>
+		<!Key>KZ7a7kUHQYiqtEvA2OVAzQ==</!Key></AirSegmentRef>
+		<!Key>BI9</!Key>
+		<!CommercialName>UPTO70LB 32KG AND62LI 158LCM</!CommercialName></BrandingInfo>
+		<!Type>Baggage</!Type>
+		<!TotalPrice>EUR300.00</!TotalPrice>
+		<!SupplierCode>AF</!SupplierCode>
+		<!PerTraveler>false</!PerTraveler>
+		<!CreateDate>2016-10-16T21:59:04.079+00:00</!CreateDate>
+		<!ServiceStatus>Offered</!ServiceStatus>
+		<!SequenceNumber>1684249</!SequenceNumber>
+		<!ServiceSubCode>0FM</!ServiceSubCode>
+		<!Key>ab+FvK00S6WigJ4szEC60Q==</!Key>
+		<!AssessIndicator>MileageOrCurrency</!AssessIndicator>
+		<!InclusiveOfTax>true</!InclusiveOfTax>
+		<!InterlineSettlementAllowed>true</!InterlineSettlementAllowed>
+		<!GeographySpecification>Journey</!GeographySpecification>
+		<!Source>MCE</!Source>
+		<!ViewableOnly>true</!ViewableOnly>
+		<!ProviderCode>1G</!ProviderCode>
+		<!Quantity>1</!Quantity>
+		<!BasePrice>EUR300.00</!BasePrice>
+		<!ApproximateTotalPrice>EUR300.00</!ApproximateTotalPrice>
+		<!ApproximateBasePrice>EUR300.00</!ApproximateBasePrice>
+		<!Taxes>EUR0.00</!Taxes>
+		<!OptionalServicesRuleRef>VokDInPXSDWJmx7AzyDd/w==</!OptionalServicesRuleRef></OptionalService><OptionalService><ServiceData>
+		<!BookingTravelerRef>SzBXZHdFSnBYRHRlREhkRA==</!BookingTravelerRef>
+		<!AirSegmentRef>KZ7a7kUHQYiqtEvA2OVAzQ==</!AirSegmentRef>
+		<!TravelerType>ADT</!TravelerType></ServiceData><ServiceInfo><Description>UPTO70LB 32KG AND62LI 158LCM</Description></ServiceInfo><EMD>
+		<!FulfillmentType>4</!FulfillmentType>
+		<!AssociatedItem>Chargeable Baggage</!AssociatedItem>
+		<!RefundReissueIndicator>NonRefundable</!RefundReissueIndicator>
+		<!Commissionable>false</!Commissionable>
+		<!FulfillmentTypeDescription>Other than EMD</!FulfillmentTypeDescription></EMD><FeeApplication>
+		<!Code>4</!Code>
+		<!>Per Travel</!></FeeApplication><BrandingInfo><Title>
+		<!Type>External</!Type>
+		<!LanguageCode>EN</!LanguageCode>
+		<!>UPTO70LB 32KG AND62LI 158LCM</!></Title><AirSegmentRef>
+		<!Key>KZ7a7kUHQYiqtEvA2OVAzQ==</!Key></AirSegmentRef>
+		<!Key>BI10</!Key>
+		<!CommercialName>UPTO70LB 32KG AND62LI 158LCM</!CommercialName></BrandingInfo>
+		<!Type>Baggage</!Type>
+		<!TotalPrice>EUR200.00</!TotalPrice>
+		<!SupplierCode>AF</!SupplierCode>
+		<!PerTraveler>false</!PerTraveler>
+		<!CreateDate>2016-10-16T21:59:04.079+00:00</!CreateDate>
+		<!ServiceStatus>Offered</!ServiceStatus>
+		<!SequenceNumber>1684499</!SequenceNumber>
+		<!ServiceSubCode>0FM</!ServiceSubCode>
+		<!Key>4bDMdLztR5KdmVSWlXkB2A==</!Key>
+		<!AssessIndicator>MileageOrCurrency</!AssessIndicator>
+		<!InclusiveOfTax>true</!InclusiveOfTax>
+		<!InterlineSettlementAllowed>true</!InterlineSettlementAllowed>
+		<!GeographySpecification>Journey</!GeographySpecification>
+		<!Source>MCE</!Source>
+		<!ViewableOnly>true</!ViewableOnly>
+		<!ProviderCode>1G</!ProviderCode>
+		<!Quantity>1</!Quantity>
+		<!BasePrice>EUR200.00</!BasePrice>
+		<!ApproximateTotalPrice>EUR200.00</!ApproximateTotalPrice>
+		<!ApproximateBasePrice>EUR200.00</!ApproximateBasePrice>
+		<!Taxes>EUR0.00</!Taxes>
+		<!OptionalServicesRuleRef>pMVCwDNHSUaFlb7nuhMPmw==</!OptionalServicesRuleRef></OptionalService><OptionalService><ServiceData>
+		<!BookingTravelerRef>SzBXZHdFSnBYRHRlREhkRA==</!BookingTravelerRef>
+		<!AirSegmentRef>KZ7a7kUHQYiqtEvA2OVAzQ==</!AirSegmentRef>
+		<!TravelerType>ADT</!TravelerType></ServiceData><ServiceInfo><Description>SURFBOARD</Description></ServiceInfo><EMD>
+		<!FulfillmentType>4</!FulfillmentType>
+		<!AssociatedItem>Chargeable Baggage</!AssociatedItem>
+		<!RefundReissueIndicator>NonRefundable</!RefundReissueIndicator>
+		<!Commissionable>false</!Commissionable>
+		<!FulfillmentTypeDescription>Other than EMD</!FulfillmentTypeDescription></EMD><FeeApplication>
+		<!Code>4</!Code>
+		<!>Per Travel</!></FeeApplication><BrandingInfo><Title>
+		<!Type>External</!Type>
+		<!LanguageCode>EN</!LanguageCode>
+		<!>SURFBOARD</!></Title><AirSegmentRef>
+		<!Key>KZ7a7kUHQYiqtEvA2OVAzQ==</!Key></AirSegmentRef>
+		<!Key>BI16</!Key>
+		<!CommercialName>SURFBOARD</!CommercialName></BrandingInfo>
+		<!Type>Baggage</!Type>
+		<!TotalPrice>EUR55.00</!TotalPrice>
+		<!SupplierCode>AF</!SupplierCode>
+		<!PerTraveler>false</!PerTraveler>
+		<!CreateDate>2016-10-16T21:59:04.079+00:00</!CreateDate>
+		<!ServiceStatus>Offered</!ServiceStatus>
+		<!SequenceNumber>101500</!SequenceNumber>
+		<!ServiceSubCode>0GD</!ServiceSubCode>
+		<!Key>Ip1usp/ORPC05FWghYm0Yw==</!Key>
+		<!AssessIndicator>MileageOrCurrency</!AssessIndicator>
+		<!InclusiveOfTax>true</!InclusiveOfTax>
+		<!InterlineSettlementAllowed>true</!InterlineSettlementAllowed>
+		<!GeographySpecification>Journey</!GeographySpecification>
+		<!Source>MCE</!Source>
+		<!ViewableOnly>true</!ViewableOnly>
+		<!ProviderCode>1G</!ProviderCode>
+		<!SecondaryType>SportingEquipment</!SecondaryType>
+		<!Quantity>1</!Quantity>
+		<!BasePrice>EUR55.00</!BasePrice>
+		<!ApproximateTotalPrice>EUR55.00</!ApproximateTotalPrice>
+		<!ApproximateBasePrice>EUR55.00</!ApproximateBasePrice>
+		<!Taxes>EUR0.00</!Taxes>
+		<!OptionalServicesRuleRef>NxhHWoSPRgCzbIwOCrgMGg==</!OptionalServicesRuleRef></OptionalService><OptionalService><ServiceData>
+		<!BookingTravelerRef>SzBXZHdFSnBYRHRlREhkRA==</!BookingTravelerRef>
+		<!AirSegmentRef>KZ7a7kUHQYiqtEvA2OVAzQ==</!AirSegmentRef>
+		<!TravelerType>ADT</!TravelerType></ServiceData><ServiceInfo><Description>UPTO50LB 23KG AND62LI 158LCM</Description></ServiceInfo><EMD>
+		<!FulfillmentType>4</!FulfillmentType>
+		<!AssociatedItem>Chargeable Baggage</!AssociatedItem>
+		<!RefundReissueIndicator>NonRefundable</!RefundReissueIndicator>
+		<!Commissionable>false</!Commissionable>
+		<!FulfillmentTypeDescription>Other than EMD</!FulfillmentTypeDescription></EMD><FeeApplication>
+		<!Code>4</!Code>
+		<!>Per Travel</!></FeeApplication><BrandingInfo><Title>
+		<!Type>External</!Type>
+		<!LanguageCode>EN</!LanguageCode></Title><Title>
+		<!Type>Short</!Type>
+		<!LanguageCode>EN</!LanguageCode></Title><ServiceGroup>
+		<!Code>BG</!Code></ServiceGroup><AirSegmentRef>
+		<!Key>KZ7a7kUHQYiqtEvA2OVAzQ==</!Key></AirSegmentRef>
+		<!Key>BI14</!Key>
+		<!ServiceSubCode>0GO</!ServiceSubCode>
+		<!ServiceType>C</!ServiceType>
+		<!CommercialName>UPTO50LB 23KG AND62LI 158LCM</!CommercialName></BrandingInfo>
+		<!Type>Baggage</!Type>
+		<!TotalPrice>EUR200.00</!TotalPrice>
+		<!SupplierCode>AF</!SupplierCode>
+		<!PerTraveler>false</!PerTraveler>
+		<!CreateDate>2016-10-16T21:59:04.079+00:00</!CreateDate>
+		<!ServiceStatus>Offered</!ServiceStatus>
+		<!SequenceNumber>366500</!SequenceNumber>
+		<!ServiceSubCode>0GO</!ServiceSubCode>
+		<!Key>BH73ysaxRwWJFPFjiaNdjQ==</!Key>
+		<!AssessIndicator>MileageOrCurrency</!AssessIndicator>
+		<!InclusiveOfTax>true</!InclusiveOfTax>
+		<!InterlineSettlementAllowed>true</!InterlineSettlementAllowed>
+		<!GeographySpecification>Journey</!GeographySpecification>
+		<!Source>MCE</!Source>
+		<!ViewableOnly>true</!ViewableOnly>
+		<!ProviderCode>1G</!ProviderCode>
+		<!Quantity>1</!Quantity>
+		<!BasePrice>EUR200.00</!BasePrice>
+		<!ApproximateTotalPrice>EUR200.00</!ApproximateTotalPrice>
+		<!ApproximateBasePrice>EUR200.00</!ApproximateBasePrice>
+		<!Taxes>EUR0.00</!Taxes>
+		<!OptionalServicesRuleRef>sJ4n5A3nS/WLhYbFa2dpbg==</!OptionalServicesRuleRef></OptionalService><OptionalService><ServiceData>
+		<!BookingTravelerRef>SzBXZHdFSnBYRHRlREhkRA==</!BookingTravelerRef>
+		<!AirSegmentRef>KZ7a7kUHQYiqtEvA2OVAzQ==</!AirSegmentRef>
+		<!TravelerType>ADT</!TravelerType></ServiceData><ServiceInfo><Description>UPTO50LB 23KG AND62LI 158LCM</Description></ServiceInfo><EMD>
+		<!FulfillmentType>4</!FulfillmentType>
+		<!AssociatedItem>Chargeable Baggage</!AssociatedItem>
+		<!RefundReissueIndicator>NonRefundable</!RefundReissueIndicator>
+		<!Commissionable>false</!Commissionable>
+		<!FulfillmentTypeDescription>Other than EMD</!FulfillmentTypeDescription></EMD><FeeApplication>
+		<!Code>4</!Code>
+		<!>Per Travel</!></FeeApplication><BrandingInfo><Title>
+		<!Type>External</!Type>
+		<!LanguageCode>EN</!LanguageCode></Title><Title>
+		<!Type>Short</!Type>
+		<!LanguageCode>EN</!LanguageCode></Title><ServiceGroup>
+		<!Code>BG</!Code></ServiceGroup><AirSegmentRef>
+		<!Key>KZ7a7kUHQYiqtEvA2OVAzQ==</!Key></AirSegmentRef>
+		<!Key>BI15</!Key>
+		<!ServiceSubCode>0GO</!ServiceSubCode>
+		<!ServiceType>C</!ServiceType>
+		<!CommercialName>UPTO50LB 23KG AND62LI 158LCM</!CommercialName></BrandingInfo>
+		<!Type>Baggage</!Type>
+		<!TotalPrice>EUR70.00</!TotalPrice>
+		<!SupplierCode>AF</!SupplierCode>
+		<!PerTraveler>false</!PerTraveler>
+		<!CreateDate>2016-10-16T21:59:04.079+00:00</!CreateDate>
+		<!ServiceStatus>Offered</!ServiceStatus>
+		<!SequenceNumber>373468</!SequenceNumber>
+		<!ServiceSubCode>0GO</!ServiceSubCode>
+		<!Key>pJWvLLzrRKGkYe/fY7901A==</!Key>
+		<!AssessIndicator>MileageOrCurrency</!AssessIndicator>
+		<!InclusiveOfTax>true</!InclusiveOfTax>
+		<!InterlineSettlementAllowed>true</!InterlineSettlementAllowed>
+		<!GeographySpecification>Journey</!GeographySpecification>
+		<!Source>MCE</!Source>
+		<!ViewableOnly>true</!ViewableOnly>
+		<!ProviderCode>1G</!ProviderCode>
+		<!Quantity>1</!Quantity>
+		<!BasePrice>EUR70.00</!BasePrice>
+		<!ApproximateTotalPrice>EUR70.00</!ApproximateTotalPrice>
+		<!ApproximateBasePrice>EUR70.00</!ApproximateBasePrice>
+		<!Taxes>EUR0.00</!Taxes>
+		<!OptionalServicesRuleRef>tKnZ9HUTT/GXscaCUgMKlw==</!OptionalServicesRuleRef></OptionalService><OptionalService><ServiceData>
+		<!BookingTravelerRef>SzBXZHdFSnBYRHRlREhkRA==</!BookingTravelerRef>
+		<!AirSegmentRef>KZ7a7kUHQYiqtEvA2OVAzQ==</!AirSegmentRef>
+		<!TravelerType>ADT</!TravelerType></ServiceData><ServiceInfo><Description>PET IN HOLD</Description></ServiceInfo><EMD>
+		<!FulfillmentType>2</!FulfillmentType>
+		<!AssociatedItem>Chargeable Baggage</!AssociatedItem>
+		<!RefundReissueIndicator>Reuse</!RefundReissueIndicator>
+		<!Commissionable>false</!Commissionable>
+		<!FulfillmentTypeDescription>Associated to a flight coupon of a ticket</!FulfillmentTypeDescription></EMD><FeeApplication>
+		<!Code>4</!Code>
+		<!>Per Travel</!></FeeApplication><BrandingInfo><Text>
+		<!Type>Strapline</!Type>
+		<!LanguageCode>EN</!LanguageCode>
+		<!>PET IN HOLD</!></Text><Title>
+		<!Type>External</!Type>
+		<!LanguageCode>EN</!LanguageCode>
+		<!>PET IN HOLD</!></Title><Title>
+		<!Type>Short</!Type>
+		<!LanguageCode>EN</!LanguageCode>
+		<!>PETHOLD</!></Title><ServiceGroup><ServiceSubGroup>
+		<!Code>PH</!Code></ServiceSubGroup>
+		<!Code>PT</!Code></ServiceGroup><AirSegmentRef>
+		<!Key>KZ7a7kUHQYiqtEvA2OVAzQ==</!Key></AirSegmentRef>
+		<!Key>BI2</!Key>
+		<!ServiceSubCode>0BS</!ServiceSubCode>
+		<!ServiceType>F</!ServiceType>
+		<!CommercialName>PET IN HOLD</!CommercialName></BrandingInfo>
+		<!Type>Pets</!Type>
+		<!TotalPrice>EUR55.00</!TotalPrice>
+		<!SupplierCode>AF</!SupplierCode>
+		<!PerTraveler>false</!PerTraveler>
+		<!CreateDate>2016-10-16T21:59:04.079+00:00</!CreateDate>
+		<!ServiceStatus>Offered</!ServiceStatus>
+		<!SequenceNumber>101500</!SequenceNumber>
+		<!ServiceSubCode>0BS</!ServiceSubCode>
+		<!IssuanceReason>C</!IssuanceReason>
+		<!Key>as/4vaA/Si2KVLhnbTbHSQ==</!Key>
+		<!AssessIndicator>MileageOrCurrency</!AssessIndicator>
+		<!InclusiveOfTax>true</!InclusiveOfTax>
+		<!InterlineSettlementAllowed>true</!InterlineSettlementAllowed>
+		<!GeographySpecification>Journey</!GeographySpecification>
+		<!Source>MCE</!Source>
+		<!ViewableOnly>true</!ViewableOnly>
+		<!ProviderCode>1G</!ProviderCode>
+		<!SecondaryType>InHold</!SecondaryType>
+		<!Quantity>1</!Quantity>
+		<!BasePrice>EUR55.00</!BasePrice>
+		<!ApproximateTotalPrice>EUR55.00</!ApproximateTotalPrice>
+		<!ApproximateBasePrice>EUR55.00</!ApproximateBasePrice>
+		<!Taxes>EUR0.00</!Taxes>
+		<!OptionalServicesRuleRef>84wf7YNZSFCAMdApu8r+Jg==</!OptionalServicesRuleRef></OptionalService><OptionalService><ServiceData>
+		<!BookingTravelerRef>SzBXZHdFSnBYRHRlREhkRA==</!BookingTravelerRef>
+		<!AirSegmentRef>KZ7a7kUHQYiqtEvA2OVAzQ==</!AirSegmentRef>
+		<!TravelerType>ADT</!TravelerType></ServiceData><ServiceInfo><Description>PET IN CABIN</Description></ServiceInfo><EMD>
+		<!FulfillmentType>2</!FulfillmentType>
+		<!AssociatedItem>Chargeable Baggage</!AssociatedItem>
+		<!RefundReissueIndicator>Reuse</!RefundReissueIndicator>
+		<!Commissionable>false</!Commissionable>
+		<!FulfillmentTypeDescription>Associated to a flight coupon of a ticket</!FulfillmentTypeDescription></EMD><FeeApplication>
+		<!Code>4</!Code>
+		<!>Per Travel</!></FeeApplication><BrandingInfo><Text>
+		<!Type>Strapline</!Type>
+		<!LanguageCode>EN</!LanguageCode>
+		<!>PET IN CABIN</!></Text><Title>
+		<!Type>External</!Type>
+		<!LanguageCode>EN</!LanguageCode>
+		<!>PET IN CABIN</!></Title><Title>
+		<!Type>Short</!Type>
+		<!LanguageCode>EN</!LanguageCode>
+		<!>PETCABIN</!></Title><ServiceGroup><ServiceSubGroup>
+		<!Code>PC</!Code></ServiceSubGroup>
+		<!Code>PT</!Code></ServiceGroup><AirSegmentRef>
+		<!Key>KZ7a7kUHQYiqtEvA2OVAzQ==</!Key></AirSegmentRef>
+		<!Key>BI1</!Key>
+		<!ServiceSubCode>0BT</!ServiceSubCode>
+		<!ServiceType>F</!ServiceType>
+		<!CommercialName>PET IN CABIN</!CommercialName></BrandingInfo>
+		<!Type>Pets</!Type>
+		<!TotalPrice>EUR55.00</!TotalPrice>
+		<!SupplierCode>AF</!SupplierCode>
+		<!PerTraveler>false</!PerTraveler>
+		<!CreateDate>2016-10-16T21:59:04.079+00:00</!CreateDate>
+		<!ServiceStatus>Offered</!ServiceStatus>
+		<!SequenceNumber>101500</!SequenceNumber>
+		<!ServiceSubCode>0BT</!ServiceSubCode>
+		<!IssuanceReason>C</!IssuanceReason>
+		<!Key>ZZ+IboynRZKHn7mK34a42w==</!Key>
+		<!AssessIndicator>MileageOrCurrency</!AssessIndicator>
+		<!InclusiveOfTax>true</!InclusiveOfTax>
+		<!InterlineSettlementAllowed>true</!InterlineSettlementAllowed>
+		<!GeographySpecification>Journey</!GeographySpecification>
+		<!Source>MCE</!Source>
+		<!ViewableOnly>true</!ViewableOnly>
+		<!ProviderCode>1G</!ProviderCode>
+		<!SecondaryType>InCabin</!SecondaryType>
+		<!Quantity>1</!Quantity>
+		<!BasePrice>EUR55.00</!BasePrice>
+		<!ApproximateTotalPrice>EUR55.00</!ApproximateTotalPrice>
+		<!ApproximateBasePrice>EUR55.00</!ApproximateBasePrice>
+		<!Taxes>EUR0.00</!Taxes>
+		<!OptionalServicesRuleRef>xbv5nN3bQOOuC7KRb0PE6A==</!OptionalServicesRuleRef></OptionalService><OptionalServiceRules><ApplicationRules>
+		<!RequiredForAllTravelers>false</!RequiredForAllTravelers></ApplicationRules>
+		<!Key>nIcpTTfHShylGGb6QZXP7g==</!Key></OptionalServiceRules><OptionalServiceRules><ApplicationRules>
+		<!RequiredForAllTravelers>false</!RequiredForAllTravelers></ApplicationRules>
+		<!Key>BCwW0/EpS1KuEedfDHH3Dw==</!Key></OptionalServiceRules><OptionalServiceRules><ApplicationRules>
+		<!RequiredForAllTravelers>false</!RequiredForAllTravelers></ApplicationRules>
+		<!Key>mX4BP0UWR92fA7ePfu/tVg==</!Key></OptionalServiceRules><OptionalServiceRules><ApplicationRules>
+		<!RequiredForAllTravelers>false</!RequiredForAllTravelers></ApplicationRules>
+		<!Key>xwQWQOdNRFWIA28NIBBt3g==</!Key></OptionalServiceRules><OptionalServiceRules><ApplicationRules>
+		<!RequiredForAllTravelers>false</!RequiredForAllTravelers></ApplicationRules>
+		<!Key>Q8JM7LmeTtSEFUD93otymw==</!Key></OptionalServiceRules><OptionalServiceRules><ApplicationRules>
+		<!RequiredForAllTravelers>false</!RequiredForAllTravelers></ApplicationRules>
+		<!Key>CraTUB9aSIyfrrPS+Q2R4w==</!Key></OptionalServiceRules><OptionalServiceRules><ApplicationRules>
+		<!RequiredForAllTravelers>false</!RequiredForAllTravelers></ApplicationRules>
+		<!Key>y1PmoWAPSsaaqtxDewRrIg==</!Key></OptionalServiceRules><OptionalServiceRules><ApplicationRules>
+		<!RequiredForAllTravelers>false</!RequiredForAllTravelers></ApplicationRules>
+		<!Key>YgeqzaQYSqmEB/6bE6eZTg==</!Key></OptionalServiceRules><OptionalServiceRules><ApplicationRules>
+		<!RequiredForAllTravelers>false</!RequiredForAllTravelers></ApplicationRules>
+		<!Key>iiK9KXYBQjmb77n/sHEZXg==</!Key></OptionalServiceRules><OptionalServiceRules><ApplicationRules>
+		<!RequiredForAllTravelers>false</!RequiredForAllTravelers></ApplicationRules>
+		<!Key>dgzEtHU1Squx7GMwYcsPLQ==</!Key></OptionalServiceRules><OptionalServiceRules><ApplicationRules>
+		<!RequiredForAllTravelers>false</!RequiredForAllTravelers></ApplicationRules>
+		<!Key>EtFrh67NRU+RMtwHOyLDcQ==</!Key></OptionalServiceRules><OptionalServiceRules><ApplicationRules>
+		<!RequiredForAllTravelers>false</!RequiredForAllTravelers></ApplicationRules>
+		<!Key>VokDInPXSDWJmx7AzyDd/w==</!Key></OptionalServiceRules><OptionalServiceRules><ApplicationRules>
+		<!RequiredForAllTravelers>false</!RequiredForAllTravelers></ApplicationRules>
+		<!Key>pMVCwDNHSUaFlb7nuhMPmw==</!Key></OptionalServiceRules><OptionalServiceRules><ApplicationRules>
+		<!RequiredForAllTravelers>false</!RequiredForAllTravelers></ApplicationRules>
+		<!Key>NxhHWoSPRgCzbIwOCrgMGg==</!Key></OptionalServiceRules><OptionalServiceRules><ApplicationRules>
+		<!RequiredForAllTravelers>false</!RequiredForAllTravelers></ApplicationRules>
+		<!Key>sJ4n5A3nS/WLhYbFa2dpbg==</!Key></OptionalServiceRules><OptionalServiceRules><ApplicationRules>
+		<!RequiredForAllTravelers>false</!RequiredForAllTravelers></ApplicationRules>
+		<!Key>tKnZ9HUTT/GXscaCUgMKlw==</!Key></OptionalServiceRules><OptionalServiceRules><ApplicationRules>
+		<!RequiredForAllTravelers>false</!RequiredForAllTravelers></ApplicationRules>
+		<!Key>84wf7YNZSFCAMdApu8r+Jg==</!Key></OptionalServiceRules><OptionalServiceRules><ApplicationRules>
+		<!RequiredForAllTravelers>false</!RequiredForAllTravelers></ApplicationRules>
+		<!Key>xbv5nN3bQOOuC7KRb0PE6A==</!Key></OptionalServiceRules></OptionalServices>
+		<!Key>u+nwZPwzRpSl+e+koSjh9w==</!Key>
+		<!TotalPrice>EUR154.48</!TotalPrice>
+		<!BasePrice>EUR114.00</!BasePrice>
+		<!ApproximateTotalPrice>EUR154.48</!ApproximateTotalPrice>
+		<!ApproximateBasePrice>EUR114.00</!ApproximateBasePrice>
+		<!Taxes>EUR40.48</!Taxes>
+		<!ApproximateTaxes>EUR40.48</!ApproximateTaxes>
+		<!QuoteDate>2016-10-16</!QuoteDate></AirPricingSolution></AirPriceResult>
+		<!TraceId>63ad216d-145f-49fe-827c-54c8e9451698</!TraceId>
+		<!TransactionId>CF8154750A076478822F67BC674D7A36</!TransactionId>
+		<!ResponseTime>2066</!ResponseTime></root>

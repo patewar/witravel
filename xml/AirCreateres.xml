@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<faultcode>Server.Business</faultcode>
+	<faultstring>Message From Galileo : Uncaught Service Exception cause:com.cendant.tds.soa.framework.ServiceException: Exception ReturnedERR: AGENT ID - GALILEOWith the Dynamic GTID list of:AFB10B </faultstring>
+	<detail>
+		<ErrorInfo>
+			<Code>3515</Code>
+			<Service>AIRSVC</Service>
+			<Type>Business</Type>
+			<Description>Unsuccessful primary host transaction causing reservation failure.</Description>
+			<TransactionId>CF86CA7A0A076478822F67BC4B7EF8A1</TransactionId>
+			<TraceId>a677366a-b068-4145-9871-c91ba58a074e</TraceId>
+		</ErrorInfo>
+	</detail>
+</root>
