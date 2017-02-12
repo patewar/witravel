@@ -1,0 +1,364 @@
+<loading loading="payment.loading"></loading>
+<header class="inner_head">
+    <a href="#"><img src="images/inner_logo.png"></a>
+
+<div class="col-md-4 col-sm-4 col-xs-4 header-left-inner pad_none">
+<ul>
+    <li><a href="#"><i class="fa fa-user"></i></a></li>
+    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+</ul>
+</div>
+<div class="col-md-4 col-sm-4 col-xs-4 header-right-inner pad_none">
+<ul>
+
+<li><img src="images/flag1.png"></li>
+<li><img src="images/flag2.png"></li>
+<li><img src="images/flag3.png"></li>
+</ul>
+</div>
+</header>
+
+<section>
+
+<div class="col-md-12 col-sm-12 col-xs-12 bann_out_con">
+    <div class="col-md-3 col-sm-4 col-xs-12">
+        <div class="col-md-12 col-sm-12 col-xs-12 precio_final">
+            <h2>{{payment.selectedTotalPrice}}€</h2>
+            <span>precio final</span>
+        </div>
+         <div class="col-md-12 col-sm-12 col-xs-12 viaj_txt tp_mrgn">
+            <div class="col-md-11 col-sm-12 col-xs-12 sallda_outer pad_none">
+                <div class="col-md-6 col-sm-6 col-xs-6 sallda_outer_frst">
+                    <h2>Salida</h2>
+                    <h3><span class="spn1">{{payment.startDate | date2DayName}}</span> <br>
+                    {{payment.startDate | convertDate2JsString}}</h3>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6 sallda_outer_frst">
+                    <h2>Vuelta</h2>
+                    <h3><span class="spn2">{{payment.endDate | date2DayName}}</span><br>
+                    {{payment.endDate | convertDate2JsString}}</h3>
+                </div>
+            </div>
+         </div>
+         
+         <div class="col-md-12 col-sm-12 col-xs-12 pad_none">
+            <div class="col-md-12 col-sm-12 col-xs-12 pricing_txt_inner01 pad_none">
+                <h2>€ Precios</h2>
+            </div>
+            <div class="col-md-12 col-sm-12 col-xs-12 tp_mrgn pad_none">
+                <div class="col-md-12 col-sm-12 col-xs-12" style="font-size: 12px">
+                    <div>Flight price &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: {{payment.selectedAirSegment['TotalAirPrice'] | string2Num}} €</div>
+                    <div>Hotel price &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: {{payment.selectedHotel['TotalMinAmountNum'] | string2Num}} €</div>
+                    <div>Booking charges : {{payment.bookingCharges | string2Num}} €</div><br>
+                </div>
+            </div>
+         </div>
+         
+         <div class="col-md-12 col-sm-12 col-xs-12 pad_none">
+            <div class="col-md-12 col-sm-12 col-xs-12 vuelos_txt_new01 pad_none">
+            <h2>Vuelos</h2>
+            </div>
+          
+            
+            <div class="col-md-12 col-sm-12 col-xs-12 tp_mrgn pad_none">
+               <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="plain_img_outer">
+                    <img src="images/plan2.png">
+                </div>
+                <div class="vueling_outer_btn">
+                    <img width="47" height="22" ng-src="images/airlines/{{payment.selectedAirSegment['onward']['!Carrier']}}_70_48.jpg"
+                 alt="{{flight['onward']['!Carrier']}}">
+                </div>
+               </div>
+                <div class="col-md-12 col-sm-12 col-xs-12 vueling_txt">
+                    <h2>{{payment.selectedAirSegment['onward']['!DepartureTime'] | displayTime}}</h2>
+                    <span>{{payment.selectedAirSegment['onward']['!ArrivalTime'] | displayTime}}</span>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12 barajas_txt">
+                    <span>{{payment.selectedAirSegment['onward']['!Origin'] | cityCode2Name}}, <strong>{{payment.selectedAirSegment['onward']['!Origin']}}</strong></span>
+                    <i class="fa fa-arrow-right right_arrow_pagar"></i>
+                    <span>{{payment.selectedAirSegment['onward']['!Destination'] | cityCode2Name}}, <strong>{{payment.selectedAirSegment['onward']['!Destination']}}</strong></span>
+                </div>
+
+                  <div class="col-md-12 col-sm-12 col-xs-12 plain_main_otr">
+                <div class="plain_img_outer">
+                    <img src="images/plain_left.png">
+                </div>
+                <div class="vueling_outer_btn">
+                    <img width="47" height="22" ng-src="images/airlines/{{payment.selectedAirSegment['return']['!Carrier']}}_70_48.jpg"
+                 alt="{{flight['return']['!Carrier']}}">
+                </div>
+               </div>
+                <div class="col-md-12 col-sm-12 col-xs-12 vueling_txt">
+                    <h2>{{payment.selectedAirSegment['return']['!DepartureTime'] | displayTime}}</h2>
+                    <span>{{payment.selectedAirSegment['return']['!ArrivalTime'] | displayTime}}</span>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12 barajas_txt">
+                    <span>{{payment.selectedAirSegment['return']['!Origin'] | cityCode2Name}}, <strong>{{payment.selectedAirSegment['return']['!Origin']}}</strong></span>
+                    <i class="fa fa-arrow-right right_arrow_pagar"></i>
+                    <span>{{payment.selectedAirSegment['return']['!Destination'] | cityCode2Name}}, <strong>{{payment.selectedAirSegment['return']['!Destination']}}</strong></span>
+                </div>
+            </div>
+                        
+             <div class="col-md-12 col-sm-12 col-xs-12 vuelos_txt_new01 pad_none">
+                <h2>Hoteles</h2>
+             </div>
+             
+             <div class="col-md-8 col-sm-8 col-xs-8 radision_blue_txt">
+                <h2>{{payment.selectedHotel['Name']}}, <strong>{{payment.selectedHotel['Address']}}</strong></h2>
+            </div>
+             <div class="col-md-4 col-sm-4 col-xs-4 radision_blue_star pad_none">
+                <i class="fa fa-star star_icon"></i>
+                <i class="fa fa-star star_icon"></i>
+                <i class="fa fa-star star_icon"></i>
+             </div>
+             
+         </div>
+         <div class="col-md-12 col-sm-12 col-xs-12  vuelos_txt_inner01 pad_none">
+            <div class="box_check_txt_new03">
+
+                    
+                    <input type="checkbox" name="cc" id="c16">
+                    <label for="c16"><span class="blue"></span>Pagar ahora</label>
+                
+                   
+                    
+             </div>
+             <div class="box_check_txt_new03">
+                    
+                    <input type="checkbox" name="cc" id="c17">
+                    <label for="c17"><span class="blue"></span>Pagar on ol hotel</label>
+             </div>
+         </div>       
+    </div>
+    
+    
+    <div class="col-md-9 col-sm-8 col-xs-12 payment_imgs_outr_para_new">
+        
+        <div class="heading-width">
+        <div class="col-md-3 col-sm-6 col-xs-12 datos_btn">
+            Datos del pasajero
+        </div>
+        </div>
+        <p>Introduce tu nombre tal cual aparece en tu DNI o pasaporte</p>
+
+      
+        <form id="paypalSubmit" style="display:none" name='_xclick' action='https://www.sandbox.paypal.com/cgi-bin/webscr' method='post'>
+
+       <input type='hidden' name='cmd' value='_xclick'>
+
+       <input type='hidden' name='business' value='gauritek-facilitator@ymail.com'>
+
+       <input type='hidden' name='currency_code' value='USD'>
+
+       <input type='hidden' name='notify_url' value='http://localhost/we-travel_latest/success.php'>
+
+       <input type='hidden' name='return' value='http://localhost/we-travel_latest/success.php'>  
+
+       <input type='hidden' name='item_name' value='Hotel Booking'>
+
+       <input type='hidden' name='amount' value='395' >  
+
+
+       <input  style=''  id="paypal_submit_btn" type='submit' name='submit' alt='Make payments with PayPal - its fast, free and secure!' value='Pagar ahora'>
+
+      </form>
+<!-------------- ends ------------------------->
+<!-- below is form for braintree by webchefz -->
+        <form method="POST" id="myform" action="<?php echo Braintree_TransparentRedirect::url() ?>" autocomplete="off">
+        <!--<form method="POST" id="myform" action="void(0)" autocomplete="off">-->
+        <div class="col-md-12 col-sm-12 col-xs-12 payment_fields_outer pad_none">
+        <div class="col-md-4 col-sm-4 col-xs-12 pad_none payment_text_fields">
+            <h2>Tratamiento</h2>
+            <select class="payment_text_fields_innr inner-2 col-md-12 col-sm-12 col-xs-12" required="required" name="">
+    <option value="sr">Sr</option>
+    <option value="perder">Perder</option>
+   </select>    
+            <!--<input type="text" class="payment_text_fields_innr col-md-12 col-sm-12 col-xs-12" name="">-->
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12 pad_none payment_text_fields">
+            <h2>Nombre</h2>
+            <input type="text" class="payment_text_fields_innr col-md-12 col-sm-12 col-xs-12" required="required" name="transaction[customer][first_name]" ng-model="payment.first_name">
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12 pad_none payment_text_fields">
+            <h2>Apellido</h2>
+            <input type="text" class="payment_text_fields_innr col-md-12 col-sm-12 col-xs-12" required="required" name="transaction[customer][last_name]"  ng-model="payment.last_name">
+        </div>
+       </div>
+
+        
+
+
+        <div class="heading-width">
+        <div class="col-md-4 col-sm-6 col-xs-12 datos_btn">
+            Informacion de contacto y pago
+        </div>
+        </div>
+<p>Necesitamos sus datos de contacto para enviarle Informacion importante sobre cambios en el vuelo y la confirmacion de la reserva</p>
+        
+        
+        <div class="col-md-12 col-sm-12 col-xs-12 payment_fields_outer pad_none">
+        <div class="col-md-4 col-sm-4 col-xs-12 pad_none payment_text_fields">
+            <h2>Mail</h2>
+            <input type="email" class="payment_text_fields_innr col-md-12 col-sm-12 col-xs-12" required="required" name="transaction[customer][email]" ng-model="payment.email">
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12 pad_none payment_text_fields">
+            <h2>Telefono</h2>
+            <input type="text" class="payment_text_fields_innr col-md-12 col-sm-12 col-xs-12" required="required" name="transaction[customer][phone]" ng-model="payment.phone">
+        </div>
+       </div>
+
+
+
+
+<div class="heading-width">
+        <div class="col-md-3 col-sm-6 col-xs-12 datos_btn">
+            Metodo de pago
+        </div>        
+        </div>
+
+        <div class="pmt_method">
+                <div class="box_check_txt1" id="hide">
+                    <input type="radio" checked="checked" id="c25" name="cc" />
+                    <label for="c25"><span class="blue1"></span><i class="fa fa-credit-card"></i></label>
+                </div>
+                <div class="box_check_txt1" id="show">
+                    <input type="radio" id="c26" name="cc" />
+                    <label for="c26"><span class="blue1"></span><img src="images/pay_pal.png"></label>
+                </div>
+            
+        </div>
+<div class="on-click-show" style=" display:none;">
+        <div class="bottom-text">
+        <p>EI pago se redirigira a PayPal.</p>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 payment_fields_outer mrg-tandc pad_none">
+                <div class="col-md-8 col-sm-8 col-xs-12 pad_none payment_text_fields payment_fields_lrg">
+            <div class="box_check_txt2">
+                    <input type="checkbox" name="terms" id="c10">
+                    <label for="c10"><span class="blue"></span></label>
+                </div>
+            <p class="terms_conditions">He leido y acepto los <span>Terminos y condiciones generales de transporte</span>, las<span> condiciones de uso del sitio web</span> y la <span>Declaracion de privavidad de privavidad de wi.travel.</span></p>
+        </div>
+
+<div class="col-md-4 col-sm-4 col-xs-12 pad_none payment_text_fields">
+            <div class="heading-width">
+        <div class="datos_btn">
+           
+            <input type="button" id="paypal_submit" style="background: #07cdfa;border: 0px !important;" value="Pagar ahora" />
+           </div>
+        </div>
+        </div>
+
+</div>
+</div>
+        
+        
+   <div class="try">     
+        <div class="col-md-12 col-sm-12 col-xs-12 payment_fields_outer pad_none">
+        <div class="col-md-8 col-sm-8 col-xs-12 pad_none payment_text_fields payment_fields_lrg">
+            <h2>Numero de tarjeta </h2>
+            <input type="text" class="payment_text_fields_large col-md-12 col-sm-12 col-xs-12" name="transaction[credit_card][number]" ng-model="payment.cc_num">
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12 pad_none payment_text_fields">
+            <h2> Tipo de tarjeta</h2>
+                <select class="payment_text_fields_innr col-md-12 col-sm-12 col-xs-12" required="required" name="" ng-model="payment.cc_type">
+    <option value="visa">Visa</option>
+    <option value="mastercard">Mastercard</option>
+    <option value="maestro">Maestro</option>
+    <option value="amex">Amex</option>
+    <option value="discover">Discover</option>
+    <option value="jcb">JCB</option>
+    <option value="diners">Diners</option>
+  </select>
+            
+            <!--<input type="text" placeholder="Visa" class="payment_text_fields_innr col-md-12 col-sm-12 col-xs-12" name="">-->
+        </div>
+        
+       </div>
+
+        <div class="col-md-12 col-sm-12 col-xs-12 payment_fields_outer pad_none">
+        <div class="col-md-4 col-sm-4 col-xs-12 pad_none payment_text_fields">
+            <h2>Caducidad</h2>
+                <select class="payment_text_fields_innr col-md-12 col-sm-12 col-xs-12" id="month" required="required" name="month" ng-model="payment.cc_exp_mon">
+                                      <option value="01">1</option><option value="02">2</option><option value="03">3</option><option value="04">4</option><option value="05">5</option><option value="06">6</option><option value="07" selected>7</option><option value="08">8</option><option value="09">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option>
+
+  </select>
+            <!--<input type="text" placeholder="Mes" class="payment_text_fields_innr col-md-12 col-sm-12 col-xs-12" name="">-->
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12 pad_none payment_text_fields">
+            <h2>&nbsp;</h2>
+            <select class="payment_text_fields_innr col-md-12 col-sm-12 col-xs-12" id="year" required="required" name="year" ng-model="payment.cc_exp_year">
+                <option value="s16">2016</option>
+                <option value="s17" >2017</option>
+                <option value="s18" >2018</option>
+                <option value="s19" >2019</option>
+                <option value="s20" >2020</option>
+                <option value="s21" >2021</option>
+                <option value="s22" >2022</option>
+                <option value="s23" >2023</option>
+                <option value="s24" >2024</option>
+                <option value="s25" >2025</option>
+                <option value="s26" >2026</option>
+            </select>
+                <input type="hidden" name="transaction[credit_card][expiration_date]" id="expiry">
+            <!--<input type="text" placeholder="Ano" class="payment_text_fields_innr col-md-12 col-sm-12 col-xs-12" name="">-->
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12 pad_none payment_text_fields">
+            <h2> Codigo de seguridad</h2>
+            <input type="text" placeholder="CVV" required="required" class="payment_text_fields_innr col-md-8 col-sm-8 col-xs-8" name="transaction[credit_card][cvv]" ng-model="payment.cc_cvv">
+              <p class="cvv_code"> Que es esto?</p>        
+        </div>
+</div>
+
+<div class="col-md-12 col-sm-12 col-xs-12 payment_fields_outer pad_none">
+        <div class="col-md-8 col-sm-8 col-xs-12 pad_none payment_text_fields payment_fields_lrg">
+            <h2>Nombre del titular</h2>
+            <input type="text" placeholder="Mes" required="required" class="payment_text_fields_large col-md-12 col-sm-12 col-xs-12" name="" ng-model="payment.first_name">
+        </div>
+</div>
+
+<div class="col-md-12 col-sm-12 col-xs-12 payment_fields_outer pad_none">
+        <div class="col-md-8 col-sm-8 col-xs-12 pad_none payment_text_fields payment_fields_lrg">
+            <div class="box_check_txt2">
+                    <input type="checkbox" id="c11" name="terms" required="required"/>
+                    <label for="c11"><span class="blue"></span></label>
+                </div>
+            <p class="terms_conditions">He leido y acepto los <span>Terminos y condiciones generales de transporte</span>, las<span> condiciones de uso del sitio web</span> y la <span>Declaracion de privavidad de privavidad de wi.travel.</span></p>
+        </div>
+
+<div class="col-md-4 col-sm-4 col-xs-12 pad_none payment_text_fields">
+            <div class="heading-width">
+        <div class="datos_btn">
+                <input type="hidden" name="tr_data" value="7397a02d5a7b51c8994157b2f0cdfe70443a3865|api_version=4&kind=create_transaction&public_key=h3qtwffypdhyg9kx&redirect_url=http%3A%2F%2Flocalhost%2Fzf-witravel%2Fpublic%2Fapp%2F%23%2Fpayment&time=20160428172646&transaction%5Bamount%5D=395.00&transaction%5Btype%5D=sale" /> 
+            <input type="button" id="frm_submit" style="background: #07cdfa;border: 0px !important;" value="Pagar ahora" ng-click="payment.doPayment()"/>
+        </div>
+        </div>
+        </div>
+</div>
+</div>
+
+
+
+
+</form>
+    </div>    
+
+    
+</div>
+</section>
+
+
+<div class="col-md-12 col-sm-12 col-xs-12 footer_part">
+<ul>
+<li><a href="javascript:;">Acerca de wi.travel</a></li>
+<li><a href="javascript:;">Contacto</a></li>
+<li><a href="javascript:;">Miembros</a></li>
+<li><a href="javascript:;">Mapa del sitio</a></li>
+</ul>
+<ul class="social-media">
+    <li><a href="#"><i class="ssl-trust"></i></a></li>
+</ul>
+</div>

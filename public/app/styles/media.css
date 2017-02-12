@@ -1,0 +1,1286 @@
+@media only screen and (min-width: 992px) and (max-width: 1200px) 
+{
+
+/*body
+{
+	border:1px solid #f00;
+}*/
+
+.vuelos_btn a
+{
+	background:url(../images/btn_arrow.png) 84% 17px no-repeat;
+	background-size:20px;
+}
+.vuelos_btn a:hover
+{
+  background:url(../images/btn_arrow.png) 90% 17px no-repeat;
+  background-size:20px;
+}
+
+.cros_btn 
+{
+  right: 0;
+}
+
+.caption ul 
+{
+  margin: 10px 0 0 0;
+}
+.caption li 
+{
+  text-align: center;
+}
+.caption a 
+{
+  font-size: 14px;
+  padding: 10px 30px;
+}
+.caption h2 
+{
+  margin:27px 0 0 !important;
+}
+.caption span 
+{
+  font-size: 28px;
+}
+#mainwrapper .box .caption 
+{
+  background-size: 20%;
+}
+.cont_text_fields 
+{
+  margin: 0 14px 0 0;
+}
+.radision_blue_txt h2 
+{
+  font-size: 11px;
+}
+.dejan_btn 
+{
+  font-size: 12px;
+}
+.hotel_imgs_txt h2 
+{
+  font-size: 11px;
+  line-height:12px;
+}
+.hotel_imgs_txt span 
+{
+  font-size: 12px;
+}
+.new_grey_bg 
+{
+  line-height: 32px;
+}
+.right_arrow_innr02 
+{
+  margin: 10px 0 0 17px;
+    font-size: 11px !important;
+}
+.right_arrow_innr03 {
+  color: #0ccefa;
+  margin: 8px 0 0 0px;
+  font-size: 11px !important;
+}
+.right_arrow_innr 
+{
+  margin:0;
+}
+.info_btn_inner_new02 
+{
+  margin: 133px 0 0 !important;
+}
+.vueling_outer 
+{
+  min-height:314px;
+  width:31%;
+}
+.plain_img_innr_page img 
+{
+  margin: 10px 5px 0 0;
+  width: 20px;
+}
+.plain_img_outer h3 
+{
+  font-size:10px;
+}
+.plain_img_outer span 
+{
+  font-size: 9px;
+}
+.barajas_txt span 
+{
+  font-size: 9px;
+}
+.madrid_img_outer 
+{
+  min-height: 245px;
+   margin: 0 13px 15px 0 !important;
+}
+.vueling_outer_btn_inner_img img 
+{
+  margin:10px 0 0 5px;
+  width: 40px;
+}
+.madrid_img_outer02 
+{
+  min-height: 245px;
+}
+
+.madrid_img_outer03 
+{
+  min-height: 245px;
+  margin: 0 0 15px 0 !important;
+}
+.madrid_img_outer04 
+{
+  min-height: 245px;
+  margin: 0 13px 15px 0 !important;
+}
+.madrid_img_outer05 
+{
+  min-height: 245px;
+   margin: 0 13px 15px 0 !important;
+}
+.madrid_img_outer06 
+{
+  min-height: 245px;
+   margin: 0 0px 15px 0 !important;
+}
+
+.madrid_img_outer h2 
+{
+  margin: 110px 0 0;
+}
+
+.madrid_img_outer02 h2 
+{
+  margin: 110px 0 0;
+}
+
+.madrid_img_outer03 h2 
+{
+  margin: 110px 0 0;
+}
+
+.madrid_img_outer04 h2 
+{
+  margin: 110px 0 0;
+}
+
+.madrid_img_outer05 h2 
+{
+  margin: 110px 0 0;
+}
+
+.madrid_img_outer06 h2 
+{
+  margin: 110px 0 0;
+}
+.sallda_outer 
+{
+  margin: 0 0 0 5px;
+}
+.sallda_outer_frst h2 
+{
+  font-size: 10px;
+}
+.sallda_outer_frst 
+{
+  padding: 2px 3px;
+}
+
+/*06-02-2016_starts*/
+
+.cont_seek_frst {
+  width: 182px !important;
+}
+
+#slider {
+  width: 149px !important;
+}
+
+.second_seek {
+  width: 177px !important;
+}
+
+#slider1 {
+  width: 127px !important;
+}
+
+/*06-02-2016_ends*/
+
+/*22/02/2016*/
+
+.info_btn_inn_nw01 a {
+  font-size: 15px;
+}
+
+.info_btn_inner a {
+  font-size: 15px;
+}
+
+}
+@media only screen and (min-width: 767px) and (max-width: 992px) 
+{
+
+/*body
+{
+	border:1px solid #0f0;
+}*/
+
+.trip_advisior h2 
+{
+  margin: 10px 0 0;
+}
+.pop_right_txt_part h2 
+{
+  font-size:18px;
+}
+.pop_right_txt_part li 
+{
+  margin:5px 0 0;
+}
+.cros_btn 
+{
+  right: 0;
+}
+.caption span 
+{
+  font-size:14px;
+}
+.caption ul 
+{
+  list-style: outside none none;
+  margin: 5px 0 0 0;
+  padding: 0;
+}
+.caption li 
+{
+  font-size: 10px;
+  margin: 0 0 3px;
+  text-align:center;
+}
+.caption h2 
+{
+  display: block !important;
+  font-size: 13px !important;
+  margin:26px 0 0 !important;
+}
+.caption a 
+{
+  font-size: 9px;
+  margin: 2px 0 0;
+  padding: 5px 14px;
+}
+#mainwrapper .box .caption 
+{
+  background-size: 20%;
+}
+
+.cont_fields_outer 
+{
+  margin: 0 0 140px;
+}
+.cont_text_fields 
+{
+  margin: 0 9px 0 0;
+}
+.right_arrow_pagar
+{
+	margin:0 2px;
+	font-size:8px !important;
+}
+.vuelos_btn 
+{
+  font-size: 20px;
+}
+
+.vuelos_btn a
+{
+	background:url(../images/btn_arrow.png) 80% 17px no-repeat;
+	background-size:20px;
+}
+.vuelos_btn a:hover
+{
+  background:url(../images/btn_arrow.png) 90% 17px no-repeat;
+  background-size:20px;
+}
+.hotel_imgs_outr 
+{
+  width: 45%;
+}
+
+.new_grey_bg 
+{
+  min-height: 100px;
+}
+.madrid_img_outer 
+{
+  min-height:165px;
+  margin: 0 9px 9px 0 !important;
+}
+.vueling_outer 
+{
+  margin: 0 0 10px 4px;
+  min-height: 275px;
+  width: 49%;
+}
+.right_arrow_innr03 
+{
+  margin: 7px 0 0;
+}
+.plain_img_outer h3 {
+  color: #5b5b5b;
+  display: inline-block;
+  font-family: "Conv_GothamRounded-Bold";
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
+.barajas_txt span 
+{
+  font-size: 9px;
+}
+.right_arrow_innr02 
+{
+  margin: 10px 0 0 17px;
+}
+
+.plain_img_outer span 
+{
+  font-size: 9px;
+}
+.vueling_outer_btn_inner_img img 
+{
+  width: 40px;
+}
+
+.madrid_img_outer02 
+{
+  min-height:165px;
+  margin: 0 7px 9px 0 !important;
+}
+
+.madrid_img_outer03 
+{
+  min-height: 165px;
+  margin: 0 0 9px 0 !important;
+}
+.madrid_img_outer04 
+{
+  min-height: 165px;
+  margin: 0 9px 9px 0 !important;
+}
+.madrid_img_outer05 
+{
+  min-height: 165px;
+  margin: 0 9px 9px 0 !important;
+}
+.madrid_img_outer06 
+{
+  min-height:165px;
+  margin: 0 0 9px 0 !important;
+}
+
+.madrid_img_outer h2 
+{
+  margin:60px 0 0;
+  font-size:20px;
+}
+
+.madrid_img_outer02 h2 
+{
+    margin:60px 0 0;
+	font-size:20px;
+}
+
+.madrid_img_outer03 h2 
+{
+   margin:60px 0 0;
+   font-size:20px;
+}
+
+.madrid_img_outer04 h2 
+{
+   margin:60px 0 0;
+   font-size:20px;
+}
+
+.madrid_img_outer05 h2 
+{
+   margin:60px 0 0;
+   font-size:20px;
+}
+
+.madrid_img_outer06 h2 
+{
+    margin:80px 0 0;
+	font-size:20px;
+}
+.sallda_outer 
+{
+   margin:0px 0 0;
+}
+.sallda_outer_frst h2 
+{
+  font-size: 10px;
+}
+.sallda_outer_frst 
+{
+  padding: 2px 3px;
+}
+	
+/*pop_up_one_starts*/
+
+.made_by {
+  margin: -255px 0 0 -350px;
+  width: 700px;
+}
+
+/*pop_up_one_starts*/
+
+/*06-02-2016_starts*/
+
+.cont_seek_frst {
+  width: 182px !important;
+}
+
+#slider {
+  width: 149px !important;
+}
+
+.second_seek {
+  width: 177px !important;
+}
+
+#slider1 {
+  width: 127px !important;
+}
+
+.input_1 {
+  margin: 1px 0 0 4px;
+}
+
+.input_2 {
+  margin: 1px 15px 0 4px;
+}
+
+/*06-02-2016_ends*/
+
+/*22/02/2016*/
+
+.info_btn_inn_nw01 a {
+  font-size: 15px;
+}
+
+.info_btn_inner a {
+  font-size: 15px;
+}
+
+}
+
+@media only screen and (min-width: 620px) and (max-width: 766px) 
+
+{
+
+/*body
+{
+	border:1px solid #00f;
+}*/
+	
+/*pop_up_one_starts*/
+
+.made_by {
+  margin: -255px 0 0 -300px !important;
+  width: 600px !important;
+}
+
+#owl-demoo .owl-prev {
+  margin: -136px 0 0 4px;;
+}
+
+#owl-demoo .owl-next {
+  margin: -136px 0 0 4px;;
+}
+
+/*pop_up_one_starts*/
+
+/*06-02-2016_starts*/
+
+.second_seek {
+  margin: 0 49% 0 0;
+}
+
+/*06-02-2016_ends*/
+
+.inner_head {
+  padding: 8px 15px;
+  text-align: left;
+}
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) 
+{
+
+/*body
+{
+	border:1px solid #ff0;
+}*/
+
+.vuelos_btn a
+{
+	background:url(../images/btn_arrow.png) 80% 17px no-repeat;
+	background-size:20px;
+}
+.vuelos_btn a:hover
+{
+  background:url(../images/btn_arrow.png) 90% 17px no-repeat;
+  background-size:20px;
+}
+
+
+.right_popop 
+{
+	background-size:cover;
+}
+
+.pop_right_icon_outr 
+{
+  margin: 5px 40px 0 0;
+}
+.pop_left_img_outr 
+{
+  float: left;
+  width: 100%;
+  text-align:center;
+}
+.pop_left_img_outr img 
+{
+  width: 50%;
+  float:none;
+}
+.caption span 
+{
+  font-size: 22px;
+}
+.caption ul 
+{
+  list-style: outside none none;
+  margin: 5px 0 0 0;
+  padding: 0;
+}
+.caption li 
+{
+  font-size: 12px;
+  margin: 0 0 6px;
+  text-align:center;
+}
+.caption h2 
+{
+  display: block !important;
+  font-size:16px !important;
+  margin: 26px 0 0 !important;
+}
+.caption a 
+{
+  font-size: 13px;
+  margin:2px 0 0;
+  padding: 10px 30px;
+}
+#mainwrapper .box .caption 
+{
+  background-size: 20%;
+}
+
+.flltro h2 
+{
+  margin: 0 0 10px;
+}
+
+.cont_fields_outer 
+{
+  margin: 0 0 80px;
+}
+.cont_text_fields 
+{
+  margin: 0 9px 0 0;
+}
+.pay_pal_img_left 
+{
+  margin: 0 0 30px;
+}
+.pay_pal_bg_outer 
+{
+  margin:0 0 30px;
+}
+.hotel_imgs_outr 
+{
+  background: #cdf5fe none repeat scroll 0 0;
+  margin: 0 0 15px 5px;
+  width: 48%;
+}
+.info_btn_inn_nw01 a 
+{
+  font-size: 13px;
+}
+.vueling_outer 
+{
+  margin: 0 0 15px 0;
+  min-height: 275px;
+  width: 100%;
+}
+
+
+.madrid_img_outer 
+{
+	background-size:100%;
+	min-height:210px;
+	width:49%;
+	margin:0 0 8px 0 !important;
+}
+
+.madrid_img_outer02 
+{
+	background-size:100%;
+	min-height:210px;
+	width:49%;
+	margin:0 0 8px 8px !important;
+}
+.madrid_img_outer03 
+{
+	background-size:100%;
+	min-height:210px;
+	width:49%;
+	margin:0 0 8px 0 !important;
+}
+.madrid_img_outer04 
+{
+	background-size:100%;
+	width:49%;
+	margin:0 0 8px 8px !important;
+	min-height:210px;
+}
+.madrid_img_outer05 
+{
+	background-size:100%;
+	min-height:210px;
+	width:49%;
+	margin:0 0 8px 0 !important;
+}
+.madrid_img_outer06 
+{
+	background-size:100%;
+	min-height:210px;
+	width:49%;
+	margin:0 0 8px 8px !important;
+}
+body {
+  background-position: 76% center;
+  background-size: inherit;
+}
+header {
+  padding: 12px 0 0;
+}
+.logo img {
+  width: 82%;
+}
+.header-right li {
+  margin: 0 2.5px;
+}
+.header-right li a {
+  font-size: 12px;
+}
+.header-right li img {
+  height: 12px;
+}
+.contentarea {
+  padding: 28px 0 80px !important;
+}
+.contentarea h2 {
+  font-size: 15px;
+}
+.contentbox {
+  margin: 15px auto auto;
+}
+.contentbox li {
+  font-size: 14px;
+}
+.inputouter {
+  margin: 5px auto auto;
+  padding: 14px 97px;
+}
+.submitbtnouter > input {
+  font-size: 25px;
+  padding: 12px 74px;
+}
+footer li {
+  display: inline-block;
+  float: none;
+}
+footer li a {
+  border: none;
+}
+.madrid_img_outer h2 
+{
+  font-size: 22px;
+  margin:100px 0 0;
+}
+.madrid_img_outer02 h2 
+{
+  font-size: 22px;
+   margin:100px 0 0;
+}
+
+.madrid_img_outer03 h2 
+{
+  font-size: 22px;
+   margin:100px 0 0;
+}
+
+.madrid_img_outer04 h2 
+{
+  font-size: 22px;
+   margin:100px 0 0;
+}
+.madrid_img_outer05 h2 
+{
+  font-size:22px;
+   margin:100px 0 0;
+}
+.madrid_img_outer06 h2 
+{
+  font-size: 22px;
+   margin:100px 0 0;
+}
+.right_arrow_innr02 
+{
+  margin: 10px 0 0 105px;
+}
+
+.right_arrow_innr03 
+{
+  margin: 10px 0 0 82px;
+}
+
+	
+/*pop_up_one_starts*/
+
+.made_by {
+  margin: -255px 0 0 -230px;
+  width: 460px;
+}
+
+#owl-demoo .owl-prev {
+  margin: -105px 0 0 4px;;
+}
+
+#owl-demoo .owl-next {
+  margin: -105px 0 0 4px;;
+}
+
+/*pop_up_one_starts*/
+
+/*full_width_starts*/
+
+.full_auto {
+  margin: -160px 0 0 -230px !important;
+  width: 460px !important;
+}
+
+#owl-demooo .owl-prev {
+  margin: -140px 0 0 4px;
+}
+
+#owl-demooo .owl-next {
+  margin: -140px 4px 0 0;
+}
+
+/*full_width_ends*/
+
+/*06-02-2016_starts*/
+
+.second_seek {
+  margin: 0 43% 0 0;
+  width: 230px;
+}
+
+.input_2 {
+  background: hsla(0, 0%, 0%, 0) none repeat scroll 0 0;
+  border: medium none;
+  float: left;
+  font-size: 10px;
+  margin: 0 11px 0 4px;
+  padding: 0;
+}
+
+/*06-02-2016_ends*/
+
+
+.page_bg {
+  background-position: right top;
+}
+
+.inner_head {
+  padding: 8px 15px;
+  text-align: left;
+}
+
+.input_2.hasDatepicker {
+  margin: 2px 0 0 4px;
+}
+
+
+}
+@media only screen and (max-width: 479px) 
+{
+
+/*body
+{
+	border:1px solid #0ff;
+}
+*/
+.right_popop 
+{
+	background-size:cover;
+}
+
+.vuelos_btn a
+{
+	background:url(../images/btn_arrow.png) 80% 14px no-repeat;
+	background-size:20px;
+}
+.vuelos_btn a:hover
+{
+  background:url(../images/btn_arrow.png) 90% 14px no-repeat;
+  background-size:20px;
+}
+
+.box_check_pop label 
+{
+  margin: 0 30px 0 0;
+}
+.pop_twent_btn02 
+{
+  float: left;
+  padding: 0 0 55px;
+  width: 100%;
+  margin:10px 0 0;
+}
+.pop_twent_btn02 a 
+{
+  display: block;
+  text-align: center;
+}
+.pop_twent_btn 
+{
+  float: left;
+  width: 100%;
+  margin:10px 0 0;
+}
+.pop_twent_btn a 
+{
+  display: block;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+}
+.pop_right_txt_part li 
+{
+  font-size: 11px;
+  margin: 5px 0 0;
+}
+.pop_right_txt_part ul 
+{
+  margin:0;
+  padding:0;
+}
+.pop_right_txt_part p 
+{
+  font-size: 11px;
+  margin: 5px 0 0;
+}
+.pop_right_txt_part h2 
+{
+  margin:10px 0 0;
+  font-size:13px;
+}
+.pop_right_icon_outr 
+{
+  margin: 5px 40px 0 0;
+}
+.pop_left_img_outr 
+{
+  float: left;
+  width: 100%;
+}
+.caption span 
+{
+  font-size: 22px;
+}
+.caption ul 
+{
+  list-style: outside none none;
+  margin: 5px 0 0 0;
+  padding: 0;
+}
+.caption li 
+{
+  font-size: 12px;
+  margin: 0 0 6px;
+  text-align:center;
+}
+.caption h2 
+{
+  display: block !important;
+  font-size:16px !important;
+  margin: 26px 0 0 !important;
+}
+.caption a 
+{
+  font-size: 13px;
+  margin:2px 0 0;
+  padding: 10px 30px;
+}
+#mainwrapper .box .caption 
+{
+  background-size: 20%;
+}
+.caption span 
+{
+  font-size: 22px;
+}
+.caption ul 
+{
+  list-style: outside none none;
+  margin: 5px 0 0 0;
+  padding: 0;
+}
+.caption li 
+{
+  font-size: 12px;
+  margin: 0 0 6px;
+  text-align:center;
+}
+.caption h2 
+{
+  display: block !important;
+  font-size:16px !important;
+  margin:30px 0 0 !important;
+}
+.caption a 
+{
+  font-size: 13px;
+  margin: 5px 0 0;
+  padding: 10px 30px;
+}
+
+
+
+.flltro h2 
+{
+  margin: 0 0 10px;
+}
+
+.cont_fields_outer 
+{
+  margin: 0 0 50px;
+}
+.cont_text_fields 
+{
+  margin: 0 5px 0 0;
+}
+.pay_pal_img_left 
+{
+  margin: 0 0 30px;
+}
+.pay_pal_bg_outer 
+{
+  margin:0 0 30px;
+}
+.pagar_btn 
+{
+  font-size: 18px;
+}
+.radision_blue_txt h2 
+{
+  font-size: 11px;
+}
+.hotel_imgs_outr 
+{
+  margin: 0 0 15px;
+  width: 100%;
+}
+.barajas_txt span 
+{
+  font-size: 11px;
+}
+.new_inner_vuelos_btn a {
+  font-size: 18px;
+  padding: 6px 0;
+  text-align: center;
+}
+
+
+.vuelos_btn 
+{
+  font-size: 18px;
+  margin:7px 0 15px;
+}
+.vuelos_txt_inner01 h2 
+{
+  margin: 10px 0 0;
+}
+.sallda_outer_frst h3 
+{
+  font-size: 10px;
+}
+.sallda_outer_frst h2 
+{
+  font-size: 10px;
+}
+.precio_final h2 
+{
+  font-size: 28px;
+}
+.info_btn_inner a 
+{
+  font-size: 14px;
+  padding: 10px 0 13px;
+}
+.plain_img_outer h3 
+{
+  font-size: 10px;
+}
+.plain_img_outer span 
+{
+  font-size: 9px;
+}
+.vueling_outer 
+{
+  margin: 0 0 15px 0;
+  min-height: 245px;
+  width: 100%;
+}
+.right_arrow_innr02 {
+  margin: 10px 0 0 35px;
+  font-size: 9px !important;
+}
+.right_arrow_innr03 
+{
+  margin: 10px 0 0 17px;
+  font-size: 9px !important;
+}
+	
+.madrid_img_outer
+{
+  min-height:220px;
+  background-size:100%;
+  width:100%;
+  margin:0 0 10px 0 !important;
+}	
+.madrid_img_outer02 
+{
+  min-height:220px;
+  background-size:auto;
+  background-size:100%;
+  width:100%;
+ margin:0 0 10px 0 !important;
+}	
+
+.madrid_img_outer03
+{
+  min-height:220px;
+  background-size:auto;
+  background-size:100%;
+  width:100%;
+ margin:0 0 10px 0 !important;
+}
+
+.madrid_img_outer04 
+{
+  min-height:220px;
+  background-size:100%;
+  width:100%;
+  margin:0 0 10px 0 !important;
+}
+
+.madrid_img_outer05 
+{
+  min-height:220px;
+  background-size:100%;
+  width:100%;
+  margin:0 0 10px 0 !important;
+}	
+
+.madrid_img_outer06 
+{
+  min-height:220px;
+  background-size:100%;
+  width:100%;
+  margin:0 0 10px 0 !important;
+}
+.madrid_img_outer h2 
+{
+  font-size: 26px;
+  margin: 100px 0 0;
+}
+.madrid_img_outer02 h2 
+{
+  font-size: 26px;
+  margin: 100px 0 0;
+}
+.madrid_img_outer03 h2 
+{
+  font-size: 26px;
+  margin: 100px 0 0;
+}
+.madrid_img_outer04 h2 
+{
+  font-size: 26px;
+  margin: 100px 0 0;
+}.madrid_img_outer05 h2 
+{
+  font-size: 26px;
+  margin: 100px 0 0;
+}
+.madrid_img_outer06 h2 
+{
+  font-size: 26px;
+  margin: 100px 0 0;
+}
+	
+body {
+  background-position: 76% center;
+  background-size: inherit;
+}
+header {
+  padding: 12px 0 0;
+}
+.logo img {
+  width: 82%;
+}
+.header-right li {
+  margin: 0 2.5px;
+}
+.header-right li a {
+  font-size: 13px;
+}
+.header-right li img {
+  height: 12px;
+}
+.contentarea {
+  padding: 74px 0 110px !important;
+}
+.contentarea h2 {
+  font-size: 15px;
+}
+.contentbox {
+  margin: 15px auto auto;
+}
+.contentbox li {
+  font-size: 14px;
+}
+.inputouter {
+  margin: 5px auto auto;
+  padding: 12px 97px;
+}
+.submitbtnouter > input {
+  font-size: 25px;
+  padding: 12px 74px;
+}
+footer li {
+  display: inline-block;
+  float: none;
+}
+footer li a {
+ 
+}
+footer li a {
+  border: none;
+   padding: 0 2px;
+}
+.footer_part li 
+{
+  font-size: 9px;
+}
+.header-right-inner ul 
+{
+  display: inline-block;
+  float: none;
+  margin: 15px 0 0;
+}
+
+/*pop_up_one_starts*/
+
+.made_by {
+  margin: -255px 0 0 -150px;
+  width: 300px;
+}
+
+#owl-demoo .owl-prev {
+  margin: -70px 0 0 4px;;
+}
+
+#owl-demoo .owl-next {
+  margin: -70px 0 0 4px;;
+}
+
+/*pop_up_one_starts*/
+
+/*full_width_starts*/
+
+.full_auto {
+  margin: -160px 0 0 -150px;
+  width: 300px;
+}
+
+#owl-demooo .owl-prev {
+  margin: -95px 0 0 4px;
+}
+
+#owl-demooo .owl-next {
+  margin: -95px 4px 0 0;
+}
+
+/*full_width_ends*/
+
+/*06-02-2016_starts*/
+
+.second_seek {
+  margin: 0 6% 0 0;
+  width: 230px;
+}
+
+.input_1 {
+  margin: 0px 0 0 4px;
+}
+
+.input_2 {
+  margin: 0 15px 0 4px;
+}
+
+/*06-02-2016_ends*/
+
+.page_bg {
+  background-position: right top;
+}
+
+.header-right li span {
+  padding: 4px 8px 0 5px;
+}
+
+.inner_head {
+  padding: 8px 15px;
+  text-align: left;
+}
+
+/*22-02-2016*/
+
+.info_btn_inn_nw01 a 
+{
+  font-size: 13px;
+}
+
+}

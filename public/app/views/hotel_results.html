@@ -1,0 +1,104 @@
+<loading loading="hotels.loading"></loading>
+<header class="inner_head">
+    <a href="#"><img src="images/inner_logo.png"></a>
+
+    <div class="col-md-4 col-sm-4 col-xs-4 header-left-inner pad_none">
+        <ul>
+            <li><a href="#"><i class="fa fa-user"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        </ul>
+    </div>
+    <div class="col-md-4 col-sm-4 col-xs-4 header-right-inner pad_none">
+        <ul>
+        <!--<li><a href="javascript:;">Registro</a> <span><img src="images/admin-img.png"></span></li>-->
+        <li><img src="images/flag1.png"></li>
+        <li><img src="images/flag2.png"></li>
+        <li><img src="images/flag3.png"></li>
+        </ul>
+    </div>
+</header>
+
+<section>
+
+    <div class="col-md-12 col-sm-12 col-xs-12 bann_out_con">
+        <div class="col-md-3 col-sm-4 col-xs-12">
+
+            <div class="col-md-12 col-sm-12 col-xs-12 precio_final">
+                <h2>{{hotels.selectedTotalPrice}} €</h2>
+                <span>precio final</span>
+            </div>
+
+            <div class="col-md-3 col-sm-3 col-xs-12 flltro">
+                <h2>Filtro</h2>
+            </div>
+
+            <div class="col-md-12 col-sm-12 col-xs-12 precio_txt">
+                <h3>Precio</h3>
+                <!--img src="images/filtro_left_img.png"-->
+                <div class="cont_seek_frst">
+                    <h3>Presupuesto: &euro; <span id="ourPrice">{{hotels.budget}}</span></h3>
+                    <!-- <div id="minus">-</div> -->
+                    <div id="slider">
+                        <md-slider flex md-discrete min="100" max="1000" step="5" ng-model="hotels.budget" aria-label="budget" id="budget-slider" class ng-change="hotels.budgetChange()"></md-slider>
+                    </div>
+                    <!-- <div id="plus">+</div> -->
+                </div>
+            </div>
+  
+            <div class="col-md-12 col-sm-12 col-xs-12 vuelos_txt_hoteles">
+                <h2>Vuelos</h2>
+                <div class="col-md-12 col-sm-12 col-xs-12 vuelos_txt_new01 pad_none">
+                    <h2>Hoteles</h2>
+                    <span>Estrellas (hotel)</span>
+                    <div class="col-md-12 col-sm-12 col-xs-12 rating_main pad_none">
+                        <div class="rating_star" data-rating-max="5"></div>
+                    </div>
+                    <span>Distancia desde el centro</span>
+                    <!--img src="images/five_km_img.png"-->
+                    <div class="precio_txt second_seek">
+                        <h3>Kilo Meter - <span id="ourPrice1">{{hotels.distance}} </span></h3>
+                        <!-- <div id="minus1">-</div> -->
+                        <div id="slider1">
+                            <md-slider flex md-discrete min="1" max="10" step="1"  ng-model="hotels.distance" aria-label="hotels" id="hotels-slider" class ng-change="hotels.distanceChange()"></md-slider> 
+                        </div>
+                        <!-- <div id="plus1">+</div> -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="col-md-12 col-sm-12 col-xs-12 vuelos_btn pad_none">
+                <a href="#payment">Finalizar</a>
+            </div> -->
+        </div>
+
+
+        <div class="col-md-9 col-sm-8 col-xs-12 bann_imgs_outr pad_none">
+            <div class="col-md-4 col-sm-4 col-xs-12 new_inner_vuelos_btn">
+                <a href="#">Hoteles</a>
+            </div>
+            <div class="col-md-12 col-sm-12 col-xs-12 banner_img_outer pad_none">
+                <div ng-repeat="hotel in hotels.hotels  track by $index ">
+                    <hotel-tile hotel=hotel on-selected="hotels.hotelSelected(hotel)"  goto-payment="hotels.redirectToPayment(hotel);" show-details="hotels.showHotelDetails(hotel);"></hotel-tile>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<div class="col-md-12 col-sm-12 col-xs-12 footer_part">
+    <ul>
+        <li><a href="javascript:;">Acerca de wi.travel</a></li>
+        <li><a href="javascript:;">Contacto</a></li>
+        <li><a href="javascript:;">Miembros</a></li>
+        <li><a href="javascript:;">Mapa del sitio</a></li>
+    </ul>
+    <ul class="social-media">
+        <li><a href="#"><i class="ssl-trust"></i></a></li>
+    </ul>
+</div>

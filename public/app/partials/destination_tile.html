@@ -1,0 +1,22 @@
+<div id="box-2" >
+    <div class="col-md-4 col-sm-4 col-xs-12 madrid_img_outer02 box pad_none" style="background: url(images/cities/{{destination['destination'] | cityCodeAlias}}.jpg) center top no-repeat; background-size:100% 100%;">
+        <h2>{{destination['segments'][0]['onward']['DestinationDisplay']}}</h2>
+     <span class="caption full-caption">
+      <div class="new_hover_star">
+          <i class="fa fa-star star_icon_hover"></i>
+          <i class="fa fa-star star_icon_hover"></i>
+          <i class="fa fa-star star_icon_hover"></i>
+      <i class="fa fa-star star_icon_hover"></i>
+          <i class="fa fa-star star_icon_hover"></i>
+      </div>
+        <h2>{{destination['segments'][0]['onward']['DestinationDisplay']}} </h2>
+        <ul>
+            <li>Vuelo directo</li>
+            <li>2 noches</li>
+            <li>{{destination['hotels'][0]['Distance']}} Km Centro</li>
+        </ul>
+        <span>{{destination['MinTotalPrice'] + 10}}€</span>
+        <a ng-click="destinationSelected(destination);">Comprar</a>
+    </span>
+    </div>
+</div>

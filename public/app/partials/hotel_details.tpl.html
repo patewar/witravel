@@ -1,0 +1,128 @@
+<loading loading="hoteldetails.loading"></loading>
+
+<md-dialog aria-label="Mango (Fruit)"  ng-cloak>
+    <!-- <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h2>Mango (Fruit)</h2>
+        <span flex></span>
+        <md-button class="md-icon-button" ng-click="cancel()">
+          <md-icon md-svg-src="img/icons/ic_close_24px.svg" aria-label="Close dialog"></md-icon>
+        </md-button>
+      </div>
+    </md-toolbar> -->
+    <md-dialog-content>
+      <div class="col-md-9 col-sm-9 col-xs-12 right_popop pad_none">
+       <div class="cros_btn"><img src="images/cros_btn.png" alt="" ng-click="hoteldetails.cancel()"></div>
+         <div class="col-md-4 col-sm-4 col-xs-12 popop_icon_outer pad_none">
+              <div class="wifi_icon">
+                <img src="images/wifi.png" alt="">
+              </div>
+              <div class="pop_icon2">
+                <img src="images/popop_img2.png" alt="">
+              </div>
+              <div class="pop_icon3">
+                <img src="images/popop_img3.png" alt="">
+              </div>
+              <div class="pop_right_icon_outr">
+                <i class="fa fa-star star_icon"></i>
+                  <i class="fa fa-star star_icon"></i>
+                  <i class="fa fa-star star_icon"></i>
+              </div>
+              <div class="pop_left_img_outr">
+                <img src="{{hoteldetails.hotel['images']['images'][0]['!url']}}" alt="">
+              </div>
+              <div class="col-md-12 col-sm-12 col-xs-12 trip_advisior">
+                <div class="eyes_img"><img src="images/eyes_img.png" alt=""></div>
+                  <h2><span>92%</span> Trip Advisor </h2>
+                  <div class="eyes_img"><img src="images/pop_like.png" alt=""></div>
+              </div>
+         </div>
+         
+         <div class="col-md-8 col-sm-8 col-xs-12 pop_right_txt_part ">
+           <h2>{{hoteldetails.details['RequestedHotelDetails']['HotelProperty']['!Name']}}</h2>
+             
+             <p><!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. --></p>
+             <div class="col-md-12 col-sm-12 col-xs-12 pop_right_txt_part">
+              <ul>
+                <li ng-repeat="addr in hoteldetails.details['RequestedHotelDetails']['HotelProperty']['PropertyAddress']['Address']"> {{addr}} </li>
+              </ul>
+             </div>
+
+             <div class="col-md-12 col-sm-12 col-xs-12 pop_right_txt_part">
+              <ul>
+                <li ng-repeat="phone in hoteldetails.details['RequestedHotelDetails']['HotelProperty']['PhoneNumber']"> <b>{{phone['!Type']}}:</b> {{phone['!Number']}} </li>
+              </ul>
+             </div> 
+             <div class="col-md-12 col-sm-12 col-xs-12 pop_right_txt_part">
+              <ul>
+                <li>Distance: {{hoteldetails.details['RequestedHotelDetails']['HotelProperty']['Distance']['!Value']}} 
+                {{hoteldetails.details['RequestedHotelDetails']['HotelProperty']['Distance']['!Units']}} 
+              </ul>
+             </div>
+             <div class="col-md-12 col-sm-12 col-xs-12 pop_right_txt_part">
+              <ul>
+                <li>Check-In Time: {{hoteldetails.details['RequestedHotelDetails']['HotelDetailItem'][0]['Text']}} 
+                <li>Check-Out Time: {{hoteldetails.details['RequestedHotelDetails']['HotelDetailItem'][1]['Text']}} 
+                </ul>
+             </div>
+            <div class="col-md-9 col-sm-12 col-xs-12 pop_right_oferta pad_none">
+              <h2>Oferta seleccionada</h2>
+              <div class="col-md-12 col-sm-12 col-xs-12 estander_part pad_none">
+<!--                 <div class="box_check_pop">
+                          <input type="checkbox" id="c5" name="cc" />
+                          <label for="c5"><span class="blue"></span>Estandar</label>
+                      </div>
+                    <ul>
+                        <li>Dos camas individuales</li>
+                          <li>Baño privado</li>
+                          <li>Aire acondicionado</li>
+                          <li>TV</li>
+                      </ul>
+              </div> -->
+              
+             <h2>Otras ofertas</h2>
+              <div class="col-md-12 col-sm-12 col-xs-12 estander_part pad_none" ng-repeat="ratedetail in hoteldetails.details['RequestedHotelDetails']['HotelRateDetail']">
+                <div class="box_check_pop">
+                          <input type="checkbox" id="c6" name="cc" />
+                          <label for="c6"><span class="blue"></span>Superior</label>
+                      </div>
+                    <ul>
+                        <li>Cama doble</li>
+                          <li>Baño privado</li>
+                          <li>Baño privado</li>
+                          <li>TV</li>
+                      </ul>
+                      <div class="pop_twent_btn">
+                      <a href=""><!-- Seleccionar <br> -->{{ratedetail['!Total']}}</a>
+                      </div>
+              </div>
+              
+              <!-- <div class="col-md-12 col-sm-12 col-xs-12 estander_part pad_none">
+                <div class="box_check_pop">
+                          <input type="checkbox" id="c7" name="cc" />
+                          <label for="c7"><span class="blue"></span>Suite</label>
+                      </div>
+                    <ul class="mrgn_lft">
+                        <li>Cama doble</li>
+                          <li>Baño privado</li>
+                          <li>Baño privado</li>
+                          <li>TV</li>
+                      </ul>
+                      <div class="pop_twent_btn02">
+                     <a href="#">Seleccionar <br>x 200€ más</a>
+                     </div>
+              </div> -->
+             
+             
+         </div>
+        </div>
+
+        
+          <div class="col-md-12 col-sm-12 col-xs-12 pop_img_open pad_none">
+          <img src="{{hoteldetails.hotel['images']['images'][0]['!url']}}" alt="">
+               <div class="cros_btn"><a href="#"><img src="images/cros_btn.png" alt=""></a></div>
+          </div>
+        
+      </div>
+    </md-dialog-content>
+</md-dialog>

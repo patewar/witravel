@@ -1,0 +1,130 @@
+<loading loading="flights.loading"></loading>
+<header class="inner_head">
+    <a href="#"><img src="images/inner_logo.png"></a>
+
+<div class="col-md-4 col-sm-4 col-xs-4 header-left-inner pad_none">
+<ul>
+    <li><a href="#"><i class="fa fa-user"></i></a></li>
+    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+</ul>
+</div>
+
+<div class="col-md-4 col-sm-4 col-xs-4 header-right-inner pad_none">
+<ul>
+<!--<li><a href="javascript:;">Registro</a> <span><img src="images/admin-img.png"></span></li>-->
+<li><img src="images/flag1.png"></li>
+<li><img src="images/flag2.png"></li>
+<li><img src="images/flag3.png"></li>
+</ul>
+</div>
+</header>
+
+<section>
+
+<div class="col-md-12 col-sm-12 col-xs-12 bann_out_con">
+    <div class="col-md-3 col-sm-4 col-xs-12 resultado_lft_section">
+        <div class="col-md-12 col-sm-12 col-xs-12 precio_final">
+            <h2>{{flights.selectedTotalPrice}} €</h2>
+            <span>precio final</span>
+        </div>
+            
+        <div class="col-md-3 col-sm-3 col-xs-12 flltro">
+            <h2>Filtro</h2>
+        </div>
+        
+        <div class="col-md-12 col-sm-12 col-xs-12 precio_txt">
+            <h3>Precio</h3>
+            <!--img src="images/filtro_left_img.png"-->
+            <div class="cont_seek_frst">
+                <h3>Presupuesto: {{flights.budget}}</h3>
+                <!-- <div id="minus">-</div> -->
+                <div id="slider">
+                    <md-slider flex md-discrete min="100" max="1000" step="5"  ng-model="flights.budget" aria-label="budget" id="budget-slider" class ng-change="flights.budgetChange()"></md-slider>
+                </div>
+                <!-- <div id="plus">+</div> -->
+                <div class="col-xs-12 pad_none price_result_con"><span id="ourPrice"><!-- &euro;  97.00 --></span></div>
+            </div>
+        </div>
+         <div class="col-md-12 col-sm-12 col-xs-12 viaj_txt">
+            <h3>Viajeros</h3>
+            <div class="col-md-12 col-sm-12 col-xs-12 rating_main pad_none"><div class="rating" data-rating-max="5"></div></div>
+            
+             <div class="box_check_txt new_inner_fechas with_two">
+             <h3>Fechas</h3>             
+             <div class="box_check_txt">
+                    <input type="checkbox" name="cc" id="chk_2way" ng-model="flights.twoWay" ng-change="flights.twoWayChange()"/>
+                    <label for="chk_2way"><span class="blue"></span>Ida/vuelta</label>
+                </div>
+                
+                <!-- <div class="box_check_txt">
+                    <input type="checkbox" id="c10" name="cc" />
+                    <label for="c10"><span class="blue"></span>Solo ida</label>
+                </div> -->
+             </div>
+            <div class="col-md-11 col-sm-12 col-xs-12 sallda_outer pad_none">
+                <div class="col-md-6 col-sm-6 col-xs-6 sallda_outer_frst">
+                    <h2>Salida</h2>
+                    <h3><span class="spn1">{{flights.startDate | date2DayName}}</span> <!-- <input type="text" value="" name="" id="datepicker2" class="input_1" placeholder="Date"> --></h3>
+                    <md-datepicker ng-model="flights.startDate" md-placeholder="Enter date" md-min-date="flights.startMinDate" ng-change="flights.datesChange()"></md-datepicker>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6 sallda_outer_frst">
+                    <h2>Vuelta</h2>
+                     <!-- <input type="text" value="" name="" id="datepicker3" class="input_2" placeholder="Date"> -->
+                    <div ng-if="!flights.twoWay">
+                        <h3><span class="spn2">{{flights.endDate | date2DayName}}</span></h3>
+                        <md-datepicker ng-model="flights.endDate" md-placeholder="Enter date" md-min-date="flights.endMinDate" ng-change="flights.datesChange()"></md-datepicker>
+                    </div>
+                </div>
+            </div>
+         </div>
+         
+         
+         
+         <div class="col-md-12 col-sm-12 col-xs-12 vuelos_txt_inner01 pad_none">
+            <h2>Vuelos</h2>
+            <div class="box_check_txt_new01">
+                    <input type="checkbox" id="c13" name="cc" />
+                    <label for="c13"><span class="blue_new01"></span>Vuelos directos</label>
+             </div>
+             <div class="col-md-12 col-sm-12 col-xs-12 vuelos_txt_new_inner pad_none">
+                <h2>Hoteles</h2>
+             </div>
+         </div>
+         
+         <!--<div class="col-md-12 col-sm-12 col-xs-12 vuelos_btn pad_none">
+            <a href="#">Hoteles</a>
+         </div>-->
+    </div>
+    
+    
+    <div class="col-md-9 col-sm-8 col-xs-12 bann_imgs_outr pad_none">
+        <div class="col-md-4 col-sm-4 col-xs-12 new_inner_vuelos_btn">
+          <a href="#">Vuelos</a>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 pad_none">
+
+            <div ng-repeat="segment in flights.selectedDestAirSegments['segments']  track by $index">
+                <flight-tile thisflight=segment on-selected="flights.flightSelected(segment)" goto-hotels="flights.redirectToHotels(segment);" roundtrip="flights.twoWay"></flight-tile>                
+            </div>            
+            
+                        
+        </div>
+    </div>
+    
+</div>
+</section>
+
+
+<div class="col-md-12 col-sm-12 col-xs-12 footer_part">
+<ul>
+<li><a href="javascript:;">Acerca de wi.travel</a></li>
+<li><a href="javascript:;">Contacto</a></li>
+<li><a href="javascript:;">Miembros</a></li>
+<li><a href="javascript:;">Mapa del sitio</a></li>
+</ul>
+<ul class="social-media">
+    <li><a href="#"><i class="ssl-trust"></i></a></li>
+</ul>
+</div>

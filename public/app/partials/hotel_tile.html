@@ -1,0 +1,39 @@
+<div class="col-md-4 col-sm-4 col-xs-12 hotel_imgs_outr for_marg pad_none" ng-click="hotelSelected(hotel);">
+    <div class="col-md-12 col-sm-12 col-xs-12 tp_mrgn">
+        <div class="bed_icon_out">
+            <img src="images/bed_icon_big.png">
+            <span>{{hotel.Distance}} Km Centro</span>
+        </div>
+        <div class="bed_icon_right_part">
+            <i class="fa fa-star star_icon"></i>
+            <i class="fa fa-star star_icon"></i>
+            <i class="fa fa-star star_icon"></i>
+        </div>
+    </div>
+    <div class="col-md-12 col-sm-12 col-xs-12 hotel_imgs_txt for_marg">
+        <h2>{{hotel.Name}}</h2>
+        <span>{{hotel.Address}}</span> <br>
+        <span><a ng-click="showHotelDetails(hotel);">Details</a></span>
+    </div>
+
+    <div class="col-md-12 col-sm-12 col-xs-12 border_inner pad_none"></div>
+    <div class="col-md-12 col-sm-12 col-xs-12 hotel_imgs_inner_part pad_none">
+
+        <ul class="hotelCarousel" rn-carousel rn-carousel-indicator="true" rn-carousel-auto-slide rn-carousel-pause-on-hover rn-carousel-buffered> 
+            <li ng-repeat="image in hotel['images']['images'] | limitTo:5 ">
+                <img ng-src="{{image['!url']}}" />
+            </li>
+        </ul> 
+
+
+        <!-- <ul class="hotelCarousel" rn-carousel rn-carousel-indicator="true" rn-carousel-buffered rn-carousel-index="hotelImages[hotel.HotelCode]['carouselIndex']"  > 
+            <li ng-repeat="image in hotelImages[hotel.HotelCode]['images'] | limitTo:5 ">
+                <img ng-src="{{image['!url']}}" />
+            </li>
+        </ul> 
+        <div style="text-align: center" rn-carousel-indicators ng-if="hotelImages['images'].length > 1" slides="hotelImages['images'] | limitTo:5" rn-carousel-index="hotelImages['carouselIndex']"></div>  -->    
+    </div>
+    <div class="col-md-12 col-sm-12 col-xs-12 info_btn_inn_nw01 pad_none">
+        <a ng-click="redirectToPayment(hotel);">Seleccionar {{hotel.relativeAmountDisplay}}</a>
+    </div>
+</div>
